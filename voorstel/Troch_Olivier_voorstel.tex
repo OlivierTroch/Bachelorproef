@@ -33,17 +33,17 @@
 \Authors{Steven Stevens\textsuperscript{1}} % Authors
 \CoPromotor{Piet Pieters\textsuperscript{2} (Bedrijfsnaam)}
 \affiliation{\textbf{Contact:}
-  \textsuperscript{1} \href{mailto:steven.stevens.u1234@student.hogent.be}{steven.stevens.u1234@student.hogent.be};
-  \textsuperscript{2} \href{mailto:piet.pieters@acme.be}{piet.pieters@acme.be};
+    \textsuperscript{1} \href{mailto:steven.stevens.u1234@student.hogent.be}{steven.stevens.u1234@student.hogent.be};
+    \textsuperscript{2} \href{mailto:piet.pieters@acme.be}{piet.pieters@acme.be};
 }
 
 %---------- Abstract ----------------------------------------------------------
 
 \Abstract{Hier schrijf je de samenvatting van je voorstel, als een doorlopende tekst van één paragraaf. Wat hier zeker in moet vermeld worden: \textbf{Context} (Waarom is dit werk belangrijk?); \textbf{Nood} (Waarom moet dit onderzocht worden?); \textbf{Taak} (Wat ga je (ongeveer) doen?); \textbf{Object} (Wat staat in dit document geschreven?); \textbf{Resultaat} (Wat verwacht je van je onderzoek?); \textbf{Conclusie} (Wat verwacht je van van de conclusies?); \textbf{Perspectief} (Wat zegt de toekomst voor dit werk?).
-
-Bij de sleutelwoorden geef je het onderzoeksdomein, samen met andere sleutelwoorden die je werk beschrijven.
-
-Vergeet ook niet je co-promotor op te geven.
+    
+    Bij de sleutelwoorden geef je het onderzoeksdomein, samen met andere sleutelwoorden die je werk beschrijven.
+    
+    Vergeet ook niet je co-promotor op te geven.
 }
 
 %---------- Onderzoeksdomein en sleutelwoorden --------------------------------
@@ -71,29 +71,29 @@ Vergeet ook niet je co-promotor op te geven.
 %---------- Titel, inhoud -----------------------------------------------------
 
 \begin{document}
-
-\flushbottom % Makes all text pages the same height
-\maketitle % Print the title and abstract box
-\tableofcontents % Print the contents section
-\thispagestyle{empty} % Removes page numbering from the first page
-
-%------------------------------------------------------------------------------
-% Hoofdtekst
-%------------------------------------------------------------------------------
-
-% De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
-% kan opgenomen worden in de bijlagen van de bachelorproef zelf.
-\input{voorstel-inhoud}
-
-%------------------------------------------------------------------------------
-% Referentielijst
-%------------------------------------------------------------------------------
-% TODO: de gerefereerde werken moeten in BibTeX-bestand ``voorstel.bib''
-% voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
-% om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
-% BibLaTeX mode)
-
-\phantomsection
-\printbibliography[heading=bibintoc]
-
+    
+    \flushbottom % Makes all text pages the same height
+    \maketitle % Print the title and abstract box
+    \tableofcontents % Print the contents section
+    \thispagestyle{empty} % Removes page numbering from the first page
+    
+    %------------------------------------------------------------------------------
+    % Hoofdtekst
+    %------------------------------------------------------------------------------
+    
+    % De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
+    % kan opgenomen worden in de bijlagen van de bachelorproef zelf.
+    \input{voorstel-inhoud}
+    
+    %------------------------------------------------------------------------------
+    % Referentielijst
+    %------------------------------------------------------------------------------
+    % TODO: de gerefereerde werken moeten in BibTeX-bestand ``voorstel.bib''
+    % voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
+    % om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
+    % BibLaTeX mode)
+    
+    \phantomsection
+    \printbibliography[heading=bibintoc]
+    
 \end{document}
