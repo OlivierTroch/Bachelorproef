@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2020.12.26)  28 DEC 2020 01:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2020.12.26)  28 DEC 2020 21:20
 entering extended mode
 **./Troch_Olivier_voorstel.tex
 (Troch_Olivier_voorstel.tex
@@ -947,9 +947,9 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Troch_Olivier_voorstel.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Troch_Olivier_voorstel.bbl' not found.
+Package biblatex Info: ... file 'Troch_Olivier_voorstel.bbl' found.
 
-No file Troch_Olivier_voorstel.bbl.
+(Troch_Olivier_voorstel.bbl)
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
 LaTeX Info: Redefining \microtypecontext on input line 70.
@@ -958,6 +958,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
+
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
@@ -1054,17 +1055,20 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 \openout5 = `Troch_Olivier_voorstel.toc'.
 
  (voorstel-inhoud.tex
-
-LaTeX Warning: Citation 'cole2016' on page 1 undefined on input line 5.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--16
 
  []
 
 
-LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 28.
+LaTeX Warning: Citation '2015' on page 1 undefined on input line 29.
+
+
+LaTeX Warning: Citation '2015' on page 1 undefined on input line 32.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1072,13 +1076,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 
-]
+])
 
-LaTeX Warning: Citation 'Doll1954' on page 2 undefined on input line 30.
+LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 94.
 
-)
 
-LaTeX Warning: Empty bibliography on input line 94.
+Overfull \hbox (6.80107pt too wide) in paragraph at lines 94--94
+\TU/ptm/m/it/10 nary report. British Medical Journal, 328(7455),
+ []
 
 
 AED: lastpage setting LastPage
@@ -1090,12 +1096,10 @@ Make it at least 34.89824pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2
-
-] (Troch_Olivier_voorstel.aux)
+[2] (Troch_Olivier_voorstel.aux)
 Package rerunfilecheck Info: File `Troch_Olivier_voorstel.out' has not changed.
 
-(rerunfilecheck)             Checksum: 04EA9AA349553FE1487BA38FA89DCD64;260.
+(rerunfilecheck)             Checksum: 13C037B8A0C5AE3397401D500B32A41C;307.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1113,12 +1117,12 @@ Package logreq Info: Writing requests to 'Troch_Olivier_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23474 strings out of 412094
- 388990 string characters out of 2851350
- 1387674 words of memory out of 3000000
- 42793 multiletter control sequences out of 15000+200000
+ 23515 strings out of 412094
+ 390023 string characters out of 2851350
+ 1390947 words of memory out of 3000000
+ 42832 multiletter control sequences out of 15000+200000
  428798 words of font info for 100 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 82i,12n,88p,1269b,4738s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 82i,12n,88p,1269b,5285s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Troch_Olivier_voorstel.pdf (2 pages).

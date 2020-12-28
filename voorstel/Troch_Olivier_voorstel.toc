@@ -2,7 +2,6 @@
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introductie}{1}{section.1}%
-\contentsfinish 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}State-of-the-art}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
@@ -11,3 +10,6 @@
 \contentsline {section}{\numberline {4}Verwachte resultaten}{2}{section.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Verwachte conclusies}{2}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Referenties}{2}{section*.1}%
+\contentsfinish 

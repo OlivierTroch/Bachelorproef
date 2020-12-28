@@ -2,7 +2,7 @@
 
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
-Containertechnologie vindt in recordtempo zijn weg naar de data-omgeving van de ondernemingen.\\~\autocite{cole2016} Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste archictectuur zijn en zullen blijven voor deze en de volgende generatie services en microservices.
+Containertechnologie vindt in recordtempo zijn weg naar de data-omgeving van de ondernemingen.\\~\autocite{Cole2016}! Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste archictectuur zijn en zullen blijven voor deze en de volgende generatie services en microservices.
 \\
 De uitdaging om een goede monitoring van containers op te stellen is belangrijk. Zoals te verwachten is, zullen traditionele monitoringsplatforms die vooral gebasseerd zijn op virtualisatie, niet voldoende zijn. Containers zijn zeer vluchtig in onstaan en net zo snel in het verdwijnen. Die snelheid is vaak te danken aan een geautomatisseerd proces. Deze bevinden zich tussen host -en applicatielaag, wat het moeilijk maakt om in detail te zien hoe ze zich gedragen en of ze efficiënt gebruik maken van hulpbronnen (e.g. CPU, RAM, etc.) en goede systeem prestaties leveren. De valkuil voor vele bedrijven is dat deze denken dat omdat een container slechts een mini-host is, een eenvoudige hostmonitoring voldoende is. Dit idee wordt echter al snel uit de weg geruimd, omdat het aantal containers snel begint te vegroten wat een traditionele hostmonitoring niet kan bijhouden.
 \\
@@ -25,18 +25,18 @@ Zo bekomen we volgende onderzoeksvragen:
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
 
-Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
+Hoewel er vele onderzoeken zijn naar goede monitoringtools voor Docker, zijn het vooral onderzoeken waarbij ook de betalende tools vergeleken worden. \\~\autocite{Ribenzaft2020}! en ~\autocite{Cirelly2020}!\\ Deze onderzoeken specifiëren zich ook niet op één specifieke 'proof-of-concept' maar leggen vooral de voor- en nadelen van elke tool uit.
+Hoewel het boek van Alex Williams ~\autocite{2015}! ook niet echt een 'proof-of-concept' heeft, komt het onderzoek toch dichter in de buurt van wat het verwachte resultaat is van deze bachelorproef. Hierin wordt ook over een aantal andere onderwerpen gesproken omtrent monitoring die interessant. 
+\\
+\\
+Daar een deel van dit boek ook een aantal tools beschrijft en vergelijkt is dit zeker relevant aan mijn onderzoeksvraag. Zoals het de bedoeling is van dit onderzoek om zowel zelf-gehoste open source-oplossingen als commerciële cloudgebaseerde services te bekijken, kaart dit boek deze opties ook aan. Volgens het boek van Alex Williams~\autocite{2015}! is de conclusie dat de keuze sterk afhangt van de resultaten die je wenst te bereiken die bij uw werklast passen, eventueel met een combinatie van meerdere tools. Door opzoekingswerk en de verzameling van interne informatie om zo de vereisten te bepalen en te begrijpen, kan er gekozen worden voor de juiste monitoringtools. Tot dusver vind ik geen exacte copy van mijn onderzoeksvraag, wat deze bachelorproef uniek maakt en dus interessanter.
 
-Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Doll1954}! Denk zeker goed na welke werken je refereert en waarom.
 
 % Voor literatuurverwijzingen zijn er twee belangrijke commando's:
 % \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
 %   geen onderdeel is van de zin.
 % \textcite{KEY} => Auteur (jaartal)  Gebruik dit als de auteursnaam wel een
 %   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
-%   ...'')
-
-Je mag gerust gebruik maken van subsecties in dit onderdeel.
 
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
