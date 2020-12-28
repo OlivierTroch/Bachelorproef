@@ -2,15 +2,22 @@
 
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
-
-Hier introduceer je werk. Je hoeft hier nog niet te technisch te gaan.
-
-Je beschrijft zeker:
-
+Containertechnologie vindt in recordtempo zijn weg naar de data-omgeving van de ondernemingen.\\~\autocite{cole2016} Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste archictectuur zijn en zullen blijven voor deze en de volgende generatie services en microservices.
+\\
+De uitdaging om een goede monitoring van containers op te stellen is belangrijk. Zoals te verwachten is, zullen traditionele monitoringsplatforms die vooral gebasseerd zijn op virtualisatie, niet voldoende zijn. Containers zijn zeer vluchtig in onstaan en net zo snel in het verdwijnen. Die snelheid is vaak te danken aan een geautomatisseerd proces. Deze bevinden zich tussen host -en applicatielaag, wat het moeilijk maakt om in detail te zien hoe ze zich gedragen en of ze efficiënt gebruik maken van hulpbronnen (e.g. CPU, RAM, etc.) en goede systeem prestaties leveren. De valkuil voor vele bedrijven is dat deze denken dat omdat een container slechts een mini-host is, een eenvoudige hostmonitoring voldoende is. Dit idee wordt echter al snel uit de weg geruimd, omdat het aantal containers snel begint te vegroten wat een traditionele hostmonitoring niet kan bijhouden.
+\\
+\\
+Binnen HoGent is er voorlopig geen opleidingsonderdeel omtrent monitoring, specifiek op een docker omgeving in een Kubernetes orkestratie. Daar dit een zeer interessant en relevant onderwerp is, is het een goede zaak om deze leerstof bij te leren aan de toekomstige studenten van HoGent. De onderzoeksvraag komt in dit geval uit van een docent tewerkgesteld in HoGent. Omdat er nog geen intern onderzoek heeft plaatsgevonden, is deze onderzoeksvraag dus onstaan. 
+\\
+De doelstelling van dit onderzoek is bepalen welke monitoringtool hiervoor geschikt is en welke haalbaar is voor de studenten. 
+\\
+Zo bekomen we volgende onderzoeksvragen:
 \begin{itemize}
-  \item de probleemstelling en context
-  \item de motivatie en relevantie voor het onderzoek
-  \item de doelstelling en onderzoeksvraag/-vragen
+    \item Welke monitoringtools zijn geschikt?
+    \item Wat zijn de belangrijkste verschillen tussen de gekozen tools?
+    \item Waar moet de gekozen tool inzicht op geven?
+    \item Welke alerts zijn belangrijk en welke niet?
+    \item Welk proof-of-concept is genoeg om de leerstof te verstaan?
 \end{itemize}
 
 %---------- Stand van zaken ---------------------------------------------------

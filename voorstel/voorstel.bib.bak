@@ -37,11 +37,4 @@
   url    = {https://www.bmc.com/blogs/docker-monitoring-explained-monitor-containers-microservices/},
 }
 
-@Online{Cole2016,
-  author = {Arthur Cole},
-  date   = {2016-09-29},
-  title  = {The Importance of Container Monitoring},
-  url    = {The Importance of Container Monitoring},
-}
-
 @Comment{jabref-meta: databaseType:biblatex;}
