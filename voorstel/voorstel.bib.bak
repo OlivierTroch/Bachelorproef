@@ -58,4 +58,10 @@
   url    = {https://www.itprc.com/docker-monitoring-tools/},
 }
 
+@Book{,
+  author = {Alex Williams},
+  date   = {2016-09-19},
+  title  = {Monitoring & Management With Docker & Containers},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

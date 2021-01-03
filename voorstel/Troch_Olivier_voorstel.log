@@ -1,14 +1,14 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2020.12.26)  28 DEC 2020 21:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  4 JAN 2021 00:06
 entering extended mode
 **./Troch_Olivier_voorstel.tex
 (Troch_Olivier_voorstel.tex
-LaTeX2e <2020-10-01> patch level 2
+LaTeX2e <2020-10-01> patch level 3
 L3 programming layer <2020-12-07> xparse <2020-03-03> (voorstel.cls
 Document Class: voorstel 
 ("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count173
 \calc@Bcount=\count174
@@ -503,7 +503,7 @@ s
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty"
-Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -572,7 +572,7 @@ Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def"
-File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
@@ -684,50 +684,26 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def"
-File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-)
-("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
-Package: expl3 2020-12-07 L3 programming layer (loader) 
-
-("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def"
-File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
-\g__graphics_track_int=\count422
-\l__pdf_internal_box=\box52
-\g__pdf_backend_object_int=\count423
-\g__pdf_backend_annotation_int=\count424
-))
-Package biblatex Info: expl3
-(biblatex)             2020-12-07 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-Package biblatex Info: Trying to load expl3 case changing code...
-Package biblatex Info: ... file 'blx-case-expl3.def' found.
-
-("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.def"
-("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
-Package: xparse 2020-10-27 L3 Experimental document command parser
-
-("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
-File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def"
-File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-\c@textcitecount=\count425
-\c@textcitetotal=\count426
-\c@textcitemaxnames=\count427
-\c@biburlbigbreakpenalty=\count428
-\c@biburlbreakpenalty=\count429
-\c@biburlnumpenalty=\count430
-\c@biburlucpenalty=\count431
-\c@biburllcpenalty=\count432
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count422
+\c@textcitetotal=\count423
+\c@textcitemaxnames=\count424
+\c@biburlbigbreakpenalty=\count425
+\c@biburlbreakpenalty=\count426
+\c@biburlnumpenalty=\count427
+\c@biburlucpenalty=\count428
+\c@biburllcpenalty=\count429
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count433
+\c@smartand=\count430
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -738,9 +714,9 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
-File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count434
-\c@bbx:relatedtotal=\count435
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count431
+\c@bbx:relatedtotal=\count432
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -778,11 +754,11 @@ File: biblatex.cfg
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
 \MT@toks=\toks27
-\MT@count=\count436
+\MT@count=\count433
 LaTeX Info: Redefining \textls on input line 788.
 \MT@outer@kern=\dimen192
 LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
-\MT@listname@count=\count437
+\MT@listname@count=\count434
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-xetex.def
 File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
@@ -793,6 +769,20 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
 ))
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
+("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-12-07 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def"
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
+\g__graphics_track_int=\count435
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count436
+\g__pdf_backend_annotation_int=\count437
+))
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
@@ -905,13 +895,13 @@ Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\dutch.lbx"
-File: dutch.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+File: dutch.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\dutch.lbx"
-File: dutch.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+File: dutch.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
@@ -922,7 +912,7 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx"
-File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
@@ -933,17 +923,26 @@ Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\american.lbx"
-File: american.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx"
-File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 ))))
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2020-12-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty"
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
 \openout3 = `Troch_Olivier_voorstel.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
@@ -1055,9 +1054,19 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 \openout5 = `Troch_Olivier_voorstel.toc'.
 
  (voorstel-inhoud.tex
+
+LaTeX Warning: Citation 'Cole2016' on page 1 undefined on input line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--16
 
  []
+
+
+LaTeX Warning: Citation 'Ribenzaft2020' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Cirelly2020' on page 1 undefined on input line 28.
 
 
 LaTeX Warning: Citation '2015' on page 1 undefined on input line 29.
@@ -1078,13 +1087,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ])
 
-LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 94.
-
-
-Overfull \hbox (6.80107pt too wide) in paragraph at lines 94--94
-\TU/ptm/m/it/10 nary report. British Medical Journal, 328(7455),
- []
+LaTeX Warning: Empty bibliography on input line 94.
 
 
 AED: lastpage setting LastPage
@@ -1097,16 +1100,15 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2] (Troch_Olivier_voorstel.aux)
-Package rerunfilecheck Info: File `Troch_Olivier_voorstel.out' has not changed.
-
-(rerunfilecheck)             Checksum: 13C037B8A0C5AE3397401D500B32A41C;307.
-
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `Troch_Olivier_voorstel.out' has not changed.
+
+(rerunfilecheck)             Checksum: 04EA9AA349553FE1487BA38FA89DCD64;260.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Troch_Olivier_voorstel
@@ -1117,12 +1119,12 @@ Package logreq Info: Writing requests to 'Troch_Olivier_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23515 strings out of 412094
- 390023 string characters out of 2851350
- 1390947 words of memory out of 3000000
- 42832 multiletter control sequences out of 15000+200000
+ 23615 strings out of 412022
+ 391841 string characters out of 2849384
+ 1393980 words of memory out of 3000000
+ 43004 multiletter control sequences out of 15000+200000
  428798 words of font info for 100 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 82i,12n,88p,1269b,5285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 82i,12n,85p,1269b,4758s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Troch_Olivier_voorstel.pdf (2 pages).
