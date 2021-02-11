@@ -64,8 +64,9 @@
   title  = {Monitoring & Management With Docker & Containers},
 }
 
-@Thesis{Cedric2019,
+@Thesis{Cedric2020,
   author      = {Detemmerman Cedric},
+  date        = {2020-06-01},
   institution = {HoGent},
   title       = {Kubernetes Educatieve Mogelijkheden En Opstellingen},
   file        = {:C\:/Users/olivi/Desktop/Bachelorproef/Bachelorproef/PDF/DetemmermanCedric-bachproef-tin.pdf:PDF},

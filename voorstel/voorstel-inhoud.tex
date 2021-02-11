@@ -2,16 +2,17 @@
 
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
-Containertechnologie vindt in recordtempo zijn weg naar de data-omgeving van de ondernemingen.\\~\autocite{Cole2016}! Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste archictectuur zijn en zullen blijven voor deze en de volgende generatie services en microservices.
+Containertechnologie vindt in recordtempo zijn weg naar de data-omgeving van de ondernemingen.\\~\autocite{Cole2016} Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste architectuur zijn en zullen blijven voor deze en de volgende generatie services en microservices.
 \\
-De uitdaging om een goede monitoring van containers op te stellen is belangrijk. Zoals te verwachten is, zullen traditionele monitoringsplatforms die vooral gebasseerd zijn op virtualisatie, niet voldoende zijn. Containers zijn zeer vluchtig in onstaan en net zo snel in het verdwijnen. Die snelheid is vaak te danken aan een geautomatisseerd proces. Deze bevinden zich tussen host -en applicatielaag, wat het moeilijk maakt om in detail te zien hoe ze zich gedragen en of ze efficiënt gebruik maken van hulpbronnen (e.g. CPU, RAM, etc.) en goede systeem prestaties leveren. De valkuil voor vele bedrijven is dat deze denken dat omdat een container slechts een mini-host is, een eenvoudige hostmonitoring voldoende is. Dit idee wordt echter al snel uit de weg geruimd, omdat het aantal containers snel begint te vegroten wat een traditionele hostmonitoring niet kan bijhouden.
+De uitdaging om een goede monitoring van containers op te stellen is belangrijk. Zoals te verwachten, zullen traditionele monitoringsplatforms die vooral gebaseerd zijn op virtualisatie, niet voldoende zijn. Containers zijn zeer vluchtig in ontstaan en net zo snel in het verdwijnen. Die snelheid is vaak te danken aan een geautomatiseerd proces waarbij een minimale input vereist is. Deze containers bevinden zich tussen host -en applicatielaag, wat het moeilijk maakt om in detail te zien hoe ze zich gedragen en of ze efficiënt gebruik maken van hulpbronnen (e.g. CPU, RAM, etc.) en goede systeem prestaties leveren. De valkuil voor vele bedrijven is het overschatten van een eenvoudige hostmonitoring voor een container. Dit idee wordt echter al snel uit de weg geruimd, omdat het aantal containers snel begint te vergoten wat een traditioneel hostmonitoring niet kan bijhouden.
 \\
 \\
-Binnen HoGent is er voorlopig geen opleidingsonderdeel omtrent monitoring, specifiek op een docker omgeving in een Kubernetes orkestratie. Daar dit een zeer interessant en relevant onderwerp is, is het een goede zaak om deze leerstof bij te leren aan de toekomstige studenten van HoGent. De onderzoeksvraag komt in dit geval uit van een docent tewerkgesteld in HoGent. Omdat er nog geen intern onderzoek heeft plaatsgevonden, is deze onderzoeksvraag dus onstaan. 
+Binnen HoGent is er voorlopig geen opleidingsonderdeel omtrent monitoring, specifiek op een Docker omgeving in een Kubernetes orkestratie. Daar dit een zeer interessant en relevant onderwerp is, is het een goede zaak om deze leerstof bij te leren aan de toekomstige studenten van HoGent. De onderzoeksvraag komt in dit geval uit van een docent tewerkgesteld in HoGent. Omdat er nog geen intern onderzoek heeft plaatsgevonden, is deze onderzoeksvraag dus ontstaan. 
 \\
 De doelstelling van dit onderzoek is bepalen welke monitoringtool hiervoor geschikt is en welke haalbaar is voor de studenten. 
 \\
 Zo bekomen we volgende onderzoeksvragen:
+
 \begin{itemize}
     \item Welke monitoringtools zijn geschikt?
     \item Wat zijn de belangrijkste verschillen tussen de gekozen tools?
@@ -24,12 +25,11 @@ Zo bekomen we volgende onderzoeksvragen:
 
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
-
-Hoewel er vele onderzoeken zijn naar goede monitoringtools voor Docker, zijn het vooral onderzoeken waarbij ook de betalende tools vergeleken worden. \\~\autocite{Ribenzaft2020}! en ~\autocite{Cirelly2020}!\\ Deze onderzoeken specificeren zich ook niet op één specifieke 'proof-of-concept' maar leggen vooral de voor- en nadelen van elke tool uit.
-Hoewel het boek van Alex Williams ~\autocite{2016}! ook niet echt een 'proof-of-concept' heeft, komt het onderzoek toch dichter in de buurt van wat het verwachte resultaat is van deze bachelorproef. Hierin wordt ook over een aantal andere onderwerpen gesproken omtrent monitoring die zeker interessant zijn. 
+Hoewel er vele onderzoeken zijn naar goede monitoringtools voor Docker, zijn het vooral onderzoeken waarbij ook de betalende tools vergeleken worden.\\~\autocite{Ribenzaft2020} en ~\autocite{Cirelly2020}\\ Deze onderzoeken specificeren zich ook niet op één specifieke 'proof-of-concept' maar leggen vooral de voor- en nadelen van elke tool uit.
+Hoewel het boek van Alex Williams ~\autocite{Cole2016} ook niet echt een 'proof-of-concept' heeft, komt het onderzoek toch dichter in de buurt van wat het verwachte resultaat is van deze bachelorproef. Hierin wordt ook over een aantal andere onderwerpen gesproken omtrent monitoring die zeker interessant zijn. 
 \\
 \\
-Daar een deel van dit boek ook een aantal tools beschrijft en vergelijkt is dit zeker relevant aan mijn onderzoeksvraag. Zoals het de bedoeling is van dit onderzoek om zowel zelf-gehoste open source-oplossingen als commerciële cloud-gebaseerde services te bekijken, kaart dit boek deze opties ook aan. Volgens het boek van Alex Williams~\autocite{2016}! is de conclusie dat de keuze sterk afhangt van de resultaten die je wenst te bereiken die bij uw werklast passen, eventueel met een combinatie van meerdere tools. Door opzoekingswerk en de verzameling van interne informatie om zo de vereisten te bepalen en te begrijpen, kan er gekozen worden voor de juiste monitoringtools. Tot dusver vind ik geen exacte kopie van mijn onderzoeksvraag, wat deze bachelorproef uniek maakt en dus interessanter.
+Daar een deel van dit boek ook een aantal tools beschrijft en vergelijkt is dit zeker relevant aan de onderzoeksvraag. De bedoeling van deze bachelorproef is het onderzoeken van zowel zelf-gehoste open source-oplossingen als commerciële cloud-gebaseerde services te bekijken, dit boek kaart ook deze opties aan. Volgens het boek van Alex Williams~\autocite{Cole2016} is de conclusie dat de keuze sterk afhangt van de resultaten die je wenst te bereiken die bij uw werklast passen, eventueel met een combinatie van extra tools. Door opzoekingswerk en verzameling van interne informatie worden de vereisten bepaald,zo kan er gekozen worden voor de juiste monitoringtools. Tot dusver vind is er geen exacte kopie van de onderzoeksvraag, wat deze bachelorproef uniek maakt en interessanter.
 
 % Voor literatuurverwijzingen zijn er twee belangrijke commando's:
 % \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
@@ -41,13 +41,21 @@ Daar een deel van dit boek ook een aantal tools beschrijft en vergelijkt is dit 
 \section{Methodologie}
 \label{sec:methodologie}
 
-Aan de hand van een 'proof-of-concept' zal ik meerdere experimenten uitvoeren en documenteren. Ik zal uiteraard gebruik maken van Docker en Kubernetes. Aangezien ik er nog niet aan uit ben welke monitoringtools wel of niet de moeite zijn, want dit moet uitgewezen worden door mijn onderzoek, zal ik deze nog even achterwege laten. Maar om een goede conclusie te maken zal er zeker met genoeg tools geëxperimenteerd worden. Eventueel kan er een vragenlijst opgesteld worden om studenten te bevragen wat voor hun belangrijk is bij het gebruiken van een tool.
+Allereerst zal een MoSCoW requirements-analyse opgesteld worden aan de hand van een interview met mogelijke belanghebbende. Voor dit onderzoek zal vooral de mening van docenten die dit onderwerp zullen voordragen aan de studenten belangrijk zijn. Hierna zal een literatuurstudie opgesteld worden waarin volgende onderwerpen zullen afgehandeld worden:
+
+\begin{itemize}
+    \item Concept monitoring, soorten monitoring, taken van monitoring
+    \item Architectuur monitoringsystemen in de context van containers/Kubernetes
+    \item Overzicht aanbod producten/tools in dit marktsegment\\
+\end{itemize}
+
+Vervolgens zullen de gevonden producten/tools afgetoetst worden aan de requirements die voordien zijn opgesteld door de belanghebbende. Nadien wordt een bestaande 'proof-of-concept' gebruikt\\~\autocite{Cedric2019} waarop de meest belovende producten toegepast worden. Indien er in deze 'proof-of-concept' tekortkomingen zijn voor het bekomen van de vooraf bepaalde requirements, zal deze verwerkt worden tot het punt waar dat wel zo is. 
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
 
-Uit deze studie naar een gepaste monitoringtool wordt verwacht dat aan de hand van mijn experimenten, het duidelijk wordt welke tool een basis kan zijn voor een deel van het opleidingsonderdeel waarop beslist wordt wat toekomstige studenten kunnen gebruiken. Het opstellen van een goede proof-of-concept is het belangrijkste voor het bereiken van goede resultaten.
+Uit deze studie, naar een gepaste monitoringtool, wordt verwacht dat aan de hand van de experimenten, het duidelijk wordt welke tool een basis kan zijn voor een deel van het opleidingsonderdeel waarop beslist wordt wat toekomstige studenten kunnen gebruiken. Het opstellen van een goede proof-of-concept is uiterst belangrijk voor het bereiken van goede resultaten.
 
 %---------- Verwachte conclusies ----------------------------------------------
 \section{Verwachte conclusies}
