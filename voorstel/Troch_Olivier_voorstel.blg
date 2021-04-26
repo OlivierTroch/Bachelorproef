@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'Troch_Olivier_voorstel.blg'
+[116] biber-MSWIN64:340> INFO - === 
+[163] Biber.pm:415> INFO - Reading 'Troch_Olivier_voorstel.bcf'
+[293] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
+[309] Biber.pm:4340> INFO - Processing section 0
+[321] Biber.pm:4531> INFO - Looking for bibtex format file 'voorstel.bib' for section 0
+[378] bibtex.pm:1689> INFO - LaTeX decoding ...
+[392] bibtex.pm:1494> INFO - Found BibTeX data source 'voorstel.bib'
+[444] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[444] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[444] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[444] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
+[453] bbl.pm:654> INFO - Writing 'Troch_Olivier_voorstel.bbl' with encoding 'UTF-8'
+[455] bbl.pm:757> INFO - Output to Troch_Olivier_voorstel.bbl

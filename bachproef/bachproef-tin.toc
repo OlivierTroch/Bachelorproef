@@ -1,0 +1,81 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {dutch}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Inleiding}{13}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Probleemstelling}{13}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{13}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{14}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{14}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Wat is virtualisatie}{15}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}De geschiedenis van virtualisatie}{15}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Verschillende typen virtualisatie}{17}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Full virtualisatie}{18}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Para virtualisatie}{18}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Operating system virtualisatie}{18}{section*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Desktop virtualisatie}{18}{section*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Server virtualisatie}{18}{section*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Applicatie virtualisatie}{19}{section*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Storage virtualisatie}{19}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Network virtualisatie}{19}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Resource virtualisatie}{19}{section*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Container virtualisatie}{19}{subsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Wat is container virtualisatie}{19}{section*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Verschil tussen containers en virtuele machines}{20}{section*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Kubernetes}{20}{section*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Alternatief voor Kubernetes}{20}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Docker}{21}{section*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Alternatief voor Docker}{21}{section*.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hoe werken Kubernetes en Docker samen}{21}{section*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Monitoring}{21}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Wat is monitoring}{21}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}De mogelijkheden in monitoring}{21}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Wat is het nut/belang van monitoring in het lessenpakket}{21}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodologie}{23}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusie}{25}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{27}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{27}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{28}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{28}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{29}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{29}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{31}{appendix*.22}%
+\contentsfinish 

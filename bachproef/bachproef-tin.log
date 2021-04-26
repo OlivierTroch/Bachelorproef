@@ -1,0 +1,1685 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  25 APR 2021 18:47
+entering extended mode
+**./bachproef-tin.tex
+(bachproef-tin.tex
+LaTeX2e <2020-10-01> patch level 3
+L3 programming layer <2020-12-07> xparse <2020-03-03> (bachproef-tin.cls
+Document Class: bachproef-tin 2019/01/09 Bachelorproef HOGENT toegepaste inform
+atica
+("C:\Program Files\MiKTeX\tex/latex/base\book.cls"
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\fleqn.clo"
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip47
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+("C:\Program Files\MiKTeX\tex/latex/base\bk12.clo"
+File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count173
+\c@chapter=\count174
+\c@section=\count175
+\c@subsection=\count176
+\c@subsubsection=\count177
+\c@paragraph=\count178
+\c@subparagraph=\count179
+\c@figure=\count180
+\c@table=\count181
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen138
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count182
+\Gm@cntv=\count183
+\c@Gm@tempcnt=\count184
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+
+("C:\Program Files\MiKTeX\tex/xelatex/xetexconfig\geometry.cfg"))
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip50
+\enit@outerparindent=\dimen147
+\enit@toks=\toks17
+\enit@inbox=\box47
+\enit@count@id=\count185
+\enitdp@description=\count186
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen148
+\lightrulewidth=\dimen149
+\cmidrulewidth=\dimen150
+\belowrulesep=\dimen151
+\belowbottomsep=\dimen152
+\aboverulesep=\dimen153
+\abovetopsep=\dimen154
+\cmidrulesep=\dimen155
+\cmidrulekern=\dimen156
+\defaultaddspace=\dimen157
+\@cmidla=\count187
+\@cmidlb=\count188
+\@aboverulesep=\dimen158
+\@belowrulesep=\dimen159
+\@thisruleclass=\count189
+\@lastruleclass=\count190
+\@thisrulewidth=\dimen160
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count191
+\multirow@dima=\skip52
+\bigstrutjot=\dimen161
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def"
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count192
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box48
+\rot@mess@toks=\toks18
+)
+("C:\Program Files\MiKTeX\tex/latex/listings\listings.sty"
+\lst@mode=\count193
+\lst@gtempboxa=\box49
+\lst@token=\toks19
+\lst@length=\count194
+\lst@currlwidth=\dimen164
+\lst@column=\count195
+\lst@pos=\count196
+\lst@lostspace=\dimen165
+\lst@width=\dimen166
+\lst@newlines=\count197
+\lst@lineno=\count198
+\lst@maxwidth=\dimen167
+
+("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
+\lst@framebox=\box50
+)
+("C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def"
+\pgfutil@abb=\box51
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex")
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen170
+\pgf@y=\dimen171
+\pgf@xa=\dimen172
+\pgf@ya=\dimen173
+\pgf@xb=\dimen174
+\pgf@yb=\dimen175
+\pgf@xc=\dimen176
+\pgf@yc=\dimen177
+\pgf@xd=\dimen178
+\pgf@yd=\dimen179
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count267
+\c@pgf@countb=\count268
+\c@pgf@countc=\count269
+\c@pgf@countd=\count270
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count271
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg"
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def"
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def"
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count272
+))) ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count273
+\pgfsyssoftpath@bigbuffer@items=\count274
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+"
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) ("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen180
+\pgfmath@count=\count275
+\pgfmath@box=\box52
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex"
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex
+")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code
+.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex"
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex
+")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmet
+ics.code.tex")))
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count276
+))
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen181
+\pgf@picmaxx=\dimen182
+\pgf@picminy=\dimen183
+\pgf@picmaxy=\dimen184
+\pgf@pathminx=\dimen185
+\pgf@pathmaxx=\dimen186
+\pgf@pathminy=\dimen187
+\pgf@pathmaxy=\dimen188
+\pgf@xx=\dimen189
+\pgf@xy=\dimen190
+\pgf@yx=\dimen191
+\pgf@yy=\dimen192
+\pgf@zx=\dimen193
+\pgf@zy=\dimen194
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.
+tex"
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen195
+\pgf@path@lasty=\dimen196
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen197
+\pgf@shorten@start@additional=\dimen198
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count277
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.t
+ex"
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen199
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.cod
+e.tex"
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen256
+\pgf@pt@y=\dimen257
+\pgf@pt@temp=\dimen258
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code
+.tex"
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen259
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen260
+\pgf@sys@shading@range@num=\count278
+\pgf@shadingcount=\count279
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box56
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.t
+ex"
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box57
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen261
+\pgf@nodesepend=\dimen262
+) ("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.st
+y"
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) ("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex"
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex")
+\pgffor@iter=\dimen263
+\pgffor@skip=\dimen264
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+))
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code
+.tex"
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count280
+\pgfplotmarksize=\dimen265
+)
+\tikz@lastx=\dimen266
+\tikz@lasty=\dimen267
+\tikz@lastxsaved=\dimen268
+\tikz@lastysaved=\dimen269
+\tikz@lastmovetox=\dimen270
+\tikz@lastmovetoy=\dimen271
+\tikzleveldistance=\dimen272
+\tikzsiblingdistance=\dimen273
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count281
+\tikznumberofchildren=\count282
+\tikznumberofcurrentchild=\count283
+\tikz@fig@count=\count284
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count285
+\pgfmatrixcurrentcolumn=\count286
+\pgf@matrix@numberofcolumns=\count287
+)
+\tikz@expandcount=\count288
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+arytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) ("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) ("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks34
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen274
+))
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen275
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count289
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count290
+\leftroot@=\count291
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count292
+\DOTSCASE@=\count293
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+\big@size=\dimen276
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count294
+\c@MaxMatrixCols=\count295
+\dotsspace@=\muskip16
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
+\tag@help=\toks36
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
+\andhelp@=\toks37
+\eqnshift@=\dimen277
+\alignsep@=\dimen278
+\tagshift@=\dimen279
+\tagwidth@=\dimen280
+\totwidth@=\dimen281
+\lineht@=\dimen282
+\@envbody=\toks38
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\avant.sty
+Package: avant 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+\MT@toks=\toks40
+\MT@count=\count301
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen283
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count302
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-xetex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+))
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/12/16 3.52 The Babel package
+
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count303
+\U@D=\dimen284
+\l@babelnohyphens=\language79
+
+("C:\Program Files\MiKTeX\tex/generic/babel\xebabel.def"
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def"))
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count304
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/babel-dutch\dutch.ldf
+Language: dutch 2020/10/29 v3.8j Dutch support from the babel system
+Package babel Info: Making " an active character on input line 127.
+))
+("C:\Program Files\MiKTeX\tex/generic/oberdiek\iflang.sty"
+Package: iflang 2018/01/21 v1.7 Checks for the current language (HO)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+Package iflang Info: Naming convention for patterns: babel.
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box64
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2019/10/16 v2.13 TOC entries
+\ttl@leftsep=\dimen285
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip67
+\thm@postskip=\skip68
+\thm@headsep=\skip69
+\dth@everypar=\toks46
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-12-07 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def"
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
+\g__graphics_track_int=\count305
+\l__pdf_internal_box=\box65
+\g__pdf_backend_object_int=\count306
+\g__pdf_backend_annotation_int=\count307
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
+("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count308
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.st
+y
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+("C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty"
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\c@abspage=\count309
+Package zref Info: New property: abspage on input line 66.
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip70
+\c@mdf@globalstyle@cnt=\count310
+\mdf@skipabove@length=\skip71
+\mdf@skipbelow@length=\skip72
+\mdf@leftmargin@length=\skip73
+\mdf@rightmargin@length=\skip74
+\mdf@innerleftmargin@length=\skip75
+\mdf@innerrightmargin@length=\skip76
+\mdf@innertopmargin@length=\skip77
+\mdf@innerbottommargin@length=\skip78
+\mdf@splittopskip@length=\skip79
+\mdf@splitbottomskip@length=\skip80
+\mdf@outermargin@length=\skip81
+\mdf@innermargin@length=\skip82
+\mdf@linewidth@length=\skip83
+\mdf@innerlinewidth@length=\skip84
+\mdf@middlelinewidth@length=\skip85
+\mdf@outerlinewidth@length=\skip86
+\mdf@roundcorner@length=\skip87
+\mdf@footenotedistance@length=\skip88
+\mdf@userdefinedwidth@length=\skip89
+\mdf@needspace@length=\skip90
+\mdf@frametitleaboveskip@length=\skip91
+\mdf@frametitlebelowskip@length=\skip92
+\mdf@frametitlerulewidth@length=\skip93
+\mdf@frametitleleftmargin@length=\skip94
+\mdf@frametitlerightmargin@length=\skip95
+\mdf@shadowsize@length=\skip96
+\mdf@extratopheight@length=\skip97
+\mdf@subtitleabovelinewidth@length=\skip98
+\mdf@subtitlebelowlinewidth@length=\skip99
+\mdf@subtitleaboveskip@length=\skip100
+\mdf@subtitlebelowskip@length=\skip101
+\mdf@subtitleinneraboveskip@length=\skip102
+\mdf@subtitleinnerbelowskip@length=\skip103
+\mdf@subsubtitleabovelinewidth@length=\skip104
+\mdf@subsubtitlebelowlinewidth@length=\skip105
+\mdf@subsubtitleaboveskip@length=\skip106
+\mdf@subsubtitlebelowskip@length=\skip107
+\mdf@subsubtitleinneraboveskip@length=\skip108
+\mdf@subsubtitleinnerbelowskip@length=\skip109
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box66
+\mdf@footnotebox=\box67
+\mdf@splitbox@one=\box68
+\mdf@splitbox@two=\box69
+\mdf@splitbox@save=\box70
+\mdfsplitboxwidth=\skip110
+\mdfsplitboxtotalwidth=\skip111
+\mdfsplitboxheight=\skip112
+\mdfsplitboxdepth=\skip113
+\mdfsplitboxtotalheight=\skip114
+\mdfframetitleboxwidth=\skip115
+\mdfframetitleboxtotalwidth=\skip116
+\mdfframetitleboxheight=\skip117
+\mdfframetitleboxdepth=\skip118
+\mdfframetitleboxtotalheight=\skip119
+\mdffootnoteboxwidth=\skip120
+\mdffootnoteboxtotalwidth=\skip121
+\mdffootnoteboxheight=\skip122
+\mdffootnoteboxdepth=\skip123
+\mdffootnoteboxtotalheight=\skip124
+\mdftotallinewidth=\skip125
+\mdfboundingboxwidth=\skip126
+\mdfboundingboxtotalwidth=\skip127
+\mdfboundingboxheight=\skip128
+\mdfboundingboxdepth=\skip129
+\mdfboundingboxtotalheight=\skip130
+\mdf@freevspace@length=\skip131
+\mdf@horizontalwidthofbox@length=\skip132
+\mdf@verticalmarginwhole@length=\skip133
+\mdf@horizontalspaceofbox=\skip134
+\mdfsubtitleheight=\skip135
+\mdfsubsubtitleheight=\skip136
+\c@mdfcountframes=\count311
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count312
+\c@mdf@env@i=\count313
+\c@mdf@env@ii=\count314
+\c@mdf@zref@counter=\count315
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\c@theoremT=\count316
+\c@corollaryT=\count317
+\c@definitionT=\count318
+\c@exerciseT=\count319
+\c@exampleT=\count320
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/latex-tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count321
+\calc@Bcount=\count322
+\calc@Adimen=\dimen286
+\calc@Bdimen=\dimen287
+\calc@Askip=\skip137
+\calc@Bskip=\skip138
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count323
+\calc@Cskip=\skip139
+)
+\esp=\skip140
+\ecart=\skip141
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen288
+\Hy@linkcounter=\count324
+\Hy@pagecounter=\count325
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count326
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count327
+
+("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen289
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count328
+\Field@Width=\dimen290
+\Fld@charsize=\dimen291
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+\Hy@abspage=\count329
+\c@Item=\count330
+\c@Hfootnote=\count331
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def"
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def"
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box71
+\c@Hy@AnnotLevel=\count332
+\HyField@AnnotCount=\count333
+\Fld@listcount=\count334
+\c@bookmark@seq@number=\count335
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
+sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ ("C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty"
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.
+sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip142
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 560.
+Package hyperref Info: Option `breaklinks' set `true' on input line 560.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 560.
+ (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count336
+))
+("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count337
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count338
+\c@listtotal=\count339
+\c@listcount=\count340
+\c@liststart=\count341
+\c@liststop=\count342
+\c@citecount=\count343
+\c@citetotal=\count344
+\c@multicitecount=\count345
+\c@multicitetotal=\count346
+\c@instcount=\count347
+\c@maxnames=\count348
+\c@minnames=\count349
+\c@maxitems=\count350
+\c@minitems=\count351
+\c@citecounter=\count352
+\c@maxcitecounter=\count353
+\c@savedcitecounter=\count354
+\c@uniquelist=\count355
+\c@uniquename=\count356
+\c@refsection=\count357
+\c@refsegment=\count358
+\c@maxextratitle=\count359
+\c@maxextratitleyear=\count360
+\c@maxextraname=\count361
+\c@maxextradate=\count362
+\c@maxextraalpha=\count363
+\c@abbrvpenalty=\count364
+\c@highnamepenalty=\count365
+\c@lownamepenalty=\count366
+\c@maxparens=\count367
+\c@parenlevel=\count368
+\blx@tempcnta=\count369
+\blx@tempcntb=\count370
+\blx@tempcntc=\count371
+\blx@maxsection=\count372
+\blx@maxsegment@0=\count373
+\blx@notetype=\count374
+\blx@parenlevel@text=\count375
+\blx@parenlevel@foot=\count376
+\blx@sectionciteorder@0=\count377
+\blx@entrysetcounter=\count378
+\blx@biblioinstance=\count379
+\labelnumberwidth=\skip143
+\labelalphawidth=\skip144
+\biblabelsep=\skip145
+\bibitemsep=\skip146
+\bibnamesep=\skip147
+\bibinitsep=\skip148
+\bibparsep=\skip149
+\bibhang=\skip150
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language80
+\c@mincomprange=\count380
+\c@maxcomprange=\count381
+\c@mincompwidth=\count382
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def"
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\apa.dbx
+File: apa.dbx 2020/08/28 v9.14 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count383
+\c@savedafterword=\count384
+\c@annotator=\count385
+\c@savedannotator=\count386
+\c@author=\count387
+\c@savedauthor=\count388
+\c@bookauthor=\count389
+\c@savedbookauthor=\count390
+\c@commentator=\count391
+\c@savedcommentator=\count392
+\c@editor=\count393
+\c@savededitor=\count394
+\c@editora=\count395
+\c@savededitora=\count396
+\c@editorb=\count397
+\c@savededitorb=\count398
+\c@editorc=\count399
+\c@savededitorc=\count400
+\c@foreword=\count401
+\c@savedforeword=\count402
+\c@holder=\count403
+\c@savedholder=\count404
+\c@introduction=\count405
+\c@savedintroduction=\count406
+\c@namea=\count407
+\c@savednamea=\count408
+\c@nameb=\count409
+\c@savednameb=\count410
+\c@namec=\count411
+\c@savednamec=\count412
+\c@translator=\count413
+\c@savedtranslator=\count414
+\c@shortauthor=\count415
+\c@savedshortauthor=\count416
+\c@shorteditor=\count417
+\c@savedshorteditor=\count418
+\c@groupauthor=\count419
+\c@savedgroupauthor=\count420
+\c@narrator=\count421
+\c@savednarrator=\count422
+\c@execproducer=\count423
+\c@savedexecproducer=\count424
+\c@execdirector=\count425
+\c@savedexecdirector=\count426
+\c@with=\count427
+\c@savedwith=\count428
+\c@labelname=\count429
+\c@savedlabelname=\count430
+\c@institution=\count431
+\c@savedinstitution=\count432
+\c@lista=\count433
+\c@savedlista=\count434
+\c@listb=\count435
+\c@savedlistb=\count436
+\c@listc=\count437
+\c@savedlistc=\count438
+\c@listd=\count439
+\c@savedlistd=\count440
+\c@liste=\count441
+\c@savedliste=\count442
+\c@listf=\count443
+\c@savedlistf=\count444
+\c@location=\count445
+\c@savedlocation=\count446
+\c@organization=\count447
+\c@savedorganization=\count448
+\c@origlocation=\count449
+\c@savedoriglocation=\count450
+\c@origpublisher=\count451
+\c@savedorigpublisher=\count452
+\c@publisher=\count453
+\c@savedpublisher=\count454
+\c@language=\count455
+\c@savedlanguage=\count456
+\c@origlanguage=\count457
+\c@savedoriglanguage=\count458
+\c@citation=\count459
+\c@savedcitation=\count460
+\c@pageref=\count461
+\c@savedpageref=\count462
+\shorthandwidth=\skip151
+\shortjournalwidth=\skip152
+\shortserieswidth=\skip153
+\shorttitlewidth=\skip154
+\shortauthorwidth=\skip155
+\shorteditorwidth=\skip156
+\locallabelnumberwidth=\skip157
+\locallabelalphawidth=\skip158
+\localshorthandwidth=\skip159
+\localshortjournalwidth=\skip160
+\localshortserieswidth=\skip161
+\localshorttitlewidth=\skip162
+\localshortauthorwidth=\skip163
+\localshorteditorwidth=\skip164
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-unicode.def")
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def"
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def"
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count463
+\c@textcitetotal=\count464
+\c@textcitemaxnames=\count465
+\c@biburlbigbreakpenalty=\count466
+\c@biburlbreakpenalty=\count467
+\c@biburlnumpenalty=\count468
+\c@biburlucpenalty=\count469
+\c@biburllcpenalty=\count470
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count471
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\apa.bbx
+File: apa.bbx 2020/08/28 v9.14 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count472
+\c@bbx:relatedtotal=\count473
+))
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\apa.cbx
+File: apa.cbx 2020/08/28 v9.14 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already 
+defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count474
+\csq@gtype=\count475
+\csq@glevel=\count476
+\csq@qlevel=\count477
+\csq@maxlvl=\count478
+\csq@tshold=\count479
+\csq@ltx@everypar=\toks47
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+("C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write5
+\openout5 = `bachproef-tin.idx'.
+
+
+Writing index file bachproef-tin.idx
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+)))
+(hogent-thesis-titlepage.sty
+Package: hogent-thesis-titlepage 2019/01/09 Titelpagina bachelorproef HOGENT
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip165
+\thanksmargin=\skip166
+\droptitle=\skip167
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'dutch'.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 43
+.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(bachproef-tin.aux)
+\openout1 = `bachproef-tin.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+3.
+ ("C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd"
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-8.91173pt
+* \headheight=14.5pt
+* \headsep=10.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count480
+LaTeX Info: Redefining \microtypecontext on input line 43.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+Package hyperref Info: Link coloring OFF on input line 43.
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestrin
+g.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count481
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
+Package biblatex Info: ... file 'dutch-apa.lbx' found.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\dutch-apa.lbx
+File: dutch-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
+Package biblatex Info: Trying to load language 'dutch'...
+Package biblatex Info: ... file 'dutch.lbx' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\dutch.lbx"
+File: dutch.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'dutch'...
+Package biblatex Info: ... file 'dutch.lbx' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\dutch.lbx"
+File: dutch.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
+File: english-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx"
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\american-apa.lbx
+File: american-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\american.lbx"
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx"
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))))
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2020-12-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty"
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout4 = `bachproef-tin.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'bachproef-tin.bbl' found.
+
+(bachproef-tin.bbl)
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=745.46222pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-39.86449pt
+* \headheight=14.5pt
+* \headsep=10.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/generic/stringenc\se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+) [1
+
+
+
+] [2
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(152.22241pt, 650.14531pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=650.14531pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=55.45242pt
+* \headheight=14.5pt
+* \headsep=10.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [1
+
+
+] (voorwoord.tex [2
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+pag on input line 5.
+
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pag.fd
+File: t1pag.fd 2001/06/04 font definitions for T1/pag.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pag' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
+)
+(samenvatting.tex [3] [4
+
+]) [5] [6
+
+] (bachproef-tin.toc
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7])
+\tf@toc=\write6
+\openout6 = `bachproef-tin.toc'.
+
+
+[8] (bachproef-tin.lof)
+\tf@lof=\write7
+\openout7 = `bachproef-tin.lof'.
+
+ [9
+
+
+] [10
+
+] (bachproef-tin.lot)
+\tf@lot=\write8
+\openout8 = `bachproef-tin.lot'.
+
+ (inleiding.tex [11]
+[12
+
+]
+Hoofdstuk 1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+3.
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+ [13])
+(standvanzaken.tex [14]
+Hoofdstuk 2.
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Overfull \hbox (9.69316pt too wide) in paragraph at lines 17--18
+[]\T1/ptm/m/n/12 CTSS-software om-vatte niet al-leen de su-per-vi-sor, maar ook
+ een reeks voorgrond-opdrachten
+ []
+
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 31.
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+[17]
+Overfull \hbox (0.66676pt too wide) in paragraph at lines 37--38
+\T1/ptm/m/n/12 Paravirtualisatie of para-virtualisatie is een vir-tu-a-li-sa-ti
+e-tech-niek die een software-interface
+ []
+
+
+Underfull \vbox (badness 6775) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (2.93727pt too wide) in paragraph at lines 74--75
+\T1/ptm/m/n/12 Containergebaseerde vir-tu-a-li-sa-tie zorgt voor som-mige voor-
+de-len te-gen-over een hypervisor-
+ []
+
+
+Underfull \vbox (badness 2486) has occurred while \output is active []
+
+ [19]
+[20]) (methodologie.tex [21] [22
+
+]
+Hoofdstuk 3.
+) (conclusie.tex [23] [24
+
+]
+Hoofdstuk 4.
+) [25] [26
+
+]
+B\babelshorthand{"y}lage A.
+(../voorstel/voorstel-inhoud.tex [27]
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+) [29] [30
+
+]
+! Misplaced alignment tab character &.
+<argument> Kubernetes Up &
+                           Running - Dive into the Future of Infrastructure
+l.127 \printbibliography[heading=bibintoc]
+                                          
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 127.
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 127.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 127.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 127.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+27.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+Missing character: There is no � in font ptmri8t!
+
+Overfull \hbox (10.23366pt too wide) in paragraph at lines 127--127
+[][]\T1/ptm/m/n/12 Kubernetes. (2021, fe-bru-ari 1). \T1/ptm/m/it/12 What is Ku
+-ber-ne-tes? \T1/ptm/m/n/12 (K. Brad-s-haw, Red.). []$https : / / kubernetes .
+ []
+
+[31] [32] (bachproef-tin.aux)
+Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
+\openout1 = `bachproef-tin.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 34841 strings out of 412022
+ 619787 string characters out of 2849384
+ 1612995 words of memory out of 3000000
+ 53975 multiletter control sequences out of 15000+200000
+ 440897 words of font info for 69 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 97i,11n,95p,1276b,5295s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on bachproef-tin.pdf (34 pages).

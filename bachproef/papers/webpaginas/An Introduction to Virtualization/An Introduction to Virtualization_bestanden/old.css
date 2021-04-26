@@ -1,0 +1,9 @@
+.oldbl, .oldin, .pic {display: none;}
+body {color: rgb(25%,25%,25%); background: rgb(96%,96%,94%);}
+img.pic {display: none;}
+#main {margin-left: 10%; margin-right: 10%;}
+#sidebar {margin-top: -1em; background: rgb(85%,85%,95%); padding: 1px;}
+#sitemast {color: rgb(49,49,99); background: rgb(50%,50%,70%);}
+#sitemast a {color: rgb(20%,20%,38%);}
+#footer {background: rgb(87%,90%,93%); font-size: 90%;}
+#aboutsite:visited {display: none;}

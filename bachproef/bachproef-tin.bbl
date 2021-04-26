@@ -1,0 +1,592 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Rad2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62048e6cac459db44504b6f462855eb1}{%
+           family={Babak\bibnamedelimb Bashari\bibnamedelima Rad},
+           familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Mohammad\bibnamedelima Ahmadi},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           suffix={Harrison\bibnamedelimb John\bibnamedelima Bhatti},
+           suffixi={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{institution}{2}{%
+        {Asia Pacific University of Technology}%
+        {Innovation}%
+      }
+      \strng{namehash}{62048e6cac459db44504b6f462855eb1}
+      \strng{fullhash}{62048e6cac459db44504b6f462855eb1}
+      \strng{bibnamehash}{62048e6cac459db44504b6f462855eb1}
+      \strng{authorbibnamehash}{62048e6cac459db44504b6f462855eb1}
+      \strng{authornamehash}{62048e6cac459db44504b6f462855eb1}
+      \strng{authorfullhash}{62048e6cac459db44504b6f462855eb1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{An Introduction to Docker and Analysis of its Performance}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Burns2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=91fa1e1fd0361649feec530371f2ffc7}{%
+           family={Brendan\bibnamedelima Burns},
+           familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Kelsey\bibnamedelima Hightower},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           suffix={Joe\bibnamedelima Beda},
+           suffixi={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           suffixun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7833959fb985b37e1287eed4f6da5b54}{%
+           family={O'Reilly},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{91fa1e1fd0361649feec530371f2ffc7}
+      \strng{fullhash}{91fa1e1fd0361649feec530371f2ffc7}
+      \strng{bibnamehash}{91fa1e1fd0361649feec530371f2ffc7}
+      \strng{authorbibnamehash}{91fa1e1fd0361649feec530371f2ffc7}
+      \strng{authornamehash}{91fa1e1fd0361649feec530371f2ffc7}
+      \strng{authorfullhash}{91fa1e1fd0361649feec530371f2ffc7}
+      \strng{editorbibnamehash}{7833959fb985b37e1287eed4f6da5b54}
+      \strng{editornamehash}{7833959fb985b37e1287eed4f6da5b54}
+      \strng{editorfullhash}{7833959fb985b37e1287eed4f6da5b54}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{4}
+      \field{title}{Kubernetes Up & Running - Dive into the Future of Infrastructure}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.be/books?hl=en&lr=&id=-5izDwAAQBAJ&oi=fnd&pg=PP1&dq=kubernetes&ots=IsB4lxkeeI&sig=RBWC7ndt9aEs0bUHZ1usfNSGgQw&redir_esc=y#v=onepage&q&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?hl=en&lr=&id=-5izDwAAQBAJ&oi=fnd&pg=PP1&dq=kubernetes&ots=IsB4lxkeeI&sig=RBWC7ndt9aEs0bUHZ1usfNSGgQw&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{Cedric2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c1cd7e6ba428a7b35f079b4782fd52a}{%
+           family={Cedric},
+           familyi={C\bibinitperiod},
+           given={Detemmerman},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {HoGent}%
+      }
+      \strng{namehash}{7c1cd7e6ba428a7b35f079b4782fd52a}
+      \strng{fullhash}{7c1cd7e6ba428a7b35f079b4782fd52a}
+      \strng{bibnamehash}{7c1cd7e6ba428a7b35f079b4782fd52a}
+      \strng{authorbibnamehash}{7c1cd7e6ba428a7b35f079b4782fd52a}
+      \strng{authornamehash}{7c1cd7e6ba428a7b35f079b4782fd52a}
+      \strng{authorfullhash}{7c1cd7e6ba428a7b35f079b4782fd52a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kubernetes Educatieve Mogelijkheden En Opstellingen}
+      \field{year}{2019}
+    \endentry
+    \entry{Cirelly2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd984248444ad3a8bdf383c1f75c872a}{%
+           family={Cirelly},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd984248444ad3a8bdf383c1f75c872a}
+      \strng{fullhash}{fd984248444ad3a8bdf383c1f75c872a}
+      \strng{bibnamehash}{fd984248444ad3a8bdf383c1f75c872a}
+      \strng{authorbibnamehash}{fd984248444ad3a8bdf383c1f75c872a}
+      \strng{authornamehash}{fd984248444ad3a8bdf383c1f75c872a}
+      \strng{authorfullhash}{fd984248444ad3a8bdf383c1f75c872a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{9}
+      \field{title}{7 Best Docker Monitoring Tools}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.itprc.com/docker-monitoring-tools/
+      \endverb
+      \verb{url}
+      \verb https://www.itprc.com/docker-monitoring-tools/
+      \endverb
+    \endentry
+    \entry{Cole2016}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=04dcdc6ffa16d824864a7c71382d350d}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{04dcdc6ffa16d824864a7c71382d350d}
+      \strng{fullhash}{04dcdc6ffa16d824864a7c71382d350d}
+      \strng{bibnamehash}{04dcdc6ffa16d824864a7c71382d350d}
+      \strng{authorbibnamehash}{04dcdc6ffa16d824864a7c71382d350d}
+      \strng{authornamehash}{04dcdc6ffa16d824864a7c71382d350d}
+      \strng{authorfullhash}{04dcdc6ffa16d824864a7c71382d350d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{9}
+      \field{title}{The Importance of Container Monitoring}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.stratoscale.com/blog/importance-container-monitoring/
+      \endverb
+      \verb{url}
+      \verb https://www.stratoscale.com/blog/importance-container-monitoring/
+      \endverb
+    \endentry
+    \entry{Ruiz2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d2c2b566dd4e61364b3be9e7c6f5da0}{%
+           family={Cristian\bibnamedelima Ruiz},
+           familyi={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Lucas\bibnamedelima Nussbaum},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0,
+           suffix={Emmanuel\bibnamedelima Jeanvoine},
+           suffixi={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
+      \strng{fullhash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
+      \strng{bibnamehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
+      \strng{authorbibnamehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
+      \strng{authornamehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
+      \strng{authorfullhash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{8}
+      \field{title}{Performance Evaluation of Containers for HPC}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{817\bibrangedash 819}
+      \range{pages}{3}
+    \endentry
+    \entry{Jeff2009}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c82acbf4dc95e8334996d8b34aa2499}{%
+           family={Jeff},
+           familyi={J\bibinitperiod},
+           given={Daniels},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c82acbf4dc95e8334996d8b34aa2499}
+      \strng{fullhash}{6c82acbf4dc95e8334996d8b34aa2499}
+      \strng{bibnamehash}{6c82acbf4dc95e8334996d8b34aa2499}
+      \strng{authorbibnamehash}{6c82acbf4dc95e8334996d8b34aa2499}
+      \strng{authornamehash}{6c82acbf4dc95e8334996d8b34aa2499}
+      \strng{authorfullhash}{6c82acbf4dc95e8334996d8b34aa2499}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{11}
+      \field{title}{Server Virtualization Architectureand Implementation�}
+      \field{type}{techreport}
+      \field{year}{2009}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kedia2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c6c882f73a7fbf5f7bf48821781cc2e}{%
+           family={Kedia},
+           familyi={K\bibinitperiod},
+           given={Pooja},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Amity University}%
+      }
+      \strng{namehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \strng{fullhash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \strng{bibnamehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \strng{authorbibnamehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \strng{authornamehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \strng{authorfullhash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{5}
+      \field{title}{A survey on Virtualization Service Providers, Security Issues, Tools and Future Trends}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kubernetes2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30136395f01879792198317c11831ea4}{%
+           family={Kubernetes},
+           familyi={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=163bf2a826ea4535fce58d66e3694428}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{30136395f01879792198317c11831ea4}
+      \strng{fullhash}{30136395f01879792198317c11831ea4}
+      \strng{bibnamehash}{30136395f01879792198317c11831ea4}
+      \strng{authorbibnamehash}{30136395f01879792198317c11831ea4}
+      \strng{authornamehash}{30136395f01879792198317c11831ea4}
+      \strng{authorfullhash}{30136395f01879792198317c11831ea4}
+      \strng{editorbibnamehash}{163bf2a826ea4535fce58d66e3694428}
+      \strng{editornamehash}{163bf2a826ea4535fce58d66e3694428}
+      \strng{editorfullhash}{163bf2a826ea4535fce58d66e3694428}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{2}
+      \field{title}{What is Kubernetes?}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+      \endverb
+      \verb{url}
+      \verb https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+      \endverb
+    \endentry
+    \entry{Oracle2012}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{editorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{editornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{editorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{Introduction to Virtualization}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1011.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1011.html
+      \endverb
+    \endentry
+    \entry{Radhwan2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44dec95e2ccb7506814ed7f50349c906}{%
+           family={Radhwan},
+           familyi={R\bibinitperiod},
+           given={Ameen\bibnamedelima Y},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Mosul University}%
+      }
+      \strng{namehash}{44dec95e2ccb7506814ed7f50349c906}
+      \strng{fullhash}{44dec95e2ccb7506814ed7f50349c906}
+      \strng{bibnamehash}{44dec95e2ccb7506814ed7f50349c906}
+      \strng{authorbibnamehash}{44dec95e2ccb7506814ed7f50349c906}
+      \strng{authornamehash}{44dec95e2ccb7506814ed7f50349c906}
+      \strng{authorfullhash}{44dec95e2ccb7506814ed7f50349c906}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Survey of Server Virtualization}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Rancher2020}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82033d4b30c6027097326898ed36b593}{%
+           family={Rancher},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Rancher}%
+      }
+      \strng{namehash}{82033d4b30c6027097326898ed36b593}
+      \strng{fullhash}{82033d4b30c6027097326898ed36b593}
+      \strng{bibnamehash}{82033d4b30c6027097326898ed36b593}
+      \strng{authorbibnamehash}{82033d4b30c6027097326898ed36b593}
+      \strng{authornamehash}{82033d4b30c6027097326898ed36b593}
+      \strng{authorfullhash}{82033d4b30c6027097326898ed36b593}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{A guide to Kubernetes with Rancher}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Ribenzaft2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1fdd8c6867fb3e5455a322626e741a8}{%
+           family={Ribenzaft},
+           familyi={R\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1fdd8c6867fb3e5455a322626e741a8}
+      \strng{fullhash}{c1fdd8c6867fb3e5455a322626e741a8}
+      \strng{bibnamehash}{c1fdd8c6867fb3e5455a322626e741a8}
+      \strng{authorbibnamehash}{c1fdd8c6867fb3e5455a322626e741a8}
+      \strng{authornamehash}{c1fdd8c6867fb3e5455a322626e741a8}
+      \strng{authorfullhash}{c1fdd8c6867fb3e5455a322626e741a8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{3}
+      \field{title}{Top Six Open Source Tools for Monitoring Kubernetes and Docker}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://devops.com/top-six-open-source-tools-for-monitoring-kubernetes-and-docker/
+      \endverb
+      \verb{url}
+      \verb https://devops.com/top-six-open-source-tools-for-monitoring-kubernetes-and-docker/
+      \endverb
+    \endentry
+    \entry{Singh2004}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ebe89d133da3d293d851a0041a221fa2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ebe89d133da3d293d851a0041a221fa2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{fullhash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{bibnamehash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{authorbibnamehash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{authornamehash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{authorfullhash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{editorbibnamehash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{editornamehash}{ebe89d133da3d293d851a0041a221fa2}
+      \strng{editorfullhash}{ebe89d133da3d293d851a0041a221fa2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{An Introduction to Virtualization}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://webx.ubi.pt/~hgil/utils/Virtualization_Introduction.html
+      \endverb
+      \verb{url}
+      \verb https://webx.ubi.pt/~hgil/utils/Virtualization_Introduction.html
+      \endverb
+    \endentry
+    \entry{Thanh2015}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d54c3391a6b093a8b88f2149709655ba}{%
+           family={Thanh},
+           familyi={T\bibinitperiod},
+           given={Bui},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Aalto University School of Science}%
+      }
+      \strng{namehash}{d54c3391a6b093a8b88f2149709655ba}
+      \strng{fullhash}{d54c3391a6b093a8b88f2149709655ba}
+      \strng{bibnamehash}{d54c3391a6b093a8b88f2149709655ba}
+      \strng{authorbibnamehash}{d54c3391a6b093a8b88f2149709655ba}
+      \strng{authornamehash}{d54c3391a6b093a8b88f2149709655ba}
+      \strng{authorfullhash}{d54c3391a6b093a8b88f2149709655ba}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{1}
+      \field{title}{Analysis of Docker Security}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
+    \entry{VanVleck2015}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd6ca17aebda0f328d91c88efcfa496d}{%
+           family={Van\bibnamedelima Vleck},
+           familyi={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=dd6ca17aebda0f328d91c88efcfa496d}{%
+           family={Van\bibnamedelima Vleck},
+           familyi={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{fullhash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{bibnamehash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{authorbibnamehash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{authornamehash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{authorfullhash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{editorbibnamehash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{editornamehash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \strng{editorfullhash}{dd6ca17aebda0f328d91c88efcfa496d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{3}
+      \field{title}{The IMB 7094 and CTSS}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://multicians.org/thvv/7094.html
+      \endverb
+      \verb{url}
+      \verb https://multicians.org/thvv/7094.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
