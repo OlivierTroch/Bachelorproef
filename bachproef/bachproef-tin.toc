@@ -13,7 +13,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Wat is virtualisatie}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Virtualisatie}{15}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}De geschiedenis van virtualisatie}{15}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
@@ -51,31 +51,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Alternatief voor Docker}{21}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hoe werken Kubernetes en Docker samen}{21}{section*.21}%
+\contentsline {subsubsection}{Samenwerking tussen Docker en Kubernetes}{21}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Monitoring}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Monitoring}{22}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Wat is monitoring}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Wat is monitoring}{22}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}De mogelijkheden in monitoring}{21}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Wat is monitoring binnen een container environment}{23}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Wat is het nut/belang van monitoring in het lessenpakket}{21}{subsection.2.2.3}%
+\contentsline {subsubsection}{Korte duur en schaal van containers}{23}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{23}{chapter.3}%
+\contentsline {subsubsection}{Snelle groei van objecten, services en statistieken}{23}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{25}{chapter.4}%
+\contentsline {subsubsection}{Services zijn het nieuwe aandachtspunt}{24}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{27}{appendix.A}%
+\contentsline {subsubsection}{Een meer diverse groep van monitoring-eindgebruikers}{24}{section*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{27}{section.A.1}%
+\contentsline {subsubsection}{Nieuwe gedachten resulteren in nieuwe methoden}{25}{section*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{28}{section.A.2}%
+\contentsline {subsection}{\numberline {2.2.3}Wat is het nut/belang van monitoring in het lessenpakket}{25}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{28}{section.A.3}%
+\contentsline {subsection}{\numberline {2.2.4}Wat zijn de prerequisites/voorwaarden van de tool}{25}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{29}{section.A.4}%
+\contentsline {subsection}{\numberline {2.2.5}Welke tools zijn er om te monitoren}{25}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{29}{section.A.5}%
+\contentsline {chapter}{\numberline {3}Methodologie}{27}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{31}{appendix*.22}%
+\contentsline {chapter}{\numberline {4}Conclusie}{29}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{31}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{31}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{32}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{32}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{33}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{33}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{35}{appendix*.27}%
 \contentsfinish 

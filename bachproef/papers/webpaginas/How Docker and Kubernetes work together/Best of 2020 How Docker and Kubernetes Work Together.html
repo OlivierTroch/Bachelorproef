@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://containerjournal.com/xmlrpc.php" />
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v15.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Best of 2020: How Docker and Kubernetes Work Together</title>
+	<meta name="description" content="It is important to understand how tools enable digital transformation. This article reviews how docker and kubernetes work together." />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Best of 2020: How Docker and Kubernetes Work Together" />
+	<meta property="og:description" content="It is important to understand how tools enable digital transformation. This article reviews how docker and kubernetes work together." />
+	<meta property="og:url" content="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/" />
+	<meta property="og:site_name" content="Container Journal" />
+	<meta property="article:publisher" content="https://www.facebook.com/containerjournal" />
+	<meta property="article:published_time" content="2020-12-29T07:00:20+00:00" />
+	<meta property="article:modified_time" content="2020-12-23T20:52:32+00:00" />
+	<meta property="og:image" content="https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry.jpg" />
+	<meta property="og:image:width" content="770" />
+	<meta property="og:image:height" content="330" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@ContainerBlog" />
+	<meta name="twitter:site" content="@ContainerBlog" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://containerjournal.com/#organization","name":"Container Journal","url":"https://containerjournal.com/","sameAs":["https://www.facebook.com/containerjournal","https://twitter.com/ContainerBlog"],"logo":{"@type":"ImageObject","@id":"https://containerjournal.com/#logo","inLanguage":"en-US","url":"https://containerjournal.com/wp-content/uploads/2015/05/ContainerJournalLogoStacked.jpg","width":8054,"height":2137,"caption":"Container Journal"},"image":{"@id":"https://containerjournal.com/#logo"}},{"@type":"WebSite","@id":"https://containerjournal.com/#website","url":"https://containerjournal.com/","name":"Container Journal","description":"Long Live Containerization!","publisher":{"@id":"https://containerjournal.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://containerjournal.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#primaryimage","inLanguage":"en-US","url":"https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry.jpg","width":770,"height":330,"caption":"Docker Kubernetes"},{"@type":"WebPage","@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#webpage","url":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/","name":"Best of 2020: How Docker and Kubernetes Work Together","isPartOf":{"@id":"https://containerjournal.com/#website"},"primaryImageOfPage":{"@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#primaryimage"},"datePublished":"2020-12-29T07:00:20+00:00","dateModified":"2020-12-23T20:52:32+00:00","description":"It is important to understand how tools enable digital transformation. This article reviews how docker and kubernetes work together.","breadcrumb":{"@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/"]}]},{"@type":"BreadcrumbList","@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://containerjournal.com/","url":"https://containerjournal.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://containerjournal.com/category/topics/","url":"https://containerjournal.com/category/topics/","name":"Topics"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://containerjournal.com/category/topics/container-ecosystems/","url":"https://containerjournal.com/category/topics/container-ecosystems/","name":"Container Ecosystems"}},{"@type":"ListItem","position":4,"item":{"@type":"WebPage","@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/","url":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/","name":"Best of 2020: How Docker and Kubernetes Work Together"}}]},{"@type":["Article","NewsArticle"],"@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#article","isPartOf":{"@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#webpage"},"author":{"@id":"https://containerjournal.com/#/schema/person/577b4bdb18d8787e9de9fd51783188ba"},"headline":"Best of 2020: How Docker and Kubernetes Work Together","datePublished":"2020-12-29T07:00:20+00:00","dateModified":"2020-12-23T20:52:32+00:00","mainEntityOfPage":{"@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#webpage"},"publisher":{"@id":"https://containerjournal.com/#organization"},"image":{"@id":"https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#primaryimage"},"keywords":"container orchestration platform,containers,docker,kubernetes,open source","articleSection":"Container Ecosystems,Features,Topics","inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#respond"]}],"copyrightYear":"2020","copyrightHolder":{"@id":"https://containerjournal.com/#organization"}},{"@type":"Person","@id":"https://containerjournal.com/#/schema/person/577b4bdb18d8787e9de9fd51783188ba","name":"Pavan Belagatti","image":{"@type":"ImageObject","@id":"https://containerjournal.com/#personlogo","inLanguage":"en-US","url":"https://containerjournal.com/wp-content/uploads/2020/05/Pavan-Headshot.jpg","caption":"Pavan Belagatti"},"description":"Pavan is a DevOps influencer and a contributing author at various technology platforms. He talks about cloud-native technologies and digital transformation strategies.","sameAs":["https://www.linkedin.com/in/pavan-belagatti-growthmarketer/"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="amphtml" href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/amp/" /><meta name="generator" content="AMP for WP 1.0.64.1"/><link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Container Journal &raquo; Feed" href="https://containerjournal.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Container Journal &raquo; Comments Feed" href="https://containerjournal.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Container Journal &raquo; iCal Feed" href="https://containerjournal.com/webinars/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/containerjournal.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='pt-cv-public-style-css'  href='https://containerjournal.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pt-cv-public-pro-style-css'  href='https://containerjournal.com/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='https://containerjournal.com/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='https://containerjournal.com/wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-css-css'  href='https://containerjournal.com/wp-content/plugins/devops_core/assets/owl.carousel.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-theme-css-css'  href='https://containerjournal.com/wp-content/plugins/devops_core/assets/owl.theme.default.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='super-rss-reader-css'  href='https://containerjournal.com/wp-content/plugins/super-rss-reader/public/css/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-consent-style-css'  href='https://containerjournal.com/wp-content/plugins/uk-cookie-consent/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='https://containerjournal.com/wp-content/uploads/maxmegamenu/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://containerjournal.com/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome-css'  href='https://containerjournal.com/wp-content/plugins/megamenu-pro/icons/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-genericons-css'  href='https://containerjournal.com/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag-pro-style-css'  href='https://containerjournal.com/wp-content/themes/colormag-pro/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://containerjournal.com/wp-content/themes/colormag-pro-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag_style-css'  href='https://containerjournal.com/wp-content/themes/colormag-pro-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag_googlefonts-css'  href='//fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif&#038;ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='colormag-fontawesome-css'  href='https://containerjournal.com/wp-content/themes/colormag-pro/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://containerjournal.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://containerjournal.com/wp-content/plugins/jetpack/css/jetpack.css' type='text/css' media='all' />
+<script type='text/javascript' id='jetpack_related-posts-js-extra'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js' id='jetpack_related-posts-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/devops_core/assets/list.min.js' id='list-min-js-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/devops_core/assets/owl.carousel.min.js' id='owl-min-js-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/devops_core/assets/isotope.pkgd.min.js' id='isotope-js-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/devops_core/assets/custom.js' id='j-custom-js-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/super-rss-reader/public/js/jquery.easy-ticker.min.js' id='jquery-easy-ticker-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/super-rss-reader/public/js/script.min.js' id='super-rss-reader-js'></script>
+<!--[if lte IE 8]>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/html5shiv.min.js' id='html5-js'></script>
+<![endif]-->
+<script type='text/javascript' id='colormag-loadmore-js-extra'>
+/* <![CDATA[ */
+var colormag_script_vars = {"no_more_posts":"No more post"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/loadmore.min.js' id='colormag-loadmore-js'></script>
+<link rel="https://api.w.org/" href="https://containerjournal.com/wp-json/" /><link rel="alternate" type="application/json" href="https://containerjournal.com/wp-json/wp/v2/posts/12211" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://containerjournal.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://containerjournal.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://wp.me/p6qbw8-3aX' />
+<link rel="alternate" type="application/json+oembed" href="https://containerjournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcontainerjournal.com%2Ftopics%2Fcontainer-ecosystems%2Fhow-docker-and-kubernetes-work-together%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://containerjournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcontainerjournal.com%2Ftopics%2Fcontainer-ecosystems%2Fhow-docker-and-kubernetes-work-together%2F&#038;format=xml" />
+			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v7.51.108-->
+			<script type="text/javascript">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+						<script>
+				(function() {
+					var hbspt = window.hbspt = window.hbspt || {};
+					hbspt.forms = hbspt.forms || {};
+					hbspt._wpFormsQueue = [];
+					hbspt.enqueueForm = function(formDef) {
+						if (hbspt.forms && hbspt.forms.create) {
+							hbspt.forms.create(formDef);
+						} else {
+							hbspt._wpFormsQueue.push(formDef);
+						}
+					}
+					if (!window.hbspt.forms.create) {
+						Object.defineProperty(window.hbspt.forms, 'create', {
+							configurable: true,
+							get: function() {
+								return hbspt._wpCreateForm;
+							},
+							set: function(value) {
+								hbspt._wpCreateForm = value;
+								while (hbspt._wpFormsQueue.length) {
+									var formDef = hbspt._wpFormsQueue.shift();
+									if (!document.currentScript) {
+										var formScriptId = 'leadin-forms-v2-js';
+										hubspot.utils.currentScript = document.getElementById(formScriptId);
+									}
+									hbspt._wpCreateForm.call(hbspt.forms, formDef);
+								}
+							},
+						});
+					}
+				})();
+			</script>
+		<style id="ctcc-css" type="text/css" media="screen">
+				#catapult-cookie-bar {
+					box-sizing: border-box;
+					max-height: 0;
+					opacity: 0;
+					z-index: 99999;
+					overflow: hidden;
+					color: #ddd;
+					position: fixed;
+					left: 0;
+					bottom: 0;
+					width: 100%;
+					background-color: #2b2b2b;
+				}
+				#catapult-cookie-bar a {
+					color: #378ebd;
+				}
+				#catapult-cookie-bar .x_close span {
+					background-color: #ffffff;
+				}
+				button#catapultCookie {
+					background:#172852;
+					color: #ffffff;
+					border: 0; padding: 6px 9px; border-radius: 3px;
+				}
+				#catapult-cookie-bar h3 {
+					color: #ddd;
+				}
+				.has-cookie-bar #catapult-cookie-bar {
+					opacity: 1;
+					max-height: 999px;
+					min-height: 30px;
+				}</style><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://containerjournal.com"><link rel="https://theeventscalendar.com/" href="https://containerjournal.com/wp-json/tribe/events/v1/" /><style type='text/css'>img#wpstats{display:none}</style> 
+ 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64483918-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments)};
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-64483918-1');
+	</script>
+
+
+	<!-- Start Alexa Certify Javascript -->
+	<script type="text/javascript">
+	_atrk_opts = { atrk_acct:"f/F7r1CJLq20jn", domain:"containerjournal.com",dynamic: true};
+	(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+	</script>
+	<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=f/F7r1CJLq20jn" style="display:none" height="1" width="1" alt="" /></noscript>
+	<!-- End Alexa Certify Javascript -->  
+
+
+ <style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #172852; }
+</style>
+	<link rel="icon" href="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoIcon2-300x251-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoIcon2-300x251-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoIcon2-300x251-180x180.png" />
+<meta name="msapplication-TileImage" content="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoIcon2-300x251-270x270.png" />
+			<style type="text/css" id="pt-cv-custom-style-2e57c61l84">.pt-cv-social-buttons a{-webkit-filter:grayscale(0.9);filter:gray;filter:grayscale(0.9)}.pt-cv-social-buttons a:hover{-webkit-filter:grayscale(0);filter:gray;filter:grayscale(0)}
+.pt-cv-meta-fields .avatar{width:30px;height:auto}
+.pt-cv-meta-fields .screen-reader-text {display:none}
+</style>
+			<!-- Container Journal Internal Styles -->		<style type="text/css"> .colormag-button,blockquote,button,input[type=reset],input[type=button],
+		input[type=submit]{background-color:#172852}
+		a,#masthead .main-small-navigation li:hover > .sub-toggle i,
+		#masthead .main-small-navigation li.current-page-ancestor > .sub-toggle i,
+		#masthead .main-small-navigation li.current-menu-ancestor > .sub-toggle i,
+		#masthead .main-small-navigation li.current-page-item > .sub-toggle i,
+		#masthead .main-small-navigation li.current-menu-item > .sub-toggle i,
+		#masthead.colormag-header-classic #site-navigation .fa.search-top:hover,
+		#masthead.colormag-header-classic #site-navigation.main-small-navigation .random-post a:hover .fa-random,
+		#masthead.colormag-header-classic #site-navigation.main-navigation .random-post a:hover .fa-random,
+		#masthead.colormag-header-classic .breaking-news .newsticker a:hover{color:#172852}
+		#site-navigation{border-top:4px solid #172852}
+		.home-icon.front_page_on,.main-navigation a:hover,.main-navigation ul li ul li a:hover,
+		.main-navigation ul li ul li:hover>a,
+		.main-navigation ul li.current-menu-ancestor>a,
+		.main-navigation ul li.current-menu-item ul li a:hover,
+		.main-navigation ul li.current-menu-item>a,
+		.main-navigation ul li.current_page_ancestor>a,.main-navigation ul li.current_page_item>a,
+		.main-navigation ul li:hover>a,.main-small-navigation li a:hover,.site-header .menu-toggle:hover,
+		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li:hover > a,
+		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li.current-menu-ancestor > a,
+		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li.current-menu-item > a,
+		#masthead.colormag-header-clean #site-navigation .menu-toggle:hover,
+		#masthead.colormag-header-clean #site-navigation.main-small-navigation .menu-toggle,
+		#masthead.colormag-header-classic #site-navigation.main-small-navigation .menu-toggle,
+		#masthead .main-small-navigation li:hover > a, #masthead .main-small-navigation li.current-page-ancestor > a,
+		#masthead .main-small-navigation li.current-menu-ancestor > a, #masthead .main-small-navigation li.current-page-item > a,
+		#masthead .main-small-navigation li.current-menu-item > a,
+		#masthead.colormag-header-classic #site-navigation .menu-toggle:hover,
+		.main-navigation ul li.focus > a,
+        #masthead.colormag-header-classic .main-navigation ul ul.sub-menu li.focus > a { background-color:#172852}
+		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li:hover,
+		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li.current-menu-ancestor,
+		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li.current-menu-item,
+		#masthead.colormag-header-classic #site-navigation .menu-toggle:hover,
+		#masthead.colormag-header-classic #site-navigation.main-small-navigation .menu-toggle,
+
+		#masthead.colormag-header-classic .main-navigation ul > li:hover > a,
+        #masthead.colormag-header-classic .main-navigation ul > li.current-menu-item > a,
+        #masthead.colormag-header-classic .main-navigation ul > li.current-menu-ancestor > a,
+        #masthead.colormag-header-classic .main-navigation ul li.focus > a { border-color:#172852}
+		.main-small-navigation .current-menu-item>a,.main-small-navigation .current_page_item>a,
+		#masthead.colormag-header-clean .main-small-navigation li:hover > a,
+		#masthead.colormag-header-clean .main-small-navigation li.current-page-ancestor > a,
+		#masthead.colormag-header-clean .main-small-navigation li.current-menu-ancestor > a,
+		#masthead.colormag-header-clean .main-small-navigation li.current-page-item > a,
+		#masthead.colormag-header-clean .main-small-navigation li.current-menu-item > a { background:#172852}
+		#main .breaking-news-latest,.fa.search-top:hover{background-color:#172852}
+		.byline a:hover,.comments a:hover,.edit-link a:hover,.posted-on a:hover,
+		.social-links i.fa:hover,.tag-links a:hover,
+		#masthead.colormag-header-clean .social-links li:hover i.fa,
+		#masthead.colormag-header-classic .social-links li:hover i.fa,
+		#masthead.colormag-header-clean .breaking-news .newsticker a:hover{color:#172852}
+		.widget_featured_posts .article-content .above-entry-meta .cat-links a,
+		.widget_call_to_action .btn--primary,.colormag-footer--classic .footer-widgets-area .widget-title span::before,
+		.colormag-footer--classic-bordered .footer-widgets-area .widget-title span::before{background-color:#172852}
+		.widget_featured_posts .article-content .entry-title a:hover{color:#172852}
+		.widget_featured_posts .widget-title{border-bottom:2px solid #172852}
+		.widget_featured_posts .widget-title span,
+		.widget_featured_slider .slide-content .above-entry-meta .cat-links a{background-color:#172852}
+		.widget_featured_slider .slide-content .below-entry-meta .byline a:hover,
+		.widget_featured_slider .slide-content .below-entry-meta .comments a:hover,
+		.widget_featured_slider .slide-content .below-entry-meta .posted-on a:hover,
+		.widget_featured_slider .slide-content .entry-title a:hover{color:#172852}
+		.widget_highlighted_posts .article-content .above-entry-meta .cat-links a{background-color:#172852}
+		.widget_block_picture_news.widget_featured_posts .article-content .entry-title a:hover,
+		.widget_highlighted_posts .article-content .below-entry-meta .byline a:hover,
+		.widget_highlighted_posts .article-content .below-entry-meta .comments a:hover,
+		.widget_highlighted_posts .article-content .below-entry-meta .posted-on a:hover,
+		.widget_highlighted_posts .article-content .entry-title a:hover{color:#172852}
+		.category-slide-next,.category-slide-prev,.slide-next,
+		.slide-prev,.tabbed-widget ul li{background-color:#172852}
+		i.fa-arrow-up, i.fa-arrow-down{color:#172852}
+		#secondary .widget-title{border-bottom:2px solid #172852}
+		#content .wp-pagenavi .current,#content .wp-pagenavi a:hover,
+		#secondary .widget-title span{background-color:#172852}
+		#site-title a{color:#172852}
+		.page-header .page-title{border-bottom:2px solid #172852}
+		#content .post .article-content .above-entry-meta .cat-links a,
+		.page-header .page-title span{background-color:#172852}
+		#content .post .article-content .entry-title a:hover,.entry-meta .byline i,
+		.entry-meta .cat-links i,.entry-meta a,.post .entry-title a:hover,.search .entry-title a:hover{color:#172852}
+		.entry-meta .post-format i{background-color:#172852}
+		.entry-meta .comments-link a:hover,.entry-meta .edit-link a:hover,.entry-meta .posted-on a:hover,
+		.entry-meta .tag-links a:hover,.single #content .tags a:hover{color:#172852}
+		.format-link .entry-content a,.more-link{background-color:#172852}
+		.count,.next a:hover,.previous a:hover,.related-posts-main-title .fa,
+		.single-related-posts .article-content .entry-title a:hover{color:#172852}
+		.pagination a span:hover{color:#172852;border-color:#172852}
+		.pagination span{background-color:#172852}
+		#content .comments-area a.comment-edit-link:hover,#content .comments-area a.comment-permalink:hover,
+		#content .comments-area article header cite a:hover,.comments-area .comment-author-link a:hover{color:#172852}
+		.comments-area .comment-author-link span{background-color:#172852}
+		.comment .comment-reply-link:hover,.nav-next a,.nav-previous a{color:#172852}
+		.footer-widgets-area .widget-title{border-bottom:2px solid #172852}
+		.footer-widgets-area .widget-title span{background-color:#172852}
+		#colophon .footer-menu ul li a:hover,.footer-widgets-area a:hover,a#scroll-up i{color:#172852}
+		.advertisement_above_footer .widget-title{border-bottom:2px solid #172852}
+		.advertisement_above_footer .widget-title span{background-color:#172852}
+		.sub-toggle{background:#172852}
+		.main-small-navigation li.current-menu-item > .sub-toggle i {color:#172852}
+		.error{background:#172852}
+		.num-404{color:#172852}
+		#primary .widget-title{border-bottom: 2px solid #172852}
+		#primary .widget-title span{background-color:#172852}
+		.related-posts-wrapper-flyout .entry-title a:hover{color:#172852}
+		.related-posts-wrapper.style-three .article-content .entry-title a:hover:before{background:#172852}
+		.human-diff-time .human-diff-time-display:hover{color:#172852} .main-navigation li, .site-header .menu-toggle { font-family: Droid Sans; } h1, h2, h3, h4, h5, h6 { font-family: Droid Serif; } body, button, input, select, textarea, p, blockquote p, .entry-meta, .more-link { font-family: Droid Sans; } .main-navigation ul li a { font-size: 13px; } #site-title a { color: #172852; } .main-navigation a, .main-navigation ul li ul li a, .main-navigation ul li.current-menu-item ul li a, .main-navigation ul li ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor ul li a, .main-navigation ul li.current-menu-ancestor ul li a, .main-navigation ul li.current_page_item ul li a { color: #f2d411; } .main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a, .main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-item ul li a:hover { color: #f2d411; } #site-navigation, #masthead.colormag-header-clean #site-navigation .inner-wrap, #masthead.colormag-header-clean--full-width #site-navigation { background-color: #172852; } .main-navigation .sub-menu, .main-navigation .children { background-color: #3f5787; } #site-navigation { border-top-color: #172852; } .colormag-button, input[type="reset"], input[type="button"], input[type="submit"], button, .more-link span { color: #f2d411; } #secondary .widget-title span { color: #f2d411; } .footer-widgets-area .widget-title span { color: #f2d411; } #colophon .tg-upper-footer-widgets .widget { background-color: #172852; } .footer-socket-wrapper .copyright { color: #172852; } .footer-socket-wrapper .copyright a { color: #172852; } #colophon .footer-menu ul li a { color: #172852; } .footer-socket-wrapper { background-color: #172852; } .below-entry-meta .byline,.elementor .tg-module-wrapper .tg-module-meta .tg-post-auther-name{display:none;} .above-entry-meta,.tg-post-categories{display:none;} .below-entry-meta .comments,.elementor .tg-module-wrapper .tg-module-meta .tg-module-comments{display:none;}
+		.menunav-menu >li.menu-item-object-category > a {
+			position: relative;
+		}
+
+		.menunav-menu >li.menu-item-object-category > a::before {
+			content: "";
+			position: absolute;
+			top: -4px;
+			left: 0;
+			right: 0;
+			height: 4px;
+			z-index: 10;
+			transition: width 0.35s;
+		}
+				.menu-item-object-category.menu-item-category-12 > a::before {
+					background: #172852;
+				}
+
+				.menu-item-object-category.menu-item-category-12:hover > a {
+					background: #172852;
+				}
+				
+				.menu-item-object-category.menu-item-category-10 > a::before {
+					background: #172852;
+				}
+
+				.menu-item-object-category.menu-item-category-10:hover > a {
+					background: #172852;
+				}
+				
+				.menu-item-object-category.menu-item-category-11 > a::before {
+					background: #172852;
+				}
+
+				.menu-item-object-category.menu-item-category-11:hover > a {
+					background: #172852;
+				}
+				
+				.menu-item-object-category.menu-item-category-81 > a::before {
+					background: #f2d411;
+				}
+
+				.menu-item-object-category.menu-item-category-81:hover > a {
+					background: #f2d411;
+				}
+				
+				.menu-item-object-category.menu-item-category-74 > a::before {
+					background: #172852;
+				}
+
+				.menu-item-object-category.menu-item-category-74:hover > a {
+					background: #172852;
+				}
+				
+				.menu-item-object-category.menu-item-category-1345 > a::before {
+					background: #f2d411;
+				}
+
+				.menu-item-object-category.menu-item-category-1345:hover > a {
+					background: #f2d411;
+				}
+				
+				.menu-item-object-category.menu-item-category-71 > a::before {
+					background: #f2d411;
+				}
+
+				.menu-item-object-category.menu-item-category-71:hover > a {
+					background: #f2d411;
+				}
+				
+				.menu-item-object-category.menu-item-category-1204 > a::before {
+					background: #f2d411;
+				}
+
+				.menu-item-object-category.menu-item-category-1204:hover > a {
+					background: #f2d411;
+				}
+				
+				.menu-item-object-category.menu-item-category-1335 > a::before {
+					background: #f2d411;
+				}
+
+				.menu-item-object-category.menu-item-category-1335:hover > a {
+					background: #f2d411;
+				}
+				
+				.menu-item-object-category.menu-item-category-70 > a::before {
+					background: #172852;
+				}
+
+				.menu-item-object-category.menu-item-category-70:hover > a {
+					background: #172852;
+				}
+				
+				.menu-item-object-category.menu-item-category-1 > a::before {
+					background: #172852;
+				}
+
+				.menu-item-object-category.menu-item-category-1:hover > a {
+					background: #172852;
+				}
+				
+				.menu-item-object-category.menu-item-category-75 > a::before {
+					background: #f2d411;
+				}
+
+				.menu-item-object-category.menu-item-category-75:hover > a {
+					background: #f2d411;
+				}
+				#colophon { background-position: center center; }#colophon { background-size: auto; }#colophon { background-attachment: scroll; }#colophon { background-repeat: repeat; }</style>
+					<link rel="stylesheet" type="text/css" id="wp-custom-css" href="https://containerjournal.com/?custom-css=76fadfde6f" />
+		<style type="text/css">/** Mega Menu CSS: fs **/</style>
+<style>
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 979px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+</style>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/80877830/CJ_Header_Top_728x90', [728, 90], 'div-gpt-ad-1530627164208-0').addService(googletag.pubads());
+    googletag.defineSlot('/80877830/CJ', [300, 250], 'div-gpt-ad-1530627164208-1').addService(googletag.pubads());
+    googletag.defineOutOfPageSlot('/80877830/CJ_OOP', 'div-gpt-ad-1538595708371-0').addService(googletag.pubads());
+    googletag.pubads().setTargeting("test", "");
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script></head>
+
+<body class="post-template-default single single-post postid-12211 single-format-standard custom-background wp-custom-logo tribe-no-js mega-menu-primary mega-menu-secondary  box-layout" itemscope="itemscope" itemtype="http://schema.org/Blog" dir="ltr" >
+
+
+
+
+<div id="page" class="hfeed site">
+
+	
+	
+	<header id="masthead" class="site-header clearfix " role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
+		<div id="header-text-nav-container" class="clearfix">
+
+			
+							<div class="news-bar">
+				<div class="inner-wrap clearfix">
+					
+		<div class="date-in-header">
+			Saturday, April 24, 2021		</div>
+
+		
+							<div class="breaking-news">
+			<strong class="breaking-news-latest">
+							</strong>
+			<ul class="newsticker">
+									<li>
+						<a href="https://containerjournal.com/features/red-hat-simplifies-kubernetes-cluster-management/" title="Red Hat Simplifies Kubernetes Cluster Management">Red Hat Simplifies Kubernetes Cluster Management</a>
+					</li>
+									<li>
+						<a href="https://containerjournal.com/kubeconcnc/a-recipe-for-enterprise-devops-with-kubernetes/" title="A Recipe for Enterprise DevOps With Kubernetes">A Recipe for Enterprise DevOps With Kubernetes</a>
+					</li>
+									<li>
+						<a href="https://containerjournal.com/editorial-calendar/kubernetes-in-the-enterprise/how-containers-and-vms-can-coexist/" title="How Containers and VMs Can Coexist">How Containers and VMs Can Coexist</a>
+					</li>
+									<li>
+						<a href="https://containerjournal.com/kubeconcnc/10-steps-to-reduce-cloud-waste/" title="10 Steps to Reduce Cloud Waste">10 Steps to Reduce Cloud Waste</a>
+					</li>
+									<li>
+						<a href="https://containerjournal.com/kubeconcnc/service-mesh-extensibility-explained/" title="Service Mesh Extensibility Explained">Service Mesh Extensibility Explained</a>
+					</li>
+							</ul>
+		</div>
+		
+					
+		
+		<div class="social-links clearfix">
+			<ul>
+				<li><a href="https://www.facebook.com/containerjournal/" ><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/ContainerBlog" ><i class="fa fa-twitter"></i></a></li><li><a href="https://www.youtube.com/channel/UC-zcE077X98oTEDPwKkDQxQ" ><i class="fa fa-youtube"></i></a></li>
+				<li><a href="https://news.google.com/publications/CAAqMQgKIitDQklTR2dnTWFoWUtGR052Ym5SaGFXNWxjbXB2ZFhKdVlXd3VZMjl0S0FBUAE?hl=en-US&#038;gl=US&#038;ceid=US%3Aen" ><i class="fa fa-google" style="color:#172852"></i></a></li>			</ul>
+		</div><!-- .social-links -->
+						</div>
+			</div>
+		
+				
+				
+		<div class="inner-wrap">
+
+			<div id="header-text-nav-wrap" class="clearfix">
+				<div id="header-left-section">
+											<div id="header-logo-image">
+							<a href="https://containerjournal.com/" class="custom-logo-link" rel="home"><img width="7937" height="2137" src="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoStacked.jpg" class="custom-logo" alt="Container Journal" srcset="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoStacked.jpg 7937w, https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoStacked-300x81.jpg 300w, https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoStacked-768x207.jpg 768w, https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoStacked-1024x276.jpg 1024w" sizes="(max-width: 7937px) 100vw, 7937px" /></a>						</div><!-- #header-logo-image -->
+											<div id="header-text" class="screen-reader-text">
+													<h3 id="site-title" itemprop="headline" >
+								<a href="https://containerjournal.com/" title="Container Journal" rel="home">Container Journal</a>
+							</h3>
+						
+												<p id="site-description" itemprop="description" >Long Live Containerization!</p>
+						<!-- #site-description -->
+					</div><!-- #header-text -->
+				</div><!-- #header-left-section -->
+				<div id="header-right-section">
+											<div id="header-right-sidebar" class="clearfix">
+							<aside id="ai_widget-3" class="widget ai_widget clearfix ai-viewport-1 ai-viewport-2"><div class='code-block code-block-1' style='margin: 8px 0 8px auto; text-align: right; display: block; clear: both;'>
+<!-- /80877830/CJ_Header_Top_728x90 -->
+<div id='div-gpt-ad-1530627164208-0' style='height:90px; width:728px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1530627164208-0'); });
+</script>
+</div></div>
+</aside>						</div>
+										</div><!-- #header-right-section -->
+
+			</div><!-- #header-text-nav-wrap -->
+
+		</div><!-- .inner-wrap -->
+
+		
+				
+				
+	    <div id="mega-menu-wrap-secondary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div></div><ul id="mega-menu-secondary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="100" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-8790' id='mega-menu-item-8790'><a class="mega-menu-link" href="https://containerjournal.com/" tabindex="0">Home</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-8801' id='mega-menu-item-8801'><a class="mega-menu-link" href="https://containerjournal.com/webinars/" aria-haspopup="true" aria-expanded="false" tabindex="0">Webinars<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-8869' id='mega-menu-item-8869'><a class="mega-menu-link" href="https://containerjournal.com/webinars/">Upcoming</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-8802' id='mega-menu-item-8802'><a class="mega-menu-link" href="https://containerjournal.com/on-demand-webinars/">On-Demand</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-8792' id='mega-menu-item-8792'><a class="mega-menu-link" href="https://containerjournal.com/library/" tabindex="0">Library</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-8793' id='mega-menu-item-8793'><a class="mega-menu-link" href="https://containerjournal.com/contributors/" tabindex="0">Contributors</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-8794' id='mega-menu-item-8794'><a class="mega-menu-link" href="https://containerjournal.com/about/" tabindex="0">About</a></li></ul></div>	
+					<div class="mega-menu-integrate">
+				<div class="inner-wrap2 clearfix">
+					<div id="mega-menu-wrap-primary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"></div></div><ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100" data-sticky-enabled="true" data-sticky-mobile="false" data-sticky-offset="0" data-sticky-expand="false"><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-current-post-ancestor mega-current-menu-parent mega-current-post-parent mega-align-bottom-left mega-menu-flyout mega-menu-item-8820' id='mega-menu-item-8820'><a class="mega-menu-link" href="https://containerjournal.com/category/features/" tabindex="0">Features</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-8380' id='mega-menu-item-8380'><a class="mega-menu-link" href="https://containerjournal.com/category/news/news-topics/" aria-haspopup="true" aria-expanded="false" tabindex="0">News<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-8383' id='mega-menu-item-8383'><a class="mega-menu-link" href="https://containerjournal.com/category/news/latest-news/">Latest News</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-8382' id='mega-menu-item-8382'><a class="mega-menu-link" href="https://containerjournal.com/category/news/news-releases/">News Releases</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-current-post-ancestor mega-current-menu-parent mega-current-post-parent mega-align-bottom-left mega-menu-flyout mega-menu-item-129' id='mega-menu-item-129'><a class="mega-menu-link" href="https://containerjournal.com/category/topics/container-ecosystems/" tabindex="0">Container Ecosystems</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-align-bottom-left mega-menu-flyout mega-menu-item-126' id='mega-menu-item-126'><a class="mega-menu-link" href="https://containerjournal.com/category/topics/container-management/" tabindex="0">Container Management</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-align-bottom-left mega-menu-flyout mega-menu-item-127' id='mega-menu-item-127'><a class="mega-menu-link" href="https://containerjournal.com/category/topics/container-networking/" tabindex="0">Container Networking</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-align-bottom-left mega-menu-flyout mega-menu-item-128' id='mega-menu-item-128'><a class="mega-menu-link" href="https://containerjournal.com/category/topics/container-security/" tabindex="0">Container Security</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-8850' id='mega-menu-item-8850'><div class='mega-search-wrap'><form class='mega-search expand-to-right mega-search-closed' role='search' action='https://containerjournal.com/'>
+				        <span class='dashicons dashicons-search search-icon'></span>
+				        <input type='submit' value='Search'>
+				        <input type='text' aria-label='Search...' data-placeholder='Search...' name='s'>
+				        
+				    </form></div></li></ul></div>				</div>
+			</div>
+		
+		
+			
+		</div><!-- #header-text-nav-container -->
+
+		
+	</header>
+
+		
+	<div id="main" class="clearfix" role="main" >
+		
+		
+		<div class="inner-wrap clearfix">
+			
+		
+
+<div id="primary">
+	<div id="content" class="clearfix">
+
+		
+			
+<article id="post-12211" class="post-12211 post type-post status-publish format-standard has-post-thumbnail hentry category-container-ecosystems category-features category-topics tag-container-orchestration-platform tag-containers tag-docker tag-kubernetes tag-open-source" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+	
+	
+	
+			<div class="featured-image" itemprop="image" itemtype="http://schema.org/ImageObject" >
+							<img width="770" height="330" src="https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry.jpg" class="attachment-colormag-featured-image size-colormag-featured-image wp-post-image" alt="Docker Kubernetes" loading="lazy" srcset="https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry.jpg 770w, https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry-300x129.jpg 300w, https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry-768x329.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" />										<meta itemprop="url" content="https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry.jpg">
+					</div>
+
+			
+	<div class="article-content clearfix">
+
+		
+		<div class="above-entry-meta"><span class="cat-links"><a href="https://containerjournal.com/category/topics/container-ecosystems/"  rel="category tag">Container Ecosystems</a>&nbsp;<a href="https://containerjournal.com/category/features/" style="background:#172852" rel="category tag">Features</a>&nbsp;<a href="https://containerjournal.com/category/topics/" style="background:#172852" rel="category tag">Topics</a>&nbsp;</span></div>
+			<header class="entry-header">
+				<h1 class="entry-title" itemprop="headline" >
+					Best of 2020: How Docker and Kubernetes Work Together				</h1>
+			</header>
+
+			<div class="below-entry-meta ">
+			<span class="posted-on"><a href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/" title="2:00 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2020-12-29T02:00:20-05:00" itemprop="datePublished" >December 29, 2020</time><time class="updated" datetime="2020-12-23T15:52:32-05:00" itemprop="dateModified" >December 23, 2020</time></a></span>
+			<span class="byline" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person" ><span class="author vcard" itemprop="name"><i class="fa fa-user"></i><a class="url fn n" href="https://containerjournal.com/author/pavan-belagatti/" title="Pavan Belagatti">Pavan Belagatti</a></span></span>
+
+			
+			<span class="tag-links" itemprop="keywords" ><i class="fa fa-tags"></i><a href="https://containerjournal.com/tag/container-orchestration-platform/" rel="tag">container orchestration platform</a>, <a href="https://containerjournal.com/tag/containers/" rel="tag">containers</a>, <a href="https://containerjournal.com/tag/docker/" rel="tag">docker</a>, <a href="https://containerjournal.com/tag/kubernetes/" rel="tag">kubernetes</a>, <a href="https://containerjournal.com/tag/open-source/" rel="tag">open source</a></span></div>
+				<div class="below-entry-meta">
+		<img src="https://containerjournal.com/wp-content/uploads/2020/05/Pavan-Headshot-150x150.jpg" width="32" height="32" alt="Pavan Belagatti" class="avatar avatar-32 wp-user-avatar wp-user-avatar-32 alignnone photo" />		<span class="sbyline"><span class="author vcard"> <a class="url fn n" href="https://containerjournal.com/author/pavan-belagatti/"><span class='jcolor'>by</span> Pavan Belagatti </a></span></span>
+		</div>
+		
+		
+		<div class="entry-content clearfix" itemprop="articleBody" >
+			<p><em>As we close out 2020, we at Container Journal wanted to highlight the five most popular articles of the year. Following is the third in our series of the Best of 2020.</em></p>
+<p>As more and more companies are embracing the cloud-native DevOps journey, it is important to understand how tools such as Docker and Kubernetes enable digital transformation.</p>
+<p>As companies migrate their infrastructure and architecture to match the ongoing technology trend of a cloud-native and data-driven era, we’ve seen a rise in interest for cloud computing, containerization and orchestration solutions. When talking about cloud-native, it is hard to ignore names like Docker and Kubernetes, which have revolutionized the way we create, develop, deploy and ship software at scale.</p>
+<h2>Docker In Action</h2>
+<p>Docker makes it really easy for developers by helping them run their application in an identical environment without any hassles such as dependencies or OS issues since a Docker container provides its own OS libraries. Before Docker was introduced, a developer would send code to a tester, but because of various dependency issues many times the code couldn&#8217;t run on the tester’s machine, yet it worked fine on the developer’s machine.</p>
+<p>After the introduction of Docker, things changed: The tester and developer now have the same system running on <a href="https://jfrog.com/knowledge-base/what-is-docker-and-why-should-you-use-it/" target="_blank" rel="noopener noreferrer">Docker container</a>, so there is no more chaos—both are able to run the application in the Docker environment without any difficulties or differences in dependencies.</p>
+<h2><b>Build and Deploy Containers With Docker</b></h2>
+<p>Docker helps developers create and deploy software within containers. It’s an open source tool that allows you to “Build, Ship, and Run applications, Anywhere.”</p>
+<p>With Docker, you can create a file called a Dockerfile. Dockerfile then defines a build process, and when fed to the ‘docker build’ command, it will create an immutable image. You can think of the Docker image as a snapshot of the application and its dependencies. When a user wants to start it up, they use the ‘docker run’ command to run it anywhere the docker daemon is supported and running.</p>
+<p>Docker also has a cloud-based repository known as Docker Hub. You can use Docker Hub as a registry to store and distribute the container images you build.</p>
+<h2>Kubernetes in Action</h2>
+<p>In a Docker cluster environment, some tasks need to be taken care such as scheduling, communication and scalability. These tasks should be handled by an orchestration tool such as Kubernetes, which is one of the most popular projects in open source history.</p>
+<p>Kubernetes is an open source container orchestration tool. It handles the main container management responsibilities including container deployment, scaling, healing and load balancing of containers.</p>
+<p>Kubernetes is defined by states, not processes. After defining a pod, Kubernetes works to ensure it is always running. If a container goes down or is killed, it tries to start a new one. If a replication controller is defined with three replicas, it will always try to run that number, starting and stopping containers as necessary.</p>
+<h2>Docker and Kubernetes Work Together</h2>
+<p>Docker helps to “create” containers, and Kubernetes allows you to “manage” them at runtime. Use Docker for packaging and shipping the app. Employ Kubernetes to deploy and scale your app. Startups or small companies with fewer containers usually can manage them without having to use Kubernetes, but as the companies grow, their infrastructure needs will rise; hence, the number of containers will increase, which can be difficult to manage. This is where Kubernetes comes into play.</p>
+<p>When used together, Docker and Kubernetes serve as digital transformation enablers and tools for modern cloud architecture. Using both has become a new norm in the industry for faster application deployments and releases. While building your stack, it is highly recommended to understand the high-level differences between Docker and Kubernetes.</p>
+<p>Let containers help to unhitch the mysteries of cloud computing regardless of the cloud journey you choose.</p>
+<p><b>Let’s take a simple scenario of a CI/CD setup using Docker and Kubernetes</b>:</p>
+<p><a href="https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow.png"><img loading="lazy" class="aligncenter size-full wp-image-12212" src="https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow.png" alt="" width="1600" height="900" srcset="https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow.png 1600w, https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow-300x169.png 300w, https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow-1024x576.png 1024w, https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow-768x432.png 768w, https://containerjournal.com/wp-content/uploads/2020/05/ci-cd-flow-1536x864.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px" /></a></p>
+<ol>
+<li>The developers&#8217; code is pushed into the Git.</li>
+<li>The build and test happen with Maven in Jenkins for C.</li>
+<li> Using Ansible as a deployment tool, we will write Ansible playbooks to deploy on AWS.</li>
+<li>We will introduce JFrog Artifactory as the repository manager after the build process from Jenkins; the artifacts will be stored in Artifactory.</li>
+<li>Ansible can communicate with Artifactory, take the artifacts and deploy them onto the Amazon EC2 instance.</li>
+<li>The SonarQube can help in reviewing the code and will give static code analysis.</li>
+<li>We then introduce Docker as a containerization tool. Just like the way we did on Amazon EC2, we will deploy the app on Docker container by creating a Docker file and Docker images.</li>
+<li>Once this above setup is done, we will introduce Kubernetes to create a Kubernetes cluster, and by using Docker images, we will be able to deploy.</li>
+<li>Finally, we will use Nagios to monitor the infrastructure.</li>
+</ol>
+<h2>Conclusion</h2>
+<p>Microservices help companies convert large monolithic applications into smaller components so they can package and deploy them separately without any dependency. Microservices give apps more agility, scalability and resilience—with microservices, apps can be updated, changed and redeployed faster.</p>
+<p>That is where tools such as Docker and Kubernetes work together to help companies deploy and scale applications as necessary.</p>
+<p>Kubernetes has been spreading like wildfire in the cloud market, and the adoption is increasing every year. Companies including IBM, Amazon, Microsoft, Google and Red Hat offer managed Kubernetes under the containers as a service (CaaS) or platform as a service (PaaS) model. Many global companies are already using Kubernetes in production on a massive scale.</p>
+<p>Docker is also a fantastic piece of technology. According to the &#8220;<a href="https://info.flexerasoftware.com/SLO-WP-State-of-the-Cloud-2019?ref=hackernoon.com" target="_blank" rel="noopener noreferrer">RightScale 2019 State of the Cloud Report</a>,&#8221; Docker is winning the container segment, with a tremendous year-over-year adoption growth.</p>
+<p>Millions of developers are dependent on Docker, <a href="https://www.docker.com/blog/5-years-later-docker-journey/" target="_blank" rel="noopener noreferrer">downloading 100 million container images a day</a>, and more than 450 organizations have adopted Docker Enterprise Edition, including some of the biggest enterprises in the globe. Many more years to come, Docker and Kubernetes are not going anywhere.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-12211" class="share-twitter sd-button share-icon no-text" href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-12211" class="share-facebook sd-button share-icon no-text" href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-12211" class="share-linkedin sd-button share-icon no-text" href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/?share=reddit" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div>		</div>
+
+			</div>
+
+			<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+							<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://containerjournal.com/wp-content/uploads/2015/05/cropped-ContainerJournalLogoStacked.jpg">
+					<meta itemprop="width" content="7937">
+					<meta itemprop="height" content="2137">
+				</div>
+							<meta itemprop="name" content="Container Journal">
+		</div>
+				<meta itemprop="dateModified" content="2020-12-23T15:52:32-05:00">
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/">
+					<div class="meta_post_image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+				<meta itemprop="url" content="https://containerjournal.com/wp-content/uploads/2019/04/SUSE-Kubernetes-Cloud-Foundry.jpg">
+				<meta itemprop="width" content="770">
+				<meta itemprop="height" content="330">
+			</div>
+			</article>
+
+		
+	</div><!-- #content -->
+
+	
+
+			<ul class="default-wp-page clearfix">
+				<li class="previous"><a href="https://containerjournal.com/topics/container-ecosystems/openstacks-complicated-kubernetes-relationship/" rel="prev"><span class="meta-nav">&larr;</span> Best of 2020: OpenStack&#8217;s Complicated Kubernetes Relationship</a></li>
+				<li class="next"><a href="https://containerjournal.com/topics/container-ecosystems/vmware-releases-state-of-kubernetes-2020-report/" rel="next">Best of 2020: VMware Releases State of Kubernetes 2020 Report <span class="meta-nav">&rarr;</span></a></li>
+			</ul>
+				
+					<div class="author-box">
+				<div class="author-img"><img src="https://containerjournal.com/wp-content/uploads/2020/05/Pavan-Headshot-150x150.jpg" width="100" height="100" alt="Pavan Belagatti" class="avatar avatar-100 wp-user-avatar wp-user-avatar-100 alignnone photo" /></div>
+				<div class="author-description-wrapper">
+					<h4 class="author-name">Pavan Belagatti</h4>
+
+					<p class="author-description">Pavan is a DevOps influencer and a contributing author at various technology platforms. He talks about cloud-native technologies and digital transformation strategies.</p>
+
+						<ul class="author-social-sites">
+									</ul>
+											<p class="author-url">Pavan Belagatti has 2 posts and counting.							<a href="https://containerjournal.com/author/pavan-belagatti/">See all posts by Pavan Belagatti</a>
+						</p>
+									</div>
+			</div>
+		
+		
+		
+	
+	
+</div><!-- #primary -->
+
+
+<div id="secondary" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar" >
+			
+		<aside id="custom_html-13" class="widget_text widget widget_custom_html clearfix"><h3 class="widget-title"><span>TechStrong TV &#8211; Live</span></h3><div class="textwidget custom-html-widget"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/183014/embed?muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<center><a href="https://digitalanarchist.com/">Watch latest episodes and shows</a> </center></div></aside><style type="text/css">body #gform_wrapper_1 .gform_footer .gform_button {border-style: solid;height:37px;background-color:#172852;font-size:12px;width:315px;border-color:#000000;border-radius:10px;-web-border-radius:10px;-moz-border-radius:10px;padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px;border-width: 0px;}body #gform_wrapper_1 .gform_page_footer .gform_button{border-style: solid;height:37px;background-color:#172852;font-size:12px;width:315px;border-color:#000000;border-radius:10px;-web-border-radius:10px;-moz-border-radius:10px;padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px;border-width: 0px;}body #gform_wrapper_1 .gform_page_footer .gform_button:hover {border-style: solid;}body #gform_wrapper_1 .gform_footer .gform_button:hover {border-style: solid;}body #gform_wrapper_1 .gform_footer button.mdc-button {height:37px;background-color:#172852;font-size:12px;width:315px;border-color:#000000;border-radius:10px;-web-border-radius:10px;-moz-border-radius:10px;padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px;border-width: 0px;}body #gform_wrapper_1 .gform_footer button.mdc-button:hover {}body #gform_wrapper_1 .gform_footer {text-align:left;}body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=text],body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=email],body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=tel],body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=url],body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=password]{width:225px;max-width:100%;border-width: 1px;}body #gform_wrapper_1 div.ginput_complex.ginput_container.ginput_container_name,body #gform_wrapper_1 div.ginput_complex.ginput_container,body #gform_wrapper_1 li.gfield .ginput_container.ginput_container_list {width: 225px;max-width:100%;}body #gform_wrapper_1 .gform_body .gform_fields div.ginput_complex.ginput_container.ginput_container_name input[type=text],body #gform_wrapper_1 .gform_body .gform_fields div.ginput_complex.ginput_container.ginput_container_name select,body #gform_wrapper_1 .gform_body .gform_fields div.ginput_complex.ginput_container input[type="text"],body #gform_wrapper_1 .gform_body .gform_fields div.ginput_complex.ginput_container input select,body #gform_wrapper_1 .gform_body .gform_fields li.gfield .ginput_container.ginput_container_list input[type=text] {max-width:100%;width:100%}body #gform_wrapper_1.gform_wrapper .gform_body .gform_fields .gfield_time_ampm select {width: calc( 3rem + 20px );}body #gform_wrapper_1.gform_wrapper .gform_body .gform_fields .gfield_time_hour input,body #gform_wrapper_1.gform_wrapper .gform_body .gform_fields .gfield_time_minute input {width: calc( 3rem + 8px );}body #gform_wrapper_1 .gform_body .gform_fields .gfield textarea {border-width: 1px;border-style:solid;}body #gform_wrapper_1 .gform_body .gform_page_footer .gform_next_button {border-style: solid;background: #172852;border-color: #000000;font-size: 12px;height: 37px;border-radius: 10px;-web-border-radius: 10px;-moz-border-radius: 10px;}body #gform_wrapper_1 .gform_body .gform_page_footer .gform_next_button:hover {}body #gform_wrapper_1 .gform_body .gform_page_footer .gform_previous_button {background: #172852;border-color: #000000;font-size: 12px;height: 37px;border-radius: 10px;-web-border-radius: 10px;-moz-border-radius: 10px;}body #gform_wrapper_1 .gform_body .gform_page_footer .gform_previous_button:hover {}body #gform_wrapper_1 .gform_body .gform_page_footer .gform_button {background: #172852;border-color: #000000;font-size: 12px;height: 37px;border-radius: 10px;-web-border-radius: 10px;-moz-border-radius: 10px;}body #gform_wrapper_1 .gform_body .gform_page_footer .gform_button:hover {}/* Styling for Tablets */@media only screen and ( max-width: 800px ) and ( min-width:481px ) {}/* Styling for phones */@media only screen and ( max-width: 480px ) {}/*Option to add custom CSS */</style><aside id="custom_html-4" class="widget_text widget widget_custom_html clearfix"><h3 class="widget-title"><span>SUBSCRIBE TO CJ NEWSLETTER</span></h3><div class="textwidget custom-html-widget"><div class="sue-panel" data-url="" data-target="self" style="background-color:#ffffff;color:#333333;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;box-shadow:0px 1px 2px #eeeeee;-moz-box-shadow:0px 1px 2px #eeeeee;-webkit-box-shadow:0px 1px 2px #eeeeee;border:1px solid #e5e5e5"><div class="sue-panel-content sue-content-wrap" style="text-align:left">
+
+                <div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/topics/container-ecosystems/how-docker-and-kubernetes-work-together/#gf_1'>
+                        <div class='gform_heading'>
+                            <span class='gform_description'>Get breaking news, free eBooks and upcoming events delivered to your inbox.
+</span>
+                        </div>
+                        <div class='gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id='field_1_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible' ><label class='gfield_label' for='input_1_1' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='text' value='' class='large' tabindex='49'  placeholder='Your Email' aria-required="true" aria-invalid="false" />
+                        </div></li><li id='field_1_2'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div class="gsection_description"><a href="https://containerjournal.com/privacy-policy/">View Container Journal <u>Privacy Policy</u></a></div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Subscribe Now' tabindex='50' onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=1&amp;tabindex=49' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjFhMGNiODY3MjY1MWU1MDhiY2Q1ZjFlM2ZkY2UwZDk4Il0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 1, 'https://containerjournal.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://containerjournal.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );</script><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>
+
+</div></div></div></aside><aside id="custom_html-12" class="widget_text widget widget_custom_html clearfix"><h3 class="widget-title"><span>MOST READ</span></h3><div class="textwidget custom-html-widget"><div class="pt-cv-wrapper"><div class="pt-cv-view pt-cv-grid pt-cv-colsys" id="pt-cv-view-b2e105fbc5"><div data-id="pt-cv-page-1" class="pt-cv-page" data-cvc="1"><div class="col-md-12 col-sm-12 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="14306"><div class='pt-cv-ifield'><h4 class="pt-cv-title"><a href="https://containerjournal.com/features/when-is-service-mesh-worth-it/" class="_self cvplbd" target="_self" rel="noopener">When Is Service Mesh Worth It?</a></h4>
+<div class="pt-cv-meta-fields"><span class="entry-date"> <time datetime="2021-03-31T02:00:24-04:00">March 31, 2021</time></span></div></div></div>
+<div class="col-md-12 col-sm-12 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="14246"><div class='pt-cv-ifield'><h4 class="pt-cv-title"><a href="https://containerjournal.com/features/kubernetes-enables-devops-as-a-service-daas/" class="_self cvplbd" target="_self" rel="noopener">Kubernetes Enables DevOps-as-a-Service (DaaS)</a></h4>
+<div class="pt-cv-meta-fields"><span class="entry-date"> <time datetime="2021-03-24T02:00:08-04:00">March 24, 2021</time></span></div></div></div>
+<div class="col-md-12 col-sm-12 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="14288"><div class='pt-cv-ifield'><h4 class="pt-cv-title"><a href="https://containerjournal.com/features/gitops-is-essential-for-5g-deployment/" class="_self cvplbd" target="_self" rel="noopener">GitOps is Essential for 5G Deployment</a></h4>
+<div class="pt-cv-meta-fields"><span class="entry-date"> <time datetime="2021-03-26T02:00:45-04:00">March 26, 2021</time></span></div></div></div>
+<div class="col-md-12 col-sm-12 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="14308"><div class='pt-cv-ifield'><h4 class="pt-cv-title"><a href="https://containerjournal.com/topics/container-ecosystems/kubernetes-supports-nine-pillars-of-sre/" class="_self cvplbd" target="_self" rel="noopener">Kubernetes Supports Nine Pillars of SRE</a></h4>
+<div class="pt-cv-meta-fields"><span class="entry-date"> <time datetime="2021-03-30T02:00:17-04:00">March 30, 2021</time></span></div></div></div>
+<div class="col-md-12 col-sm-12 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="14294"><div class='pt-cv-ifield'><h4 class="pt-cv-title"><a href="https://containerjournal.com/features/red-hat-aws-extend-openshift-alliance/" class="_self cvplbd" target="_self" rel="noopener">Red Hat, AWS Extend OpenShift Alliance</a></h4>
+<div class="pt-cv-meta-fields"><span class="entry-date"> <time datetime="2021-03-26T12:26:12-04:00">March 26, 2021</time></span></div></div></div></div></div></div>			<style type="text/css" id="pt-cv-inline-style-2eeb3b3ic8">#pt-cv-view-b2e105fbc5 .pt-cv-content-item { padding-bottom: 0px !important; }
+#pt-cv-view-b2e105fbc5  { margin-bottom: 0px !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-ifield { padding-bottom: 0px !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-title a, #pt-cv-view-b2e105fbc5  .panel-title { font-size: 14px !important; line-height: 1.3 !important; color: #000000 !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-carousel-caption  { background-color: rgba(51,51,51,.6) !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-specialp { background-color: #CC3333 !important }
+#pt-cv-view-b2e105fbc5 .pt-cv-specialp * { color: #fff !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-pficon  { color: #bbb !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-readmore  { color: #ffffff !important; background-color: #00aeef !important; }
+#pt-cv-view-b2e105fbc5 .pt-cv-readmore:hover  { color: #ffffff !important; background-color: #00aeef !important; }
+#pt-cv-view-b2e105fbc5  + .pt-cv-pagination-wrapper .pt-cv-more , #pt-cv-view-b2e105fbc5  + .pt-cv-pagination-wrapper .pagination .active a { color: #ffffff !important; background-color: #00aeef !important; }</style>
+			</div></aside><aside id="colormag_featured_posts_small_thumbnails-2" class="widget widget_featured_posts widget_featured_posts_small_thumbnails widget_featured_meta clearfix">		<h3 class="widget-title" ><span >RECENT POSTS</span></h3>		<div class="following-post">
+							<div class="single-article clearfix " >
+					<figure><a href="https://containerjournal.com/features/red-hat-simplifies-kubernetes-cluster-management/" title="Red Hat Simplifies Kubernetes Cluster Management"><img width="130" height="90" src="https://containerjournal.com/wp-content/uploads/2020/10/clusters-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Red Hat Simplifies Kubernetes Cluster Management" loading="lazy" title="Red Hat Simplifies Kubernetes Cluster Management" srcset="https://containerjournal.com/wp-content/uploads/2020/10/clusters-130x90.jpg 130w, https://containerjournal.com/wp-content/uploads/2020/10/clusters-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px" /></a></figure>					<div class="article-content">
+						<div class="above-entry-meta"><span class="cat-links"><a href="https://containerjournal.com/category/topics/container-management/" style="background:#172852" rel="category tag">Container Management</a>&nbsp;<a href="https://containerjournal.com/category/features/" style="background:#172852" rel="category tag">Features</a>&nbsp;<a href="https://containerjournal.com/category/topics/" style="background:#172852" rel="category tag">Topics</a>&nbsp;</span></div>						<h3 class="entry-title">
+							<a href="https://containerjournal.com/features/red-hat-simplifies-kubernetes-cluster-management/" title="Red Hat Simplifies Kubernetes Cluster Management">Red Hat Simplifies Kubernetes Cluster Management</a>
+						</h3>
+
+						
+						<div class="below-entry-meta ">
+							<span class="posted-on"><a href="https://containerjournal.com/features/red-hat-simplifies-kubernetes-cluster-management/" title="9:51 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2021-04-23T09:51:47-04:00">April 23, 2021</time></a></span>							<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://containerjournal.com/author/mikevizard/" title="Mike Vizard">Mike Vizard</a></span></span>
+							<span class="comments"><i class="fa fa-comment"></i><a href="https://containerjournal.com/features/red-hat-simplifies-kubernetes-cluster-management/#respond" itemprop="discussionURL"><span class="dsq-postid" data-dsqidentifier="14469 https://containerjournal.com/?p=14469">0</span></a></span>
+													</div>
+					</div>
+				</div>
+								<div class="single-article clearfix " >
+					<figure><a href="https://containerjournal.com/kubeconcnc/a-recipe-for-enterprise-devops-with-kubernetes/" title="A Recipe for Enterprise DevOps With Kubernetes"><img width="130" height="90" src="https://containerjournal.com/wp-content/uploads/2021/04/chefs-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="A Recipe for Enterprise DevOps With Kubernetes" loading="lazy" title="A Recipe for Enterprise DevOps With Kubernetes" srcset="https://containerjournal.com/wp-content/uploads/2021/04/chefs-130x90.jpg 130w, https://containerjournal.com/wp-content/uploads/2021/04/chefs-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px" /></a></figure>					<div class="article-content">
+						<div class="above-entry-meta"><span class="cat-links"><a href="https://containerjournal.com/category/topics/container-ecosystems/"  rel="category tag">Container Ecosystems</a>&nbsp;<a href="https://containerjournal.com/category/kubeconcnc/"  rel="category tag">KubeCon + CNC EU 2021</a>&nbsp;<a href="https://containerjournal.com/category/editorial-calendar/kubernetes-in-the-enterprise/"  rel="category tag">Kubernetes in the Enterprise</a>&nbsp;</span></div>						<h3 class="entry-title">
+							<a href="https://containerjournal.com/kubeconcnc/a-recipe-for-enterprise-devops-with-kubernetes/" title="A Recipe for Enterprise DevOps With Kubernetes">A Recipe for Enterprise DevOps With Kubernetes</a>
+						</h3>
+
+						
+						<div class="below-entry-meta ">
+							<span class="posted-on"><a href="https://containerjournal.com/kubeconcnc/a-recipe-for-enterprise-devops-with-kubernetes/" title="3:30 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2021-04-23T03:30:13-04:00">April 23, 2021</time></a></span>							<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://containerjournal.com/author/mayank-kumar/" title="Mayank Kumar">Mayank Kumar</a></span></span>
+							<span class="comments"><i class="fa fa-comment"></i><a href="https://containerjournal.com/kubeconcnc/a-recipe-for-enterprise-devops-with-kubernetes/#respond" itemprop="discussionURL"><span class="dsq-postid" data-dsqidentifier="14462 https://containerjournal.com/?p=14462">0</span></a></span>
+													</div>
+					</div>
+				</div>
+								<div class="single-article clearfix " >
+					<figure><a href="https://containerjournal.com/editorial-calendar/kubernetes-in-the-enterprise/how-containers-and-vms-can-coexist/" title="How Containers and VMs Can Coexist"><img width="130" height="90" src="https://containerjournal.com/wp-content/uploads/2018/11/AWS-MicroVMs-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="How Containers and VMs Can Coexist" loading="lazy" title="How Containers and VMs Can Coexist" srcset="https://containerjournal.com/wp-content/uploads/2018/11/AWS-MicroVMs-130x90.jpg 130w, https://containerjournal.com/wp-content/uploads/2018/11/AWS-MicroVMs-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px" /></a></figure>					<div class="article-content">
+						<div class="above-entry-meta"><span class="cat-links"><a href="https://containerjournal.com/category/topics/container-management/" style="background:#172852" rel="category tag">Container Management</a>&nbsp;<a href="https://containerjournal.com/category/editorial-calendar/kubernetes-in-the-enterprise/"  rel="category tag">Kubernetes in the Enterprise</a>&nbsp;<a href="https://containerjournal.com/category/topics/" style="background:#172852" rel="category tag">Topics</a>&nbsp;</span></div>						<h3 class="entry-title">
+							<a href="https://containerjournal.com/editorial-calendar/kubernetes-in-the-enterprise/how-containers-and-vms-can-coexist/" title="How Containers and VMs Can Coexist">How Containers and VMs Can Coexist</a>
+						</h3>
+
+						
+						<div class="below-entry-meta ">
+							<span class="posted-on"><a href="https://containerjournal.com/editorial-calendar/kubernetes-in-the-enterprise/how-containers-and-vms-can-coexist/" title="3:00 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2021-04-23T03:00:43-04:00">April 23, 2021</time></a></span>							<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://containerjournal.com/author/ruslan-synytsky/" title="Ruslan Synytsky">Ruslan Synytsky</a></span></span>
+							<span class="comments"><i class="fa fa-comment"></i><a href="https://containerjournal.com/editorial-calendar/kubernetes-in-the-enterprise/how-containers-and-vms-can-coexist/#respond" itemprop="discussionURL"><span class="dsq-postid" data-dsqidentifier="14456 https://containerjournal.com/?p=14456">0</span></a></span>
+													</div>
+					</div>
+				</div>
+								<div class="single-article clearfix " >
+					<figure><a href="https://containerjournal.com/kubeconcnc/10-steps-to-reduce-cloud-waste/" title="10 Steps to Reduce Cloud Waste"><img width="130" height="90" src="https://containerjournal.com/wp-content/uploads/2020/12/cloudonprem-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="10 Steps to Reduce Cloud Waste" loading="lazy" title="10 Steps to Reduce Cloud Waste" srcset="https://containerjournal.com/wp-content/uploads/2020/12/cloudonprem-130x90.jpg 130w, https://containerjournal.com/wp-content/uploads/2020/12/cloudonprem-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px" /></a></figure>					<div class="article-content">
+						<div class="above-entry-meta"><span class="cat-links"><a href="https://containerjournal.com/category/topics/container-ecosystems/"  rel="category tag">Container Ecosystems</a>&nbsp;<a href="https://containerjournal.com/category/topics/container-management/" style="background:#172852" rel="category tag">Container Management</a>&nbsp;<a href="https://containerjournal.com/category/kubeconcnc/"  rel="category tag">KubeCon + CNC EU 2021</a>&nbsp;<a href="https://containerjournal.com/category/topics/" style="background:#172852" rel="category tag">Topics</a>&nbsp;</span></div>						<h3 class="entry-title">
+							<a href="https://containerjournal.com/kubeconcnc/10-steps-to-reduce-cloud-waste/" title="10 Steps to Reduce Cloud Waste">10 Steps to Reduce Cloud Waste</a>
+						</h3>
+
+						
+						<div class="below-entry-meta ">
+							<span class="posted-on"><a href="https://containerjournal.com/kubeconcnc/10-steps-to-reduce-cloud-waste/" title="3:30 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2021-04-22T03:30:43-04:00">April 22, 2021</time></a></span>							<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://containerjournal.com/author/brad-beam/" title="Brad Beam">Brad Beam</a></span></span>
+							<span class="comments"><i class="fa fa-comment"></i><a href="https://containerjournal.com/kubeconcnc/10-steps-to-reduce-cloud-waste/#respond" itemprop="discussionURL"><span class="dsq-postid" data-dsqidentifier="14453 https://containerjournal.com/?p=14453">0</span></a></span>
+													</div>
+					</div>
+				</div>
+								<div class="single-article clearfix " >
+					<figure><a href="https://containerjournal.com/kubeconcnc/service-mesh-extensibility-explained/" title="Service Mesh Extensibility Explained"><img width="130" height="90" src="https://containerjournal.com/wp-content/uploads/2019/06/Service-Mesh-Pattern-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Service Mesh Extensibility Explained" loading="lazy" title="Service Mesh Extensibility Explained" srcset="https://containerjournal.com/wp-content/uploads/2019/06/Service-Mesh-Pattern-130x90.jpg 130w, https://containerjournal.com/wp-content/uploads/2019/06/Service-Mesh-Pattern-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px" /></a></figure>					<div class="article-content">
+						<div class="above-entry-meta"><span class="cat-links"><a href="https://containerjournal.com/category/topics/container-networking/" style="background:#172852" rel="category tag">Container Networking</a>&nbsp;<a href="https://containerjournal.com/category/kubeconcnc/"  rel="category tag">KubeCon + CNC EU 2021</a>&nbsp;<a href="https://containerjournal.com/category/topics/" style="background:#172852" rel="category tag">Topics</a>&nbsp;</span></div>						<h3 class="entry-title">
+							<a href="https://containerjournal.com/kubeconcnc/service-mesh-extensibility-explained/" title="Service Mesh Extensibility Explained">Service Mesh Extensibility Explained</a>
+						</h3>
+
+						
+						<div class="below-entry-meta ">
+							<span class="posted-on"><a href="https://containerjournal.com/kubeconcnc/service-mesh-extensibility-explained/" title="3:00 am" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2021-04-22T03:00:32-04:00">April 22, 2021</time></a></span>							<span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://containerjournal.com/author/lin-sun/" title="Lin Sun">Lin Sun</a></span></span>
+							<span class="comments"><i class="fa fa-comment"></i><a href="https://containerjournal.com/kubeconcnc/service-mesh-extensibility-explained/#respond" itemprop="discussionURL"><span class="dsq-postid" data-dsqidentifier="14439 https://containerjournal.com/?p=14439">0</span></a></span>
+													</div>
+					</div>
+				</div>
+						</div>
+						</aside><aside id="ai_widget-2" class="widget ai_widget clearfix"><div class='code-block code-block-2' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<!-- /80877830/CJ -->
+<div id='div-gpt-ad-1530627164208-1' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1530627164208-1'); });
+</script>
+</div></div>
+</aside><aside id="super_rss_reader-2" class="widget widget_super_rss_reader clearfix"><h3 class="widget-title"><span>UPCOMING WEBINARS</span></h3><!-- Start - Super RSS Reader v4.0.1-->
+        <div class="super-rss-reader-widget"><div class="srr-main"><ul class="srr-tab-wrap srr-tab-style-grey srr-clearfix"><li data-tab="srr-tab-536">DevOps.com</li><li data-tab="srr-tab-204"> Security Boulevard</li></ul><div class="srr-wrap srr-style-grey srr-vticker" data-visible="3" data-speed="10000" data-id="srr-tab-536"><div><div class="srr-item "><div class="srr-clearfix"><div class="srr-title"><a href="https://devops.com/webinars/how-instacart-uses-datadog-and-aws-cloudwatch-for-real-time-monitoring/" target="_blank" rel="nofollow noopener noreferrer" title="How Instacart Uses Datadog and AWS CloudWatch for Real-time Monitoring">How Instacart Uses Datadog and AWS CloudWatch for Real-time Monitoring</a></div><div class="srr-meta"><time class="srr-date" title="27 April 2021, 3:00 pm">27 April 2021</time></div><a href="https://devops.com/webinars/how-instacart-uses-datadog-and-aws-cloudwatch-for-real-time-monitoring/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://devops.com/wp-content/uploads/2021/03/4-27-21-Datadog-DO-01.png" alt="How Instacart Uses Datadog and AWS CloudWatch for Real-time Monitoring" align="left" /></a><div class="srr-summary srr-clearfix"><p>In our increasingly digital world, lost seconds from latency spikes or outages have a direct impact on customer relationships and companies’ bottom lines. Getting real-time visibility into complex modern software applications and underlying cloud infrastructure is more important – and challenging – than ever. The post How Instacart Uses Datadog and AWS CloudWatch for Real-time Monitoring appeared first on DevOps.com. <a href="https://devops.com/webinars/how-instacart-uses-datadog-and-aws-cloudwatch-for-real-time-monitoring/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item srr-stripe"><div class="srr-clearfix"><div class="srr-title"><a href="https://devops.com/webinars/cloud-ready-new-integrations-for-pagerduty-and-aws/" target="_blank" rel="nofollow noopener noreferrer" title="Cloud-Ready: New Integrations for PagerDuty and AWS">Cloud-Ready: New Integrations for PagerDuty and AWS</a></div><div class="srr-meta"><time class="srr-date" title="28 April 2021, 3:00 pm">28 April 2021</time></div><a href="https://devops.com/webinars/cloud-ready-new-integrations-for-pagerduty-and-aws/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://devops.com/wp-content/uploads/2021/03/4-28-21-PagerDuty-01-01-01.png" alt="Cloud-Ready: New Integrations for PagerDuty and AWS" align="left" /></a><div class="srr-summary srr-clearfix"><p>PagerDuty’s platform for real-time operations helps teams manage a complex transition from siloed and centralized approaches to multiple, distributed teams supporting a hybrid cloud infrastructure. To make this journey successful, one thing is clear: your people, technology, and operational processes need to be aligned in real time. That’s why we’re continuing to invest in our […] The post Cloud-Ready: New Integrations for PagerDuty and AWS appeared first on DevOps.com. <a href="https://devops.com/webinars/cloud-ready-new-integrations-for-pagerduty-and-aws/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item "><div class="srr-clearfix"><div class="srr-title"><a href="https://devops.com/webinars/autodesks-digital-first-journey-with-lambda-armory-and-aws/" target="_blank" rel="nofollow noopener noreferrer" title="Autodesk’s Digital-First Journey with AWS Lambda and Armory">Autodesk’s Digital-First Journey with AWS Lambda and Armory</a></div><div class="srr-meta"><time class="srr-date" title="28 April 2021, 7:00 pm">28 April 2021</time></div><a href="https://devops.com/webinars/autodesks-digital-first-journey-with-lambda-armory-and-aws/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://devops.com/wp-content/uploads/2021/04/4-28-21-AWS-DO-01-1.png" alt="Autodesk’s Digital-First Journey with AWS Lambda and Armory" align="left" /></a><div class="srr-summary srr-clearfix"><p>Autodesk is transforming their business from selling packaged desktop software to SaaS. To achieve this transformation, it means that they are having to adopt a digital-first mindset. They are leveraging AWS, and have adopted technologies like ECS, EC2, and Lambda to accelerate their journey. They have standardized on Armory Enterprise as the platform to manage […] The post Autodesk’s Digital-First Journey with AWS Lambda and Armory appeared first on DevOps.com. <a href="https://devops.com/webinars/autodesks-digital-first-journey-with-lambda-armory-and-aws/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item srr-stripe"><div class="srr-clearfix"><div class="srr-title"><a href="https://devops.com/webinars/demistifying-low-code-data-connectivity/" target="_blank" rel="nofollow noopener noreferrer" title="Demistifying Low-Code Data Connectivity">Demistifying Low-Code Data Connectivity</a></div><div class="srr-meta"><time class="srr-date" title="29 April 2021, 5:00 pm">29 April 2021</time></div><a href="https://devops.com/webinars/demistifying-low-code-data-connectivity/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://devops.com/wp-content/uploads/2021/04/4-29-21-CData-DO-01-01.png" alt="Demistifying Low-Code Data Connectivity" align="left" /></a><div class="srr-summary srr-clearfix"><p>Join Jerod Johnson, Technology Evangelist with CData Software, to dive into the results of our low-code development survey, exploring the current state of low-code development across organizations and discussing ways to easily work with more and different kinds of data in your low-code endeavors. The post Demistifying Low-Code Data Connectivity appeared first on DevOps.com. <a href="https://devops.com/webinars/demistifying-low-code-data-connectivity/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item "><div class="srr-clearfix"><div class="srr-title"><a href="https://devops.com/webinars/top-ci-cd-pipeline-patterns/" target="_blank" rel="nofollow noopener noreferrer" title="Top CI/CD Pipeline Patterns">Top CI/CD Pipeline Patterns</a></div><div class="srr-meta"><time class="srr-date" title="29 April 2021, 7:00 pm">29 April 2021</time></div><a href="https://devops.com/webinars/top-ci-cd-pipeline-patterns/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://devops.com/wp-content/uploads/2021/02/4-29-21-Harness-01.png" alt="Top CI/CD Pipeline Patterns" align="left" /></a><div class="srr-summary srr-clearfix"><p>Your CI/CD pipeline is the main conduit to get your ideas into production. Unlike design patterns with programming languages that can be almost identical between organizations, CI/CD pipelines can be incredibly unique to each team. At Harness, we analyzed over 100 customer pipelines to start to build patterns on how best-in-class DevOps teams are delivering […] The post Top CI/CD Pipeline Patterns appeared first on DevOps.com. <a href="https://devops.com/webinars/top-ci-cd-pipeline-patterns/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div></div></div><div class="srr-wrap srr-style-grey srr-vticker" data-visible="3" data-speed="10000" data-id="srr-tab-204"><div><div class="srr-item "><div class="srr-clearfix"><div class="srr-title"><a href="https://securityboulevard.com/webinars/the-kubernetes-network-security-effect/" target="_blank" rel="nofollow noopener noreferrer" title="The Kubernetes Network (Security) Effect">The Kubernetes Network (Security) Effect</a></div><div class="srr-meta"><time class="srr-date" title="26 April 2021, 1:00 pm">26 April 2021</time></div><a href="https://securityboulevard.com/webinars/the-kubernetes-network-security-effect/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://securityboulevard.com/wp-content/uploads/2021/03/4-26-21-Armo-SB-02-02-1024x439.png" alt="The Kubernetes Network (Security) Effect" align="left" /></a><div class="srr-summary srr-clearfix"><p>Network policy is one of the most used security tools in any company’s security stack. While it is a great tool for making sure attackers stay outside your permitter, it does not work in K8s. The post The Kubernetes Network (Security) Effect appeared first on Security Boulevard. <a href="https://securityboulevard.com/webinars/the-kubernetes-network-security-effect/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item srr-stripe"><div class="srr-clearfix"><div class="srr-title"><a href="https://securityboulevard.com/webinars/application-security-moving-at-the-speed-of-devops/" target="_blank" rel="nofollow noopener noreferrer" title="Application Security: Moving at the Speed of DevOps">Application Security: Moving at the Speed of DevOps</a></div><div class="srr-meta"><time class="srr-date" title="26 April 2021, 5:00 pm">26 April 2021</time></div><a href="https://securityboulevard.com/webinars/application-security-moving-at-the-speed-of-devops/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://securityboulevard.com/wp-content/uploads/2021/03/4-26-21-AppSec-Panel-SB-03-03-1-1024x439.png" alt="Application Security: Moving at the Speed of DevOps" align="left" /></a><div class="srr-summary srr-clearfix"><p>Application security is under the microscope as data breaches brought on by insecure apps increasingly dominate the headlines. In fact, recent research revealed that more than 40% of applications are actively leaking information and pose a risk of exposing sensitive data. The need to shift security left in the application development life cycle is growing.. The post Application Security: Moving at the Speed of DevOps appeared first on Security Boulevard. <a href="https://securityboulevard.com/webinars/application-security-moving-at-the-speed-of-devops/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item "><div class="srr-clearfix"><div class="srr-title"><a href="https://securityboulevard.com/webinars/cyber-attacks-from-the-open-source-perspective/" target="_blank" rel="nofollow noopener noreferrer" title="Cyber Attacks From the Open Source Perspective">Cyber Attacks From the Open Source Perspective</a></div><div class="srr-meta"><time class="srr-date" title="28 April 2021, 5:00 pm">28 April 2021</time></div><a href="https://securityboulevard.com/webinars/cyber-attacks-from-the-open-source-perspective/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://securityboulevard.com/wp-content/uploads/2021/04/4-28-21-WhiteSource-SB-02-1024x439.png" alt="Cyber Attacks From the Open Source Perspective" align="left" /></a><div class="srr-summary srr-clearfix"><p>From SolarWind to “Dependency confusion”, 2021 will be the year of open-source supply chain attacks, with an ever-growing number of hackers leveraging the increasing use of open source during software development to distribute malicious packages and exploit known vulnerabilities. Due to recent events, the software industry gained a deeper understanding about the potential risk of.. The post Cyber Attacks From the Open Source Perspective appeared first on Security Boulevard. <a href="https://securityboulevard.com/webinars/cyber-attacks-from-the-open-source-perspective/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item srr-stripe"><div class="srr-clearfix"><div class="srr-title"><a href="https://securityboulevard.com/webinars/hack-my-java-application-demonstrating-how-snyk-and-red-hat-help-developers-stay-performant-and-secure/" target="_blank" rel="nofollow noopener noreferrer" title="Hack My Java Application: How Snyk and Red Hat Help Developers Stay Performant and Secure">Hack My Java Application: How Snyk and Red Hat Help Developers Stay Performant and Secure</a></div><div class="srr-meta"><time class="srr-date" title="29 April 2021, 3:00 pm">29 April 2021</time></div><a href="https://securityboulevard.com/webinars/hack-my-java-application-demonstrating-how-snyk-and-red-hat-help-developers-stay-performant-and-secure/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://securityboulevard.com/wp-content/uploads/2021/04/4-29-21-Snyk-SB-02-02-1024x439.png" alt="Hack My Java Application: How Snyk and Red Hat Help Developers Stay Performant and Secure" align="left" /></a><div class="srr-summary srr-clearfix"><p>Java developers work hard to create and deploy performant and scalable applications as quickly as possible, but in some cases, it’s likely that they don’t know how many direct dependencies their application uses. It’s also very likely they don’t know how many transitive dependencies their application uses either.  As a result, malicious actors have set.. The post Hack My Java Application: How Snyk and Red Hat Help Developers Stay Performant and Secure appeared first on Security Boulevard. <a href="https://securityboulevard.com/webinars/hack-my-java-application-demonstrating-how-snyk-and-red-hat-help-developers-stay-performant-and-secure/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div><div class="srr-item "><div class="srr-clearfix"><div class="srr-title"><a href="https://securityboulevard.com/webinars/managing-permissions-and-entitlements-is-at-the-core-of-a-zero-trust-model-in-the-cloud/" target="_blank" rel="nofollow noopener noreferrer" title="Managing Permissions and Entitlements is at the Core of a Zero Trust Model in the Cloud">Managing Permissions and Entitlements is at the Core of a Zero Trust Model in the Cloud</a></div><div class="srr-meta"><time class="srr-date" title="5 May 2021, 7:00 pm">5 May 2021</time></div><a href="https://securityboulevard.com/webinars/managing-permissions-and-entitlements-is-at-the-core-of-a-zero-trust-model-in-the-cloud/" class="srr-thumb srr-thumb-align_left" style="width:64px;height:64px;"  target="_blank" rel="nofollow noopener noreferrer"><img src="https://securityboulevard.com/wp-content/uploads/2021/04/2-2-21-CloudKnox-SB-02-1024x439.png" alt="Managing Permissions and Entitlements is at the Core of a Zero Trust Model in the Cloud" align="left" /></a><div class="srr-summary srr-clearfix"><p>Many organizations are setting their sights on a Zero Trust strategy for cybersecurity, seeing it as the best way to protect their networks and data in multifaceted, fast-changing, ever-expanding hybrid and multi-cloud environments. To get there, they need a firm grip on all the identities within their environments—and the permissions and entitlements granted to those.. The post Managing Permissions and Entitlements is at the Core of a Zero Trust Model in the Cloud appeared first on Security Boulevard. <a href="https://securityboulevard.com/webinars/managing-permissions-and-entitlements-is-at-the-core-of-a-zero-trust-model-in-the-cloud/" title="Read more" target="_blank" rel="nofollow noopener noreferrer" class="srr-read-more">[...]</a></p></div></div></div></div></div></div></div><!-- End - Super RSS Reader --></aside>
+	</div>
+
+
+
+</div><!-- .inner-wrap -->
+</div><!-- #main -->
+
+
+
+
+<footer id="colophon" class="clearfix " role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter" >
+	
+	<div class="footer-socket-wrapper clearfix">
+		<div class="inner-wrap">
+			<div class="footer-socket-area">
+				<div class="footer-socket-right-section">
+					
+		
+		<div class="social-links clearfix">
+			<ul>
+				<li><a href="https://www.facebook.com/containerjournal/" ><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/ContainerBlog" ><i class="fa fa-twitter"></i></a></li><li><a href="https://www.youtube.com/channel/UC-zcE077X98oTEDPwKkDQxQ" ><i class="fa fa-youtube"></i></a></li>
+				<li><a href="https://news.google.com/publications/CAAqMQgKIitDQklTR2dnTWFoWUtGR052Ym5SaGFXNWxjbXB2ZFhKdVlXd3VZMjl0S0FBUAE?hl=en-US&#038;gl=US&#038;ceid=US%3Aen" ><i class="fa fa-google" style="color:#172852"></i></a></li>			</ul>
+		</div><!-- .social-links -->
+		
+					<nav class="footer-menu clearfix">
+						<div class="menu-csc-footer-navigation-container"><ul id="menu-csc-footer-navigation" class="menu"><li id="menu-item-8371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8371"><a href="https://containerjournal.com/about/">About</a></li>
+<li id="menu-item-9628" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9628"><a href="https://mediaops.io/wp-content/uploads/2020/02/MediaOpsOverview2020.pdf">Media Kit</a></li>
+<li id="menu-item-8900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8900"><a href="https://containerjournal.com/sponsor-info/">Sponsor Info</a></li>
+<li id="menu-item-8967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8967"><a href="https://containerjournal.com/write-for-container-journal/">Write for Container Journal</a></li>
+<li id="menu-item-8901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8901"><a href="https://containerjournal.com/copyright/">Copyright</a></li>
+<li id="menu-item-8906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8906"><a href="https://containerjournal.com/tos/">TOS</a></li>
+<li id="menu-item-8369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-8369"><a href="https://containerjournal.com/privacy-policy/">Privacy Policy</a></li>
+</ul></div>					</nav>
+				</div>
+
+				<div class="footer-socket-left-section">
+					<div class="copyright">Copyright ©  2021  <a href="https://mediaops.io/">MediaOps Inc.</a> All rights reserved.</div>				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+	<a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+
+	<div class="reading-progress-bar"></div>
+
+
+</div><!-- #page -->
+<div class='code-block code-block-3' style='margin: 8px 0; clear: both;'>
+<!-- /80877830/CJ_OOP -->
+<div id='div-gpt-ad-1538595708371-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1538595708371-0'); });
+</script>
+</div></div>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+			<div style="display:none">
+	<div class="grofile-hash-map-3b506caeea4743b28ee5528ab7129290">
+	</div>
+	<div class="grofile-hash-map-3b506caeea4743b28ee5528ab7129290">
+	</div>
+	</div>
+<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/containerjournal.com\/topics\/container-ecosystems\/how-docker-and-kubernetes-work-together\/":12211};
+	</script>
+				<link rel='stylesheet' id='gforms_reset_css-css'  href='https://containerjournal.com/wp-content/plugins/gravityforms/css/formreset.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://containerjournal.com/wp-content/plugins/gravityforms/css/formsmain.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://containerjournal.com/wp-content/plugins/gravityforms/css/readyclass.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://containerjournal.com/wp-content/plugins/gravityforms/css/browsers.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-ultimate-extra-css'  href='https://containerjournal.com/wp-content/plugins/shortcodes-ultimate-extra/public/css/shortcodes.css' type='text/css' media='all' />
+<script type='text/javascript' id='pt-cv-content-views-script-js-extra'>
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"c2b077ad2d","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/containerjournal.com\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"","sf_no_post_found":"No posts found.","lf__separator":","};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js' id='pt-cv-content-views-script-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js' id='pt-cv-public-pro-script-js'></script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"7.51.108"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://js.hs-scripts.com/1628905.js?integration=WordPress' async defer id='hs-script-loader'></script>
+<script type='text/javascript' id='cookie-consent-js-extra'>
+/* <![CDATA[ */
+var ctcc_vars = {"expiry":"30","method":"1","version":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js' id='cookie-consent-js'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js' id='grofiles-cards-js'></script>
+<script type='text/javascript' id='wpgroho-js-extra'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/jetpack/modules/wpgroho.js' id='wpgroho-js'></script>
+<script type='text/javascript' id='colormag-news-ticker-js-extra'>
+/* <![CDATA[ */
+var colormag_ticker_settings = {"breaking_news_slide_effect":"up","breaking_news_duration":"7000","breaking_news_speed":"1000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/news-ticker/jquery.newsTicker.min.js' id='colormag-news-ticker-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/navigation.min.js' id='colormag-navigation-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/fitvids/jquery.fitvids.min.js' id='colormag-fitvids-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/prognroll/prognroll.min.js' id='prognroll-js'></script>
+<script type='text/javascript' id='colormag-custom-js-extra'>
+/* <![CDATA[ */
+var colormag_load_more = {"tg_nonce":"5bc17010a3","ajax_url":"https:\/\/containerjournal.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/themes/colormag-pro/js/colormag-custom.min.js' id='colormag-custom-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-includes/js/hoverIntent.min.js' id='hoverIntent-js'></script>
+<script type='text/javascript' id='megamenu-js-extra'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/megamenu/js/maxmegamenu.js' id='megamenu-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/megamenu-pro/assets/public.js' id='megamenu-pro-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/gravityforms/js/jquery.json.min.js' id='gform_json-js'></script>
+<script type='text/javascript' id='gform_gravityforms-js-extra'>
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/containerjournal.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/containerjournal.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/gravityforms/js/gravityforms.min.js' id='gform_gravityforms-js'></script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js' id='gform_placeholder-js'></script>
+<script type='text/javascript' id='sharing-js-js-extra'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://containerjournal.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js' id='sharing-js-js'></script>
+<script type='text/javascript' id='sharing-js-js-after'>
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-linkedin' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+<script src='https://stats.wp.com/e-202116.js' defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.5',blog:'94898820',post:'12211',tz:'-4',srv:'containerjournal.com'} ]);
+	_stq.push([ 'clickTrackerInit', '94898820', '12211' ]);
+</script>
+			
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+												if(!catapultReadCookie("catAccCookies")){ // If the cookie has not been set then show the bar
+							$("html").addClass("has-cookie-bar");
+							$("html").addClass("cookie-bar-bottom-bar");
+							$("html").addClass("cookie-bar-bar");
+													}
+																	});
+				</script>
+			
+			<div id="catapult-cookie-bar" class=""><div class="ctcc-inner "><span class="ctcc-left-side">Our website uses cookies. By continuing to browse the website you are agreeing to our use of cookies. For more information on how we use cookies and how you can disable them,  <a class="ctcc-more-info-link" tabindex=0 target="_blank" href="https://containerjournal.com/privacy-policy/">please read our Privacy Policy.</a></span><span class="ctcc-right-side"><button id="catapultCookie" tabindex=0 onclick="catapultAcceptCookies();">I Accept.</button></span></div><!-- custom wrapper class --></div><!-- #catapult-cookie-bar --><script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function($){
+    $('a[href]:not([href^="https://containerjournal.com"]):not([href^="#"]):not([href^="/"])').attr( 'target', '_blank' );
+});
+// ]]></script>
+</script>
+</body>
+</html>

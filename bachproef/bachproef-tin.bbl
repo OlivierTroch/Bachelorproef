@@ -259,6 +259,54 @@
       \field{year}{2009}
       \field{dateera}{ce}
     \endentry
+    \entry{Journal2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fdd816fffacbefe9e1500f1edc282fb}{%
+           family={Journal},
+           familyi={J\bibinitperiod},
+           given={Container},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=023c1464f68818f33db2df6a9a225be8}{%
+           family={Belagatti},
+           familyi={B\bibinitperiod},
+           given={Pavan},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fdd816fffacbefe9e1500f1edc282fb}
+      \strng{fullhash}{1fdd816fffacbefe9e1500f1edc282fb}
+      \strng{bibnamehash}{1fdd816fffacbefe9e1500f1edc282fb}
+      \strng{authorbibnamehash}{1fdd816fffacbefe9e1500f1edc282fb}
+      \strng{authornamehash}{1fdd816fffacbefe9e1500f1edc282fb}
+      \strng{authorfullhash}{1fdd816fffacbefe9e1500f1edc282fb}
+      \strng{editorbibnamehash}{023c1464f68818f33db2df6a9a225be8}
+      \strng{editornamehash}{023c1464f68818f33db2df6a9a225be8}
+      \strng{editorfullhash}{023c1464f68818f33db2df6a9a225be8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{12}
+      \field{title}{How Docker and Kubernetes Work Together}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/
+      \endverb
+      \verb{url}
+      \verb https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/
+      \endverb
+    \endentry
     \entry{Kedia2013}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0c6c882f73a7fbf5f7bf48821781cc2e}{%
@@ -330,6 +378,54 @@
       \endverb
       \verb{url}
       \verb https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+      \endverb
+    \endentry
+    \entry{Majors2016}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63e940eef6903f56792351799ef3f6b8}{%
+           family={Majors},
+           familyi={M\bibinitperiod},
+           given={Charity},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=63e940eef6903f56792351799ef3f6b8}{%
+           family={Majors},
+           familyi={M\bibinitperiod},
+           given={Charity},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{fullhash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{bibnamehash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{authorbibnamehash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{authornamehash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{authorfullhash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{editorbibnamehash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{editornamehash}{63e940eef6903f56792351799ef3f6b8}
+      \strng{editorfullhash}{63e940eef6903f56792351799ef3f6b8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{4}
+      \field{title}{Why Honeycomb? Black Swans, Unknown-Unknowns, and the Glorious Future of Doom}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.honeycomb.io/blog/why-honeycomb-black-swans-unknown-unknowns-and-the-glorious-future-of-doom/
+      \endverb
+      \verb{url}
+      \verb https://www.honeycomb.io/blog/why-honeycomb-black-swans-unknown-unknowns-and-the-glorious-future-of-doom/
       \endverb
     \endentry
     \entry{Oracle2012}{online}{}
@@ -510,7 +606,52 @@
       \verb https://webx.ubi.pt/~hgil/utils/Virtualization_Introduction.html
       \endverb
     \endentry
-    \entry{Thanh2015}{online}{}
+    \entry{TechTarget2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
+           family={TechTarget},
+           familyi={T\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=fd721babd77e5ef05e4130446c457d22}{%
+           family={Gilles},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{fullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{bibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authornamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{editorbibnamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{editornamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{editorfullhash}{fd721babd77e5ef05e4130446c457d22}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{IT monitoring}
+      \field{urlday}{29}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://searchitoperations.techtarget.com/definition/IT-monitoring
+      \endverb
+      \verb{url}
+      \verb https://searchitoperations.techtarget.com/definition/IT-monitoring
+      \endverb
+    \endentry
+    \entry{Thanh2015}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d54c3391a6b093a8b88f2149709655ba}{%
            family={Thanh},
@@ -585,6 +726,34 @@
       \verb{url}
       \verb https://multicians.org/thvv/7094.html
       \endverb
+    \endentry
+    \entry{Williams2016}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c9fa1da7b427c8b0f6cc9857bd7755e9}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9fa1da7b427c8b0f6cc9857bd7755e9}
+      \strng{fullhash}{c9fa1da7b427c8b0f6cc9857bd7755e9}
+      \strng{bibnamehash}{c9fa1da7b427c8b0f6cc9857bd7755e9}
+      \strng{authorbibnamehash}{c9fa1da7b427c8b0f6cc9857bd7755e9}
+      \strng{authornamehash}{c9fa1da7b427c8b0f6cc9857bd7755e9}
+      \strng{authorfullhash}{c9fa1da7b427c8b0f6cc9857bd7755e9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{9}
+      \field{title}{Monitoring & Management With Docker & Containers}
+      \field{year}{2016}
+      \field{dateera}{ce}
     \endentry
   \enddatalist
 \endrefsection

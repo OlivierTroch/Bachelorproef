@@ -1,0 +1,249 @@
+/*
+ Theme Name:   ColorMag Pro Child
+ Theme URI:    https://themegrill.com/themes/colormag-child/
+ Description:  ColorMag Pro Child Theme
+ Author:       ThemeGrill
+ Author URI:   https://themegrill.com/wordpress-themes/
+ Template:     colormag-pro
+ Version:      1.0.0
+ License: GNU General Public License, version 3 (GPLv3)
+ License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+ Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-header, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, post-formats, footer-widgets, blog, e-commerce, news, rtl-language-support
+ Text Domain: colormagpro-child
+ */
+
+/* sp updates start */
+#page {
+    max-width: 1280px;
+}
+
+.inner-wrap {
+    max-width: 1240px;
+}
+
+#header-right-section {
+	float: left;
+}
+
+#header-logo-image {
+    float: left;
+    padding-right: 20px;
+    width: 350px !important;
+}
+
+#header-text-nav-wrap {
+	height: 140px !important;
+	
+}
+
+@media (min-width: 768px) {
+
+.slider-featured-image img {
+	width:870px;
+	height:400px;
+
+}
+}
+
+.type-post .entry-title, .type-page .entry-title {
+    display: inline-block !important;
+}
+
+
+.featured-image img {
+		width:870px;
+
+}
+
+.breadcrumbs {
+	  margin-top: -10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+	  width: 70%;
+    float: left;
+}
+
+.home .breadcrumbs {
+	color: #ffff;
+	display: none;
+}
+
+.single-post .author{
+   	line-height: 30px !important;
+ }
+
+header.page-header {
+ display: none;
+}
+
+#mega-menu-wrap-secondary {
+    clear: both;
+    background: #ffff !important;
+	width:90% !important;
+    left: 15px !important;
+	float: left !important;
+}
+
+
+#mega-menu-wrap-secondary #mega-menu-secondary > li.mega-menu-item > a.mega-menu-link {
+	color: #444444 !important;
+}
+
+.dir-listing .fa-facebook 
+{
+	font-size: 16px !important;
+}
+
+.dir-listing .fa-twitter
+{
+	font-size: 16px !important;
+}
+
+.dir-listing .fa-linkedin
+{
+	font-size: 16px !important;
+}
+
+.dir-listing .dir-listing-text
+{
+	word-break: keep-all !important;
+	letter-spacing: 0px;
+}
+
+.dir-listing .dir-listing-text a b
+{
+	font-size: 20px !important;
+	letter-spacing: 2px !important;
+}
+.srr-wrap .srr-title, .srr-wrap {
+    line-height: 22px;
+    font-size: 20px;
+    font-family: 'Droid Serif', sans, serif;
+}
+
+.srr-wrap .srr-meta {
+    line-height: 25px;
+    font-size: 12px;
+    font-family: 'Droid Serif', sans, serif;
+}
+
+
+.below-entry-meta .avatar {
+    border-radius: 50%;
+    float: left;
+	  width: 32px !important;
+	  height: 32px !important;
+	  margin-right: 5px !important;
+
+}
+
+.widget_featured_posts {
+    margin-bottom: 0px !important;
+}
+
+.social-links i.fa-twitter {
+	color: #172852;
+}
+
+.social-links i.fa-facebook {
+
+	color: #172852;
+}
+
+.social-links i.fa-youtube {
+
+	color: #172852;
+}
+
+.widget_featured_posts img {
+     width: 100% !important;
+	   margin-bottom: 0px !important;
+}
+
+.widget_featured_slider .slide-content {
+background-color: rgba(51,51,51,.6) !important;
+}
+
+.mega-search-wrap {
+      margin-left: 30px !important;
+
+  }
+
+  .pt-cv-view .carousel-control.right {
+    margin-top: 10px;
+	  margin-right:10px;
+}
+.pt-cv-view .carousel-control.left {
+    margin-top: 10px;
+	  margin-right:10px;
+}
+
+.pt-cv-view .carousel-control span {
+    background: #172852;
+}
+
+.post-8841 .pt-cv-scrollable .pt-cv-cap-w-img {
+    margin-left:22.1%;
+	  padding-right:5%;
+	  padding-left:3%;
+	  height: 100%;
+	  width:75%;
+}
+
+.post-8841 .pt-cv-carousel a, .pt-cv-social-button .btn {
+    left: 27%;
+    top: 35px;
+}
+
+.cvp-live-filter  {
+	width: 400px;
+	margin-bottom: 0px;
+}
+
+.cvp-live-button  {
+	margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+.post-8841 .pt-cv-scrollable .pt-cv-cap-w-img {
+    visibility:hidden;
+}
+} 
+@media (max-width: 600px) {
+.post-8841 .pt-cv-scrollable .pt-cv-thumbnail {
+    float:left;
+}
+}
+
+.downloads-template-default .featured-image img {
+	display:none;
+}
+
+#content .downloads .article-content, #content .downloads .single-title-above {
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+	.widget_featured_slider .slide-content .entry-title {
+    font-size: 32px !important;
+}
+}
+
+.widget_featured_slider .slide-content .entry-title a:hover {
+	color: #b4b0b0 !important;
+}
+
+.widget_featured_slider .slide-content {
+    padding-left: 3% !important;
+}
+
+.page-id-2 .page .entry-content table td {
+		border-left: 0px !important;
+	  border-right: 0px !important;
+}
+
+
+.page-id-2 .page .entry-content table td {
+		vertical-align: middle !important;
+}
+/* sp updates end */

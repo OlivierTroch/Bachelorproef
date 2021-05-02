@@ -2839,12 +2839,24 @@
     <bcf:citekey order="25">Burns2019</bcf:citekey>
     <bcf:citekey order="26">Rad2017</bcf:citekey>
     <bcf:citekey order="27">Rad2017</bcf:citekey>
-    <bcf:citekey order="28">Cole2016</bcf:citekey>
-    <bcf:citekey order="29">Ribenzaft2020</bcf:citekey>
-    <bcf:citekey order="30">Cirelly2020</bcf:citekey>
-    <bcf:citekey order="31">Cole2016</bcf:citekey>
-    <bcf:citekey order="32">Cole2016</bcf:citekey>
-    <bcf:citekey order="33">Cedric2019</bcf:citekey>
+    <bcf:citekey order="28">Journal2020</bcf:citekey>
+    <bcf:citekey order="29">Journal2020</bcf:citekey>
+    <bcf:citekey order="30">Journal2020</bcf:citekey>
+    <bcf:citekey order="31">TechTarget2020</bcf:citekey>
+    <bcf:citekey order="32">TechTarget2020</bcf:citekey>
+    <bcf:citekey order="33">TechTarget2020</bcf:citekey>
+    <bcf:citekey order="34">Williams2016</bcf:citekey>
+    <bcf:citekey order="35">Williams2016</bcf:citekey>
+    <bcf:citekey order="36">Williams2016</bcf:citekey>
+    <bcf:citekey order="37">Williams2016</bcf:citekey>
+    <bcf:citekey order="38">Majors2016</bcf:citekey>
+    <bcf:citekey order="39">Williams2016</bcf:citekey>
+    <bcf:citekey order="40">Cole2016</bcf:citekey>
+    <bcf:citekey order="41">Ribenzaft2020</bcf:citekey>
+    <bcf:citekey order="42">Cirelly2020</bcf:citekey>
+    <bcf:citekey order="43">Cole2016</bcf:citekey>
+    <bcf:citekey order="44">Cole2016</bcf:citekey>
+    <bcf:citekey order="45">Cedric2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

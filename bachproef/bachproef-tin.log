@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  25 APR 2021 18:47
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  2 MAY 2021 18:28
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1579,29 +1579,42 @@ de-len te-gen-over een hypervisor-
 Underfull \vbox (badness 2486) has occurred while \output is active []
 
  [19]
-[20]) (methodologie.tex [21] [22
+[20]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 5490) has occurred while \output is active []
+
+ [24]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+)
+(methodologie.tex [25] [26
 
 ]
 Hoofdstuk 3.
-) (conclusie.tex [23] [24
+) (conclusie.tex [27] [28
 
 ]
 Hoofdstuk 4.
-) [25] [26
+) [29] [30
 
 ]
 B\babelshorthand{"y}lage A.
-(../voorstel/voorstel-inhoud.tex [27]
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
+(../voorstel/voorstel-inhoud.tex [31]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-) [29] [30
+[32]) [33] [34
 
 ]
 ! Misplaced alignment tab character &.
@@ -1668,18 +1681,43 @@ Overfull \hbox (10.23366pt too wide) in paragraph at lines 127--127
 -ber-ne-tes? \T1/ptm/m/n/12 (K. Brad-s-haw, Red.). []$https : / / kubernetes .
  []
 
-[31] [32] (bachproef-tin.aux)
+[35]
+! Misplaced alignment tab character &.
+<argument> Monitoring &
+                        Management With Docker & Containers
+l.127 \printbibliography[heading=bibintoc]
+                                          
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> Monitoring & Management With Docker &
+                                                 Containers
+l.127 \printbibliography[heading=bibintoc]
+                                          
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[36] (bachproef-tin.aux)
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34841 strings out of 412022
- 619787 string characters out of 2849384
- 1612995 words of memory out of 3000000
- 53975 multiletter control sequences out of 15000+200000
- 440897 words of font info for 69 fonts, out of 3000000 for 9000
+ 34871 strings out of 412022
+ 620385 string characters out of 2849384
+ 1613311 words of memory out of 3000000
+ 54004 multiletter control sequences out of 15000+200000
+ 442593 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,11n,95p,1276b,5295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 97i,11n,95p,1545b,5295s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (34 pages).
+Output written on bachproef-tin.pdf (38 pages).
