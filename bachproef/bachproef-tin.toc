@@ -1,95 +1,141 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Inleiding}{13}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{15}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{14}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{16}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{14}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{16}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Stand van zaken}{17}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Virtualisatie}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Virtualisatie}{17}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}De geschiedenis van virtualisatie}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}De geschiedenis van virtualisatie}{17}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Verschillende typen virtualisatie}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Verschillende typen virtualisatie}{19}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Full virtualisatie}{18}{section*.6}%
+\contentsline {subsubsection}{Full virtualisatie}{20}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Para virtualisatie}{18}{section*.7}%
+\contentsline {subsubsection}{Para virtualisatie}{20}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Operating system virtualisatie}{18}{section*.8}%
+\contentsline {subsubsection}{Operating system virtualisatie}{20}{section*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop virtualisatie}{18}{section*.9}%
+\contentsline {subsubsection}{Desktop virtualisatie}{20}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Server virtualisatie}{18}{section*.10}%
+\contentsline {subsubsection}{Server virtualisatie}{20}{section*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Applicatie virtualisatie}{19}{section*.11}%
+\contentsline {subsubsection}{Applicatie virtualisatie}{21}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Storage virtualisatie}{19}{section*.12}%
+\contentsline {subsubsection}{Storage virtualisatie}{21}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Network virtualisatie}{19}{section*.13}%
+\contentsline {subsubsection}{Network virtualisatie}{21}{section*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Resource virtualisatie}{19}{section*.14}%
+\contentsline {subsubsection}{Resource virtualisatie}{21}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Container virtualisatie}{19}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Container virtualisatie}{21}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wat is container virtualisatie}{19}{section*.15}%
+\contentsline {subsubsection}{Wat is container virtualisatie}{21}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verschil tussen containers en virtuele machines}{20}{section*.16}%
+\contentsline {subsubsection}{Verschil tussen containers en virtuele machines}{22}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kubernetes}{20}{section*.17}%
+\contentsline {subsubsection}{Kubernetes}{22}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Alternatief voor Kubernetes}{20}{section*.18}%
+\contentsline {subsubsection}{Alternatief voor Kubernetes}{22}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Docker}{21}{section*.19}%
+\contentsline {subsubsection}{Docker}{23}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Alternatief voor Docker}{21}{section*.20}%
+\contentsline {subsubsection}{Alternatief voor Docker}{23}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Samenwerking tussen Docker en Kubernetes}{21}{section*.21}%
+\contentsline {subsubsection}{Samenwerking tussen Docker en Kubernetes}{23}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Monitoring}{22}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Monitoring}{24}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Wat is monitoring}{22}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Wat is monitoring}{24}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Wat is monitoring binnen een container environment}{23}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Wat is monitoring binnen een container environment}{25}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Korte duur en schaal van containers}{23}{section*.22}%
+\contentsline {subsubsection}{Korte duur en schaal van containers}{25}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Snelle groei van objecten, services en statistieken}{23}{section*.23}%
+\contentsline {subsubsection}{Snelle groei van objecten, services en statistieken}{25}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Services zijn het nieuwe aandachtspunt}{24}{section*.24}%
+\contentsline {subsubsection}{Services zijn het nieuwe aandachtspunt}{26}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Een meer diverse groep van monitoring-eindgebruikers}{24}{section*.25}%
+\contentsline {subsubsection}{Een meer diverse groep van monitoring-eindgebruikers}{26}{section*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Nieuwe gedachten resulteren in nieuwe methoden}{25}{section*.26}%
+\contentsline {subsubsection}{Nieuwe gedachten resulteren in nieuwe methoden}{27}{section*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Wat is het nut/belang van monitoring in het lessenpakket}{25}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Hoe werkt monitoring binnen een container omgeving}{27}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Wat zijn de prerequisites/voorwaarden van de tool}{25}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Wat is het nut van monitoring in het lessenpakket}{28}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Welke tools zijn er om te monitoren}{25}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3.1}Waarom zou je monitoring toepassen}{28}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{27}{chapter.3}%
+\contentsline {subsubsection}{Volledige controle over IT-middelen}{29}{section*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{29}{chapter.4}%
+\contentsline {subsubsection}{Geïnformeerde besluiten}{29}{section*.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{31}{appendix.A}%
+\contentsline {subsubsection}{Verhoogde productiviteit en verbeterde servicebeschikbaarheid}{29}{section*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{31}{section.A.1}%
+\contentsline {subsubsection}{Probleemdetectie voordat zich een ramp voordoet}{29}{section*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{32}{section.A.2}%
+\contentsline {subsubsection}{Besparingen en hogere winst}{30}{section*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{32}{section.A.3}%
+\contentsline {subsection}{\numberline {2.3.2}Waarom zou je een container monitoren}{30}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{33}{section.A.4}%
+\contentsline {subsection}{\numberline {2.3.3}Conclusie}{30}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{33}{section.A.5}%
+\contentsline {section}{\numberline {2.4}Welke tools zijn er om te monitoren in een containeromgeving}{30}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{35}{appendix*.27}%
+\contentsline {subsection}{\numberline {2.4.1}Docker Stats}{31}{subsection.2.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}cAdvisor}{31}{subsection.2.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}Scout}{31}{subsection.2.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.4}Pingdom}{31}{subsection.2.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}Datadog}{32}{subsection.2.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.6}Sysdig}{32}{subsection.2.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.7}Prometheus}{32}{subsection.2.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.8}ELK/EFK Stack}{32}{subsection.2.4.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.9}Sensu}{33}{subsection.2.4.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodologie}{35}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}MoSCoW strategie}{36}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Must have}{36}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Should have}{36}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Could have}{36}{subsection.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Would have}{36}{subsection.3.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Onderzoeksmethodologie}{37}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusie}{39}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{41}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{41}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{42}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{42}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{43}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{43}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{45}{appendix*.32}%
 \contentsfinish 

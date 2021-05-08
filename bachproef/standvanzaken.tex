@@ -112,11 +112,11 @@ IT monitoring verspreidt zich over 3 secties:\\
 
 Monitoring kan met of zonder 'agents'. Een agent is een onafhankelijk programma die op een apparaat wordt geïnstalleerd om gegevens over hardware of software, prestatiegegevens verzameld en rapporteert aan een monitoringserver. Wanneer er geen agent is, zal de monitoringserver gebruik maken van communicatieprotocollen om een agent te emuleren met ongeveer dezelfde functionaliteiten om zo gegevens te verzamelen \autocite{TechTarget2020}.
 
-Er zijn ook twee soorten monitoring wanneer het over de frequentie gaat. Enerzijds is er 'Real Time Monitoring' wat een techniek is waarbij systemen continu gegevens verzamelen en toegankelijk zijn door IT-teams om de actieve en lopende status te bepalen. Metingen van real-time monitoringssoftware geven gegevens weer uit de huidige IT-omgeving, evenals het recente verleden, waardoor IT-personeel snel kunnen reageren op actuele gebeurtenissen. Door data op deze manier te monitoren, kan het IT-personeel de infrastructuur verbeteren of mogelijke complicaties identificeren voordat ze zich voordoen, omdat ze een patroon of trend in de gegevens herkennen. Anderzijds is er ook trend monitoring, een analyse van één specifieke gebeurtenis op een bepaald moment. Dit kan gebruikt worden om een probleem te identificeren dat onmiddellijk moet worden verholpen, zoals een 100\% volle schijf of overmatig gebruik van de cpu \autocite{TechTarget2020}.
+Er zijn ook twee soorten monitoring wanneer het over de frequentie gaat. Enerzijds is er 'Real Time Monitoring' wat een techniek is waarbij systemen continu gegevens verzamelen en toegankelijk zijn door IT-teams om de actieve en lopende status te bepalen. Metingen van real-time monitoringssoftware geven gegevens weer uit de huidige IT-omgeving, evenals het recente verleden, waardoor IT-personeel snel kunnen reageren op actuele gebeurtenissen. Door data op deze manier te monitoren, kan het IT-personeel de infrastructuur verbeteren of mogelijke complicaties identificeren voordat ze zich voordoen, omdat ze een patroon of trend in de gegevens herkennen. Anderzijds is er ook trend monitoring, een analyse van één specifieke gebeurtenis op een bepaald moment. Dit kan gebruikt worden om een probleem te identificeren dat onmiddellijk moet worden verholpen, zoals een 100\% volle schijf of overmatig gebruik van de CPU \autocite{TechTarget2020}.
 
 \subsection{Wat is monitoring binnen een container environment}
 
-De verandering van monitoring binnen een container omgeving kan uitgelegd worden in 5 verschillende punten:
+De verandering van monitoring binnen een container omgeving ten opzichte van een hypervisor omgeving kan uitgelegd worden in 5 verschillende punten:
 
 \begin{itemize}
     \item De korte duur van containers
@@ -128,7 +128,7 @@ De verandering van monitoring binnen een container omgeving kan uitgelegd worden
 
 \subsubsection{Korte duur en schaal van containers}
 
-De tijdelijke aard van containers en instanties van virtuele machines zorgt voor uitdagingen op het gebied van tracking. Omdat er op veel bewegende delen moet worden gericht vereist dit nieuwe monitoringmethoden om observaties te doen over de status van een container. Door de korte duur van containers en de snelgroeiende schaal heeft het weinig zin om container per container te bekijken, in plaats daarvan wordt aangeraden om clusters (meerdere containers) te volgen/monitoren. Traditionele benaderingen van monitoring zijn gebaseerd op het introduceren van datacollectors, genaamd 'agents' of 'remote access hooks' in de systemen zelf. Deze kunnen de snelheid van de provisioning en het dynamisch opschalen niet aan. Je kan op twee manieren data opvangen van een server, enerzijds door te 'pollen' en anderzijds door te 'pushen'. De tweede aanpak heeft een voorkeur voor een container omgeving, daar deze containers van korte duur zijn omdat het te lang kan duren om deze containers te vinden en te pollen. Om te kunnen pushen wordt een agent geïnstalleerd, wat het 'pol'-proces elimineert \autocite{Williams2016}. 
+De tijdelijke aard van containers en instanties van virtuele machines zorgt voor uitdagingen op het gebied van tracking. Omdat een container zeer dynamisch is, vereist dit nieuwe monitoringmethoden om observaties te doen over de status van die container. Door de korte duur van containers en de snelgroeiende schaal heeft het weinig zin om container per container te bekijken, in plaats daarvan wordt aangeraden om clusters (meerdere containers) te volgen/monitoren. Traditionele benaderingen van monitoring zijn gebaseerd op het introduceren van datacollectors, genaamd 'agents' of 'remote access hooks' in de systemen zelf. Deze kunnen de snelheid van de provisioning en het dynamisch opschalen echter niet aan. Je kan op twee manieren data opvangen van een server, enerzijds door te 'pollen' en anderzijds door te 'pushen'. De tweede aanpak heeft een voorkeur voor een container omgeving, daar deze containers van korte duur zijn en omdat het te lang kan duren om deze containers te vinden en te pollen. Om te kunnen pushen wordt een agent geïnstalleerd, wat het 'pol'-proces elimineert \autocite{Williams2016}. 
 
 \subsubsection{Snelle groei van objecten, services en statistieken}
 
@@ -148,14 +148,133 @@ Samen met DevOps zal de praktijk van ''site reliability engineering (SRE)'' van 
 
 \subsubsection{Nieuwe gedachten resulteren in nieuwe methoden}
 
-Hoewel monitoring verandert om aan de behoeften van verschillende functies te voldoen, gaat het ook over een meer alomvattende benadering. Majors Charity, blogger bij ''Honeycomb.io''\autocite{Majors2016}, vertelt dat in plaats van te vertrouwen op een vaste reeks vragen en controles, mensen zouden moeten evolueren naar de “observeerbaarheid” van systemen. Dit moet gebeuren omdat die vaste datapunten alleen, niet de benodigde inzichten opleveren. Er zijn nieuwe tools nodig om gelijke tred te houden en de mogelijkheid te bieden om te voorspellen wat er gaat breken. Veel van deze tools maken gebruik van artificiële intelligentietechnieken. 
+Hoewel monitoring verandert om aan de behoeften van verschillende functies te voldoen, gaat het ook over een meer alomvattende benadering. Majors Charity, blogger bij ''Honeycomb.io''\autocite{Majors2016}, vertelt dat in plaats van te vertrouwen op een vaste reeks vragen en controles, mensen zouden moeten evolueren naar de “observeerbaarheid” van systemen. Dit moet gebeuren omdat die vaste datapunten, alleen, niet de benodigde inzichten opleveren. Er zijn nieuwe tools nodig om gelijke tred te houden en de mogelijkheid te bieden om te voorspellen wat er gaat breken. Veel van deze tools maken gebruik van artificiële intelligentie-technieken. 
 
-Observeerbaarheid erkent dat testen het probleem niet altijd identificeert. Majors is dan ook van mening dat “instrumentatie net zo belangrijk is als testen. Als je complexe systemen gebruikt, kun je niet alles in je hoofd modelleren.” Naast het veranderen van de instrumentatie, stelt ze ook voor om te focussen op het begrijpbaar maken van de monitoringssystemen. Dit betekent feitelijk definiëren wat de gegevens vertegenwoordigen en dezelfde definities gebruiken als uw collega's, zowel binnen als buiten de organisatie. Verder is er ook frustratie over de noodzaak om door meerdere, statische dashboards te scrollen. Als reactie hierop maken ontwikkelaars meer intuïtieve, interactieve dashboards en maken zelf gebruik van artificiële intelligentie om voor elke server te bepalen welke informatie wanneer wordt weergegeven \autocite{Williams2016}.
+Observeerbaarheid wil niet zeggen dat testen het probleem altijd identificeert. Majors is dan ook van mening dat “instrumentatie net zo belangrijk is als testen. Als je complexe systemen gebruikt, kun je niet alles in je hoofd modelleren.” Naast het veranderen van de instrumentatie, stelt ze ook voor om te focussen op het begrijpbaar maken van de monitoringssystemen. Dit betekent feitelijk definiëren wat de gegevens vertegenwoordigen en dezelfde definities gebruiken als uw collega's, zowel binnen als buiten de organisatie. Verder is er ook frustratie over de noodzaak om door meerdere, statische dashboards te scrollen. Als reactie hierop maken ontwikkelaars meer intuïtieve, interactieve dashboards en maken zelf gebruik van artificiële intelligentie om voor elke server te bepalen welke informatie wanneer wordt weergegeven \autocite{Williams2016}.
 
-\subsection{Wat is het nut/belang van monitoring in het lessenpakket}
+\subsection{Hoe werkt monitoring binnen een container omgeving}
 
-\subsection{Wat zijn de prerequisites/voorwaarden van de tool}
+Om ongelijksoortige metrische bronnen samen te brengen, is een robuust platform voor infrastructuurmonitoring vereist dat een enkel dashboard kan bieden om gegevens uit verschillende bronnen te bekijken. Het vereist ook veel aandacht en planning om ervoor te zorgen dat gegevens kunnen correleren om eenvoudige end-to-end foutopsporing mogelijk te maken.
 
-\subsection{Welke tools zijn er om te monitoren}
+Conceptueel worden gecontaineriseerde applicaties op dezelfde manier gemonitord als traditionele applicaties. Het vereist gegevens op verschillende lagen in de stacks voor verschillende doeleinden. Het meet en verzamelt metrische gegevens zowel op de container zelf als op de infrastructuurlaag voor een beter resourcebeheer. Er zijn ook toepassingsspecifieke gegevens, prestatiebeheer van toepassingen en traceringsinformatie nodig voor het oplossen van problemen met toepassingen.
 
-%TODO onderzoeken welke tools veel gebruikt worden(marktonderzoek), top 10 ofzo
+Robuuste observatie en eenvoudige foutopsporing zijn de sleutel voor het bouwen van een microservices-architectuur. Naarmate uw systeem groeit, neemt ook de complexiteit van het bewaken van de gehele applicatie toe. Traditioneel wordt een onafhankelijke dienst gebouwd die maar één doel dient, en die communiceert met andere diensten om een ​​grotere taak uit te voeren en dit allemaal naast bedrijfslogica. Deze taken worden echter erg complex als je honderden containers hebt die verschillende programmeertalen in verschillende teams gebruiken. Dit is waar service-mesh in beeld komt. 
+
+Een servicemesh beheert de communicatielaag van uw microservicesysteem door een softwarecomponent als een sidecar proxy (een ontwerp dat bepaalde functies zoals communicatie tussen services, monitoring en beveiliging abstraheert om het volgen en onderhouden van de applicatie als geheel vergemakkelijkt \autocite{Gilles2019}) te implementeren. Dit softwarecomponent voert netwerkfuncties, verkeerscontrole, tracering en logboekregistratie uit. Elke service heeft zijn eigen proxyservice en alle proxyservices samen vormen de mesh. Elke service communiceert niet rechtstreeks met andere services, maar alleen met zijn eigen proxy. De service-to-service-communicatie vindt plaats tussen proxy's. 
+
+Met een servicemesh kan een netwerk van microservices gebouwd worden en het grootste deel van de netwerklaag gescheiden worden om het beheer en de waarneembaarheid te stroomlijnen. Als er zich problemen voordoen, kan de oorzaak van het probleem snel achterhaald worden \autocite{AWS2021}.
+
+\section{Wat is het nut van monitoring in het lessenpakket}
+
+Dit onderdeel van de literatuurstudie moet duidelijkheid creëren waarom het lessenpakket monitoring moet bevatten  voor de studenten van Toegepaste Informatica. Hoewel dit onderzoek vooral focus legt op monitoring in een containeromgeving, zal hier toch de nadruk gelegd worden op monitoring in het geheel. Daar dit eigenlijk zo goed als overeen komt.
+
+\subsection{Waarom zou je monitoring toepassen}
+
+Quality of service (QoS) is zo goed als de infrastructuur waaronder service wordt geleverd. Helaas besteden veel IT-afdelingen meer tijd aan het reageren op onverwachte problemen dan aan het voorkomen ervan. Het bewaken van de gehele IT-omgeving is een bedrijfskritische taak die zorgt voor optimale prestaties en bedrijfscontinuïteit \autocite{Matrix2016}.
+
+Monitoring is cruciaal omdat problemen niet altijd direct duidelijk zijn, maar de neiging hebben om zich in de loop van de tijd op te bouwen. De rol van IT als een belangrijke motor van operationele prestaties en innovatie maakt het een verplichting van netwerkbeheerders om een ​​zeer responsief controlesysteem te implementeren om alle netwerkactiviteiten bij te houden \autocite{Matrix2016}.
+
+Er zijn een aantal belangrijke redenen waarom het hebben van een volledig zicht op de IT-infrastructuur belangrijk is voor bedrijven: 
+
+\subsubsection{Volledige controle over IT-middelen}
+
+Het IT-netwerk is het hart van moderne bedrijven. Om de prestaties van hardware- en softwarebronnen bij te houden, moet de IT uit de eerste hand kennis hebben van de gezondheid van het netwerk en volledige controle hebben over trends in het gebruik van bronnen, servercapaciteiten en kwaadwillende activiteiten om problemen te voorkomen voordat ze zich voordoen \autocite{Matrix2016}.
+
+\subsubsection{Geïnformeerde besluiten}
+
+IT-monitoring is meer dan alleen het bijhouden van infrastructuuractiviteiten. Het is een essentieel onderdeel van het creëren van een algemene IT-strategie voor bedrijven. Van CIO's (chief information officer) wordt verwacht dat ze aantonen dat ze de controle hebben over de IT-omgeving en dat ze toegang hebben tot kritieke gegevens voor belangrijke en onbelangrijke besluiten. Efficiënte monitoring wordt geleverd met effectieve rapportage om ervoor te zorgen dat alle belanghebbenden worden geïnformeerd en dat aan de belangrijkste prestatie-indicatoren wordt voldaan \autocite{Matrix2016}.
+
+\subsubsection{Verhoogde productiviteit en verbeterde servicebeschikbaarheid}
+
+Wanneer de prestaties worden verbeterd, wordt de productiviteit ook verhoogd. Het is dus belangrijk voor IT-teams om de interacties van de verschillende systemen binnen het netwerk nauwlettend in de gaten te houden om gebieden te identificeren die verbetering behoeven. Kwetsbare gebieden hebben speciale aandacht nodig om te anticiperen op mogelijke problemen en om preventieve oplossingen te bieden.
+
+Serviceonderbreking als gevolg van downtime is een vloek voor eindgebruikers. Een netwerk vertraging kan bijvoorbeeld veroorzaakt worden door eindgebruikers die te veel bronnen tegelijk willen gebruiken. Regelmatig en willekeurig controleren op de gebruikspatronen kan ervoor zorgen dat een evenwichtige werklastverdeling kan worden gecreëerd om een ​​continue beschikbaarheid van de service te garanderen \autocite{Matrix2016}.
+
+\subsubsection{Probleemdetectie voordat zich een ramp voordoet}
+
+Onvoorspelbare catastrofes worden veroorzaakt door de natuur en zijn vaak niet te voorkomen, maar door de mens veroorzaakte rampen, of ze per ongeluk of opzettelijk zijn is bijzaak, kunnen worden voorkomen door een robuust monitoringsysteem. Storingspatronen, frequentie van downtime, ontbrekende, verwijderde of toegevoegde bestanden, evenals bestanden en programma's die niet openen met legitieme wachtwoorden, zijn waarschuwingssignalen die moeten worden gecontroleerd en opgelost om een ​​vermijdbare ramp te voorkomen\autocite{Matrix2016}.
+
+\subsubsection{Besparingen en hogere winst}
+
+Kosten besparen en winst verhogen zijn legitieme zakelijke doelstellingen. Preventie door monitoring betekent dat er minder geld wordt uitgegeven in vergelijking met de kosten van oplossingen voor problemen die zich plotseling voordoen. Proactieve monitoring van infrastructuur helpt financiële verliezen te voorkomen als gevolg van niet-gedetecteerde uitval van systemen als gevolg van slechte (of een gebrek aan) monitoring \autocite{Matrix2016}. 
+
+\subsection{Waarom zou je een container monitoren}
+
+Hoewel containers vluchtig zijn is inzicht in metrische gegevens, logboeken en traceringen alleen maar voordelig voor operatoren van deze gecontaineriseerde platformen. Door te begrijpen wat er gebeurt, en niet alleen op cluster- of hostniveau, maar ook binnen de containerruntime en -toepassing, kunnen organisaties beter geïnformeerde beslissingen nemen, zoals wanneer instanties, taken of pods moeten worden geschaald in grootte. Dek-Ops of systeemingenieurs kunnen ook de efficiëntie en snelheidsresolutie verbeteren door automatisering toe te voegen, zoals het gebruik van automatische waarschuwingen om het schalen van containers dynamisch te activeren. Door bijvoorbeeld het geheugengebruik actief te bewaken, kan er een drempelwaarde geïdentificeerd worden en operators op de hoogte gesteld worden wanneer het resourceverbruik de resourcelimiet bereikt, of door automatisch extra nodes toe te voegen vóór de beschikbare CPU of RAM uitgeput is \autocite{AWS2021}. 
+
+\subsection{Conclusie}
+
+Zoals beschreven in de bovenstaande alinea's is het monitoren van een containeromgeving en een gehele it omgeving alleen maar voordelig.  Door middel van monitoring kunnen veel zaken voorkomen worden waardoor kosten en moeite gespaard blijven. Maar vaak wordt monitoring over het hoofd gezien omdat het voor bedrijven een kost is zonder opbrengst, wat ongetwijfeld niet waar is. Daarom is het belangrijk om het concept van monitoring vroeg aan te leren om monitoring in een IT-omgeving te standaardiseren. Met de opkomst van containers is dit onderzoek dus zeker op zijn plaats.
+
+\section{Welke tools zijn er om te monitoren in een containeromgeving}
+
+Hoewel deze studie focus legt op de metrische gegevens van containers, zullen er in deze opsomming ook tools staan, die ook dienen voor logs te monitoren. In het volgende hoofdstuk zal dan de vergelijking van de tools plaatsvinden om zo de, in dit onderzoek, minder interessante tools te filteren.
+
+\subsection{Docker Stats}
+
+Op een basis level kan je aan de hand van een ingebouwd commando Docker containers monitoren. Er kan gedetailleerde, realtime informatie verkregen worden over het gebruik van de containers. Deze informatie bestaat uit, CPU gebruik, geheugen gebruik, schijf -en netwerk-I/O en het aantal actieve processen. ''Docker Stats'' bewaart geen geschiedenis en kan maar 1 host per keer monitoren. Aan de hand van scripts kunnen wel gegevens verzameld worden van meerdere host en zo bewaard worden. Op zich is de informatie die verzameld wordt minimaal maar door een combinatie met ''Docker logs'' en ''Docker events''  kan de monitoring naar een hoger niveau getild worden \autocite{Sissons2021}.  
+
+\subsection{cAdvisor}
+
+cAdvisor is een open-source project, oorspronkelijk ontwikkeld door Google, dat net als ''Docker Stats'' de gebruikers informatie biedt over gebruik van bronnen tijdens het uitvoeren van containers. Net zoals ''Docker Stats'' is het ook geïmplementeerd als een daemon-proces. Het verzamelt, aggregeert, verwerkt en exporteert informatie over de actieve containers.
+
+Deze tool heeft een webinterface en kan meerdere grafieken genereren. Maar net zoals ''Docker Stats'' kan cAdvisor maar één host monitoren. Indien de verzamelde informatie moet worden opgeslagen, moet ook een externe database geconfigureerd worden zoals Prometheus en InfluxDB. cAdvisor is op zich geen complete monitoringoplossing en dus vaak een onderdeel van andere monitoringtools \autocite{Sissons2021}.
+
+\subsection{Scout}
+
+Scout is een monitoring applicatie die een monitoringservice biedt op cloudgebasseerde applicaties en cloudgebasseerde databanken. Scout biedt een uitgebreide functionaliteit voor het verzamelen, filteren en monitoren van gegevens met flexibele alerts en integraties met alerting-services van derden. Het team van Scout geeft documentatie voor het schrijven van scripts om gebruik te maken van de Docker Stats API (zoals hierboven vermeld) en geeft metrische gegevens door aan Scout voor monitoring. Er is een Docker-Scout-container beschikbaar op Docker Hub, die het installeren en configureren een stuk eenvoudiger maakt \autocite{Sissons2021}.
+
+\subsection{Pingdom}
+
+Net zoals Scout, is Pingdom ook een cloudgebasseerde applicatie, beheerd door SolarWinds, een bedrijf dat zich richt op het monitoren van IT-infrastructuur. Bij Pingdom is belangrijkste domein het monitoren van websites, maar deze tool kan ook gebruikt worden voor servermonitoring met maar liefst 90 plugins. Pingdom onderhoudt docker-scout, dit is dezelfde StatsD-agent die door Scout gebruikt wordt \autocite{Sissons2021}.
+
+\subsection{Datadog}
+
+Datadog is net zoals de twee vorige tools een cloudmonitoring service.  Datadog biedt ook een container-agent voor installatie op een Docker-host. In plaats van generieke StatsD te gebruiken zoals de eerder genoemde cloudbewakingsoplossingen, heeft Datadog een verbeterde StatsD ontwikkeld, DogStatsD genaamd.
+
+De Datadog-agent verzamelt de volledige set metrische gegevens die beschikbaar zijn via de Docker-API en geeft deze door, waardoor een zeer gedetailleerde monitoring wordt geboden. Datadog biedt een goede toegang tot metrische gegevens en meer mogelijkheden bij het definiëren van waarschuwingsvoorwaarden dan de eerder genoemde cloudservices. Net als de andere services kan Datadog ook worden gebruikt om andere services en applicaties te monitoren, en beschikt het over een bibliotheek met meer dan 200 plugins. Datadog bewaart ook gegevens gedurende 18 maanden, wat langer is dan de bovenstaande cloudservices \autocite{Sissons2021}.
+
+\subsection{Sysdig}
+
+Sysdig is voornamelijk een cloudgebasseerde monitoringoplossing, gericht op containers. Een deel van zijn functionaliteiten zijn beschikbaar in open-source projecten, en Sysdig biedt ook om de applicatie lokaal te installeren \autocite{Sissons2021}.
+
+\subsection{Prometheus}
+
+Prometheus is een populaire, open-source tool voor monitoring en alerting, oorspronkelijk gebouwd door de developers bij SoundCloud. Waar Prometheus verschilt tegenover de cloudgebasseerde tools, is dat de tool modulair is en zelf wordt gehost, wat betekent dat gebruikers de tool op hun clusters inzetten. Prometheus installeert op elke Docker-host een agent en aan de hand van een 'pull' protocol haalt het zo alle gegevens binnen via HTTP bij een reeks exporteurs. Sommige van deze exporteurs worden officieel onderhouden door Prometheus zelf, terwijl de overschot externe bijdragen zijn. Prometheus biedt functies zoals service-detectie, een aparte push-gateway voor specifieke typen metrieken, en heeft een ingebouwde querytaal (PromQL) die dient voor het opvragen van multidimensionale gegevens. Het heeft ook een uitgebreide ingebouwde webinterface en API. Deze GUI is wel sterk afhankelijk van de gebruikers die wat kennis bezitten van PromQL. Daarom ondersteunt Prometheus ook tools van derden om als dashboard te gebruiken, zoals Grafana. \autocite{Sissons2021}.  
+
+\subsection{ELK/EFK Stack}
+
+De ELK/EFK-stack is een open-source software stack die het monitoren van containers op zich neemt. Deze stack bestaat uit drie open-source projecten die zijn samengevoegd om de ELK/EFK stack te bekomen. De stack is veelzijdig en wordt veel gebruikt voor een verscheidenheid aan analytische toepassingen, waarbij het monitoren van logbestanden een belangrijke rol speelt. ELK/EFK is genoemd naar drie componenten.
+
+\begin{itemize}
+    \item Elasticsearch: wordt gebruikt om de logs op te slaan
+    \item Logstash/Fluentd: wordt gebruikt voor zowel het transporteren als het verwerken en opslaan van logs, die dan doorgestuurd worden naar Elasticsearch
+    \item Kibana: visualisatietool gehost door Nginx of Apache die de data van Elasticsearch gebruikt
+\end{itemize}
+
+Alhoewel de gelijkenissen tussen Logstash en Fluentd groter is dan de verschillen, gebruiken de meeste developers Fluentd. Maar zelfs gebruikers van Logstash staan voor op de curve als het aankomt op log management \autocite{Sissons2021}.
+
+\subsection{Sensu}
+
+Sensu is een self-hosted monitoringtool voor algemene doeleinde die een verscheidenheid aan monitoringstoepassingen ondersteunt. Sensu maakt gebruikt van Agents die de nodige containers monitoren. Het aantal Sensu-plug-ins blijft groeien en er zijn tientallen door Sensu en community ondersteunde plug-ins waarmee metrische gegevens uit verschillende bronnen kunnen worden opgehaald. Sensu heeft vele features, maar een nadeel voor de gebruikers is dat het framework moeilijk te installeren, configureren en onderhoud is omdat de componenten zelf niet ''Dockerized'' zijn \autocite{Sissons2021}. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,6 +19,49 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{AWS2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4847e034bb0a55fcbc8a3380d6a3ab80}{%
+           family={AWS},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4847e034bb0a55fcbc8a3380d6a3ab80}{%
+           family={AWS},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{fullhash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{bibnamehash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{authorbibnamehash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{authornamehash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{authorfullhash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{editorbibnamehash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{editornamehash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \strng{editorfullhash}{4847e034bb0a55fcbc8a3380d6a3ab80}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{Container Monitoring - Why, how, and what to look out for}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/cloudwatch/container-monitoring/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/cloudwatch/container-monitoring/
+      \endverb
+    \endentry
     \entry{Rad2017}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62048e6cac459db44504b6f462855eb1}{%
@@ -230,6 +273,52 @@
       \field{pages}{817\bibrangedash 819}
       \range{pages}{3}
     \endentry
+    \entry{Gilles2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd721babd77e5ef05e4130446c457d22}{%
+           family={Gilles},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=700f0e630e939fff4cff6be3fc518b34}{%
+           family={TechTarget},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{fullhash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{bibnamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{authorbibnamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{authornamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{authorfullhash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{editorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{editornamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{editorfullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{sidecar proxy}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://searchitoperations.techtarget.com/definition/sidecar-proxy
+      \endverb
+      \verb{url}
+      \verb https://searchitoperations.techtarget.com/definition/sidecar-proxy
+      \endverb
+    \endentry
     \entry{Jeff2009}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6c82acbf4dc95e8334996d8b34aa2499}{%
@@ -428,6 +517,49 @@
       \verb https://www.honeycomb.io/blog/why-honeycomb-black-swans-unknown-unknowns-and-the-glorious-future-of-doom/
       \endverb
     \endentry
+    \entry{Matrix2016}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f53df0293e169f562bc1d9a20e1d2589}{%
+           family={Matrix},
+           familyi={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f53df0293e169f562bc1d9a20e1d2589}{%
+           family={Matrix},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{fullhash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{bibnamehash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{authorbibnamehash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{authornamehash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{authorfullhash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{editorbibnamehash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{editornamehash}{f53df0293e169f562bc1d9a20e1d2589}
+      \strng{editorfullhash}{f53df0293e169f562bc1d9a20e1d2589}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{9}
+      \field{title}{The Importance of Infrastructure Monitoring}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://matrix-ibs.com/2016/09/28/importance-infrastructure-monitoring/
+      \endverb
+      \verb{url}
+      \verb https://matrix-ibs.com/2016/09/28/importance-infrastructure-monitoring/
+      \endverb
+    \endentry
     \entry{Oracle2012}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
@@ -604,6 +736,54 @@
       \endverb
       \verb{url}
       \verb https://webx.ubi.pt/~hgil/utils/Virtualization_Introduction.html
+      \endverb
+    \endentry
+    \entry{Sissons2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a31e9aa47b9d70e8d1a1248fea9c3ad2}{%
+           family={Sissons},
+           familyi={S\bibinitperiod},
+           given={Gord},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a31e9aa47b9d70e8d1a1248fea9c3ad2}{%
+           family={Sissons},
+           familyi={S\bibinitperiod},
+           given={Gord},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{fullhash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{bibnamehash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{authorbibnamehash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{authornamehash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{authorfullhash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{editorbibnamehash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{editornamehash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \strng{editorfullhash}{a31e9aa47b9d70e8d1a1248fea9c3ad2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{1}
+      \field{title}{Comparing 10 Docker Container Monitoring Solutions for Rancher}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rancher.com/comparing-10-container-monitoring-solutions-rancher/
+      \endverb
+      \verb{url}
+      \verb https://rancher.com/comparing-10-container-monitoring-solutions-rancher/
       \endverb
     \endentry
     \entry{TechTarget2020}{online}{}

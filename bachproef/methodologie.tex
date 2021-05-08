@@ -1,9 +1,74 @@
-%%=============================================================================
-%% Methodologie
-%%=============================================================================
-
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
 \label{ch:methodologie}
+
+In dit hoofdstuk zullen alle tools uit hoofdstuk 2.4 vergeleken worden met elkaar om zo een best passende tool voor het onderzoek te vinden. Het onderzoek zal aan de hand van de ''MoSCoW'-techniek bepalen wat de vereisten zijn.
+ 
+\begin{itemize}
+    \item Must have: alle noodzakelijke eigenschappen
+    \item Should have: eigenschappen die niet verplicht zijn, maar wel een meerwaarde zijn
+    \item Could have: eigenschappen die een kleine meerwaarde hebben
+    \item Would have: alles wat een meerwaarde kan hebben maar niet nodig is voor dit onderzoek
+\end{itemize}
+
+Tenslotte wordt de opstelling van het onderzoek uitgelegd. Aan de hand van dit onderzoek zal een antwoord geformuleerd worden op de onderzoeksvraag.\clearpage
+\section{MoSCoW strategie}
+\subsection{Must have}
+\begin{itemize}
+    \item De tool moet volledig gratis zijn.
+    \item De volledige PoC, inclusief de tool moet lokaal geïnstalleerd zijn.
+    \item De PoC moet mogelijk zijn op de laptop van de studenten met beperkte specificaties.
+    \item De PoC moet op niveau zijn van de studenten uit 2de of 3de graad. Hiervoor is een basiskennis vereist van:
+        \subitem - Virtualbox
+        \subitem - Linux
+    \item Via de Proof-Of-Concept moeten de functies van de monitoringtool duidelijk zijn om de I/O metrics te analyseren.
+\end{itemize}
+
+\subsection{Should have}
+
+\begin{itemize}
+    \item Aan de hand van één enkel commando kan de Proof-of-Concept opgezet worden zodat de studenten direct aan de slag kunnen met de monitoringtool.
+\end{itemize}
+
+\subsection{Could have}
+
+\begin{itemize}
+    \item Alerting.
+    \item Een basiskennis kan worden verwacht van de studenten voor:
+    \subitem - Docker
+    \subitem - Kubernetes
+\end{itemize}
+
+\subsection{Would have}
+
+\begin{itemize}
+    \item Het verzamelen en analyseren van logs. 
+\end{itemize}
+\clearpage
+\section{Onderzoeksmethodologie}
+
+Eerder vermeld in dit onderzoek, luidt de volgende onderzoeksvraag:
+
+\begin{itemize}
+    \item Welke monitoringtool voor een Kubernetes/Docker environment is het meest geschikt voor de studenten Toegepaste Informatica om zo een goede basiskennis te bekomen.
+\end{itemize}
+
+Eveneens zijn er nog een aantal deelvragen die ook belangrijk zijn:
+
+\begin{itemize}
+    \item Wat zijn de belangrijkste verschillen tussen de tools?
+    \item Waar moeten de tools inzicht op geven?
+    \item Welke alerts zijn belangrijk?
+    \item Welk proof-of-concept is voldoende om de tool aan te leren?
+\end{itemize}
+
+Om een antwoord te formuleren op de vragen wordt een onderzoek gevoerd in verschillende stappen.
+
+\begin{itemize}
+    \item Stap 1: Vergelijken van de tools
+    \item Stap 2: Opstellen van een Proof-of-Concept
+    \item Stap 3: Checklist overlopen met de vereisten
+\end{itemize}
+
 
 %% TODO: Hoe ben je te werk gegaan? Verdeel je onderzoek in grote fasen, en
 %% licht in elke fase toe welke stappen je gevolgd hebt. Verantwoord waarom je

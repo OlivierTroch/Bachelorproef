@@ -135,4 +135,40 @@
   urldate = {2021-05-01},
 }
 
+@WWW{AWS2021,
+  author  = {AWS},
+  date    = {2021-01-01},
+  editor  = {AWS},
+  title   = {Container Monitoring - Why, how, and what to look out for},
+  url     = {https://aws.amazon.com/cloudwatch/container-monitoring/},
+  urldate = {2021-05-07},
+}
+
+@WWW{Gilles2019,
+  author  = {Alexander Gilles},
+  date    = {2019-01-01},
+  editor  = {TechTarget},
+  title   = {sidecar proxy},
+  url     = {https://searchitoperations.techtarget.com/definition/sidecar-proxy},
+  urldate = {2021-05-07},
+}
+
+@WWW{Matrix2016,
+  author  = {Matrix},
+  date    = {2016-09-28},
+  editor  = {Matrix},
+  title   = {The Importance of Infrastructure Monitoring},
+  url     = {https://matrix-ibs.com/2016/09/28/importance-infrastructure-monitoring/},
+  urldate = {2021-05-07},
+}
+
+@WWW{Sissons2021,
+  author  = {Gord Sissons},
+  date    = {2021-01-26},
+  editor  = {Gord Sissons},
+  title   = {Comparing 10 Docker Container Monitoring Solutions for Rancher},
+  url     = {https://rancher.com/comparing-10-container-monitoring-solutions-rancher/},
+  urldate = {2021-05-08},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
