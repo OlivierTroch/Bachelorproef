@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  14 MAY 2021 11:38
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  14 MAY 2021 11:48
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1467,7 +1467,7 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+pag on input line 5.
+LaTeX Font Info:    Trying to load font information for T1+pag on input line 1.
 
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pag.fd
@@ -1478,7 +1478,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 1.
 )
 (samenvatting.tex [3] [4
 
