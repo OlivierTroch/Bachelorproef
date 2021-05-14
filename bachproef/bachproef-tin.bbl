@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Ameen2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ca98cfdee19a64f0b191bc57fb6e679c}{%
+           family={Ameen},
+           familyi={A\bibinitperiod},
+           given={Radhwan\bibnamedelima Y},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865d9122a40bc2147e26e52565cc8ec0}{%
+           family={Hamo},
+           familyi={H\bibinitperiod},
+           given={Asmaa\bibnamedelima Y},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{642a99941145688305dddb4c578b4ea7}
+      \strng{fullhash}{642a99941145688305dddb4c578b4ea7}
+      \strng{bibnamehash}{642a99941145688305dddb4c578b4ea7}
+      \strng{authorbibnamehash}{642a99941145688305dddb4c578b4ea7}
+      \strng{authornamehash}{642a99941145688305dddb4c578b4ea7}
+      \strng{authorfullhash}{642a99941145688305dddb4c578b4ea7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1304.3557}
+      \field{title}{Survey of server virtualization}
+      \field{year}{2013}
+    \endentry
     \entry{AWS2021}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4847e034bb0a55fcbc8a3380d6a3ab80}{%
@@ -134,14 +166,44 @@
       \field{day}{10}
       \field{month}{4}
       \field{title}{Kubernetes Up & Running - Dive into the Future of Infrastructure}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://books.google.be/books?hl=en&lr=&id=-5izDwAAQBAJ&oi=fnd&pg=PP1&dq=kubernetes&ots=IsB4lxkeeI&sig=RBWC7ndt9aEs0bUHZ1usfNSGgQw&redir_esc=y#v=onepage&q&f=false
       \endverb
       \verb{url}
       \verb https://books.google.be/books?hl=en&lr=&id=-5izDwAAQBAJ&oi=fnd&pg=PP1&dq=kubernetes&ots=IsB4lxkeeI&sig=RBWC7ndt9aEs0bUHZ1usfNSGgQw&redir_esc=y#v=onepage&q&f=false
       \endverb
+    \endentry
+    \entry{Thanh2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=26f30055f337378f73c1e15b135224f9}{%
+           family={Bui},
+           familyi={B\bibinitperiod},
+           given={Thanh},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26f30055f337378f73c1e15b135224f9}
+      \strng{fullhash}{26f30055f337378f73c1e15b135224f9}
+      \strng{bibnamehash}{26f30055f337378f73c1e15b135224f9}
+      \strng{authorbibnamehash}{26f30055f337378f73c1e15b135224f9}
+      \strng{authornamehash}{26f30055f337378f73c1e15b135224f9}
+      \strng{authorfullhash}{26f30055f337378f73c1e15b135224f9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1501.02967}
+      \field{title}{Analysis of docker security}
+      \field{year}{2015}
     \endentry
     \entry{Cedric2019}{thesis}{}
       \name{author}{1}{}{%
@@ -239,39 +301,76 @@
       \verb https://www.stratoscale.com/blog/importance-container-monitoring/
       \endverb
     \endentry
-    \entry{Ruiz2015}{thesis}{}
+    \entry{Jeff2009}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9d2c2b566dd4e61364b3be9e7c6f5da0}{%
-           family={Cristian\bibnamedelima Ruiz},
-           familyi={C\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={Lucas\bibnamedelima Nussbaum},
-           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0,
-           suffix={Emmanuel\bibnamedelima Jeanvoine},
-           suffixi={E\bibinitperiod\bibinitdelim J\bibinitperiod},
-           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=075d28e4eef188c8c6781717861de65b}{%
+           family={Daniels},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
-      \strng{fullhash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
-      \strng{bibnamehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
-      \strng{authorbibnamehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
-      \strng{authornamehash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
-      \strng{authorfullhash}{9d2c2b566dd4e61364b3be9e7c6f5da0}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{075d28e4eef188c8c6781717861de65b}
+      \strng{fullhash}{075d28e4eef188c8c6781717861de65b}
+      \strng{bibnamehash}{075d28e4eef188c8c6781717861de65b}
+      \strng{authorbibnamehash}{075d28e4eef188c8c6781717861de65b}
+      \strng{authornamehash}{075d28e4eef188c8c6781717861de65b}
+      \strng{authorfullhash}{075d28e4eef188c8c6781717861de65b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{24}
-      \field{month}{8}
-      \field{title}{Performance Evaluation of Containers for HPC}
-      \field{type}{techreport}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{817\bibrangedash 819}
-      \range{pages}{3}
+      \field{journaltitle}{XRDS: Crossroads, The ACM Magazine for Students}
+      \field{number}{1}
+      \field{title}{Server virtualization architecture and implementation}
+      \field{volume}{16}
+      \field{year}{2009}
+      \field{pages}{8\bibrangedash 12}
+      \range{pages}{5}
+    \endentry
+    \entry{Elastic}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+           family={Elastic},
+           familyi={E\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+           family={Elastic},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{editorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{editornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{editorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elasticsearch: The Definitive Guide}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elastic.co/guide/en/elasticsearch/guide/current/hardware.html
+      \endverb
+      \verb{url}
+      \verb https://www.elastic.co/guide/en/elasticsearch/guide/current/hardware.html
+      \endverb
     \endentry
     \entry{Gilles2019}{online}{}
       \name{author}{1}{}{%
@@ -283,9 +382,11 @@
            givenun=0}}%
       }
       \name{editor}{1}{}{%
-        {{hash=700f0e630e939fff4cff6be3fc518b34}{%
-           family={TechTarget},
-           familyi={T\bibinitperiod}}}%
+        {{hash=fd721babd77e5ef05e4130446c457d22}{%
+           family={Gilles},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
       }
       \strng{namehash}{fd721babd77e5ef05e4130446c457d22}
       \strng{fullhash}{fd721babd77e5ef05e4130446c457d22}
@@ -293,9 +394,9 @@
       \strng{authorbibnamehash}{fd721babd77e5ef05e4130446c457d22}
       \strng{authornamehash}{fd721babd77e5ef05e4130446c457d22}
       \strng{authorfullhash}{fd721babd77e5ef05e4130446c457d22}
-      \strng{editorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{editornamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{editorfullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{editorbibnamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{editornamehash}{fd721babd77e5ef05e4130446c457d22}
+      \strng{editorfullhash}{fd721babd77e5ef05e4130446c457d22}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -306,12 +407,8 @@
       \field{day}{1}
       \field{month}{1}
       \field{title}{sidecar proxy}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2021}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://searchitoperations.techtarget.com/definition/sidecar-proxy
       \endverb
@@ -319,34 +416,43 @@
       \verb https://searchitoperations.techtarget.com/definition/sidecar-proxy
       \endverb
     \endentry
-    \entry{Jeff2009}{thesis}{}
+    \entry{HoGent}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6c82acbf4dc95e8334996d8b34aa2499}{%
-           family={Jeff},
-           familyi={J\bibinitperiod},
-           given={Daniels},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e610809d64cd4da16b275c79c7fc24b6}{%
+           family={HoGent},
+           familyi={H\bibinitperiod}}}%
       }
-      \strng{namehash}{6c82acbf4dc95e8334996d8b34aa2499}
-      \strng{fullhash}{6c82acbf4dc95e8334996d8b34aa2499}
-      \strng{bibnamehash}{6c82acbf4dc95e8334996d8b34aa2499}
-      \strng{authorbibnamehash}{6c82acbf4dc95e8334996d8b34aa2499}
-      \strng{authornamehash}{6c82acbf4dc95e8334996d8b34aa2499}
-      \strng{authorfullhash}{6c82acbf4dc95e8334996d8b34aa2499}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \name{editor}{1}{}{%
+        {{hash=e610809d64cd4da16b275c79c7fc24b6}{%
+           family={HoGent},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{fullhash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{bibnamehash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{authorbibnamehash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{authornamehash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{authorfullhash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{editorbibnamehash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{editornamehash}{e610809d64cd4da16b275c79c7fc24b6}
+      \strng{editorfullhash}{e610809d64cd4da16b275c79c7fc24b6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{11}
-      \field{title}{Server Virtualization Architectureand Implementation�}
-      \field{type}{techreport}
-      \field{year}{2009}
-      \field{dateera}{ce}
+      \field{title}{Op zoek naar een nieuwe laptop voor je opleiding?}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.hogent.be/student/een-vlotte-start/laptopaanbod/
+      \endverb
+      \verb{url}
+      \verb https://www.hogent.be/student/een-vlotte-start/laptopaanbod/
+      \endverb
     \endentry
     \entry{Journal2020}{online}{}
       \name{author}{1}{}{%
@@ -396,37 +502,48 @@
       \verb https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/
       \endverb
     \endentry
-    \entry{Kedia2013}{thesis}{}
-      \name{author}{1}{}{%
+    \entry{Kedia2013}{article}{}
+      \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0c6c882f73a7fbf5f7bf48821781cc2e}{%
            family={Kedia},
            familyi={K\bibinitperiod},
            given={Pooja},
            giveni={P\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=d760d5257273334f5bab53af181e6f8e}{%
+           family={Nagpal},
+           familyi={N\bibinitperiod},
+           given={Renuka},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=991988136f44ccb14972646e21605f00}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Tejinder\bibnamedelima Pal},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Amity University}%
+      \list{publisher}{1}{%
+        {Citeseer}%
       }
-      \strng{namehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
-      \strng{fullhash}{0c6c882f73a7fbf5f7bf48821781cc2e}
-      \strng{bibnamehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
-      \strng{authorbibnamehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
-      \strng{authornamehash}{0c6c882f73a7fbf5f7bf48821781cc2e}
-      \strng{authorfullhash}{0c6c882f73a7fbf5f7bf48821781cc2e}
+      \strng{namehash}{ffe075b214e29fefe22348726dc90fe5}
+      \strng{fullhash}{f0ebaa29895d70883bc6ba1860f21607}
+      \strng{bibnamehash}{f0ebaa29895d70883bc6ba1860f21607}
+      \strng{authorbibnamehash}{f0ebaa29895d70883bc6ba1860f21607}
+      \strng{authornamehash}{ffe075b214e29fefe22348726dc90fe5}
+      \strng{authorfullhash}{f0ebaa29895d70883bc6ba1860f21607}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{24}
-      \field{month}{5}
-      \field{title}{A survey on Virtualization Service Providers, Security Issues, Tools and Future Trends}
-      \field{type}{techreport}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{number}{24}
+      \field{title}{A survey on virtualization service providers, security issues, tools and future trends}
+      \field{volume}{69}
       \field{year}{2013}
-      \field{dateera}{ce}
     \endentry
     \entry{Kubernetes2021}{online}{}
       \name{author}{1}{}{%
@@ -460,8 +577,12 @@
       \field{day}{1}
       \field{month}{2}
       \field{title}{What is Kubernetes?}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2021}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
       \endverb
@@ -590,8 +711,12 @@
       \field{day}{1}
       \field{month}{1}
       \field{title}{Introduction to Virtualization}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2012}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1011.html
       \endverb
@@ -599,37 +724,47 @@
       \verb https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1011.html
       \endverb
     \endentry
-    \entry{Radhwan2013}{thesis}{}
+    \entry{oreilly}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=44dec95e2ccb7506814ed7f50349c906}{%
-           family={Radhwan},
-           familyi={R\bibinitperiod},
-           given={Ameen\bibnamedelima Y},
-           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdb6352b48e62e0691efe552e3e4cecb}{%
+           family={oreilly},
+           familyi={o\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Mosul University}%
+      \name{editor}{1}{}{%
+        {{hash=19de66daa3e1daf77ca4ef8d16a162e5}{%
+           family={Joel},
+           familyi={J\bibinitperiod},
+           given={Araujo},
+           giveni={A\bibinitperiod},
+           suffix={Bastos\bibnamedelimb &\bibnamedelima Pedro},
+           suffixi={B\bibinitperiod\bibinitdelim &\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{44dec95e2ccb7506814ed7f50349c906}
-      \strng{fullhash}{44dec95e2ccb7506814ed7f50349c906}
-      \strng{bibnamehash}{44dec95e2ccb7506814ed7f50349c906}
-      \strng{authorbibnamehash}{44dec95e2ccb7506814ed7f50349c906}
-      \strng{authornamehash}{44dec95e2ccb7506814ed7f50349c906}
-      \strng{authorfullhash}{44dec95e2ccb7506814ed7f50349c906}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \strng{namehash}{cdb6352b48e62e0691efe552e3e4cecb}
+      \strng{fullhash}{cdb6352b48e62e0691efe552e3e4cecb}
+      \strng{bibnamehash}{cdb6352b48e62e0691efe552e3e4cecb}
+      \strng{authorbibnamehash}{cdb6352b48e62e0691efe552e3e4cecb}
+      \strng{authornamehash}{cdb6352b48e62e0691efe552e3e4cecb}
+      \strng{authorfullhash}{cdb6352b48e62e0691efe552e3e4cecb}
+      \strng{editorbibnamehash}{19de66daa3e1daf77ca4ef8d16a162e5}
+      \strng{editornamehash}{19de66daa3e1daf77ca4ef8d16a162e5}
+      \strng{editorfullhash}{19de66daa3e1daf77ca4ef8d16a162e5}
+      \field{sortinit}{o}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Survey of Server Virtualization}
-      \field{type}{techreport}
-      \field{year}{2013}
-      \field{dateera}{ce}
+      \field{title}{Hands-On Infrastructure Monitoring with Prometheus by Joel Bastos, Pedro Araujo}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oreilly.com/library/view/hands-on-infrastructure-monitoring/9781789612349/bc69aa2f-7482-421f-b070-9116ca39cae7.xhtml
+      \endverb
+      \verb{url}
+      \verb https://www.oreilly.com/library/view/hands-on-infrastructure-monitoring/9781789612349/bc69aa2f-7482-421f-b070-9116ca39cae7.xhtml
+      \endverb
     \endentry
     \entry{Rancher2020}{report}{}
       \name{author}{1}{}{%
@@ -694,6 +829,87 @@
       \verb https://devops.com/top-six-open-source-tools-for-monitoring-kubernetes-and-docker/
       \endverb
     \endentry
+    \entry{Ruiz2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=60877d68f1ffa43926f61dfdad8fc334}{%
+           family={Ruiz},
+           familyi={R\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=575fed69b99972df29d373cad9857621}{%
+           family={Jeanvoine},
+           familyi={J\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73e6f631da4caf2633dae3c71c56dac3}{%
+           family={Nussbaum},
+           familyi={N\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7fb7981b65b701a54234570fa5e282d3}
+      \strng{fullhash}{29b435c33fd0f727fef7a5e5cec5ba54}
+      \strng{bibnamehash}{29b435c33fd0f727fef7a5e5cec5ba54}
+      \strng{authorbibnamehash}{29b435c33fd0f727fef7a5e5cec5ba54}
+      \strng{authornamehash}{7fb7981b65b701a54234570fa5e282d3}
+      \strng{authorfullhash}{29b435c33fd0f727fef7a5e5cec5ba54}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Conference on Parallel Processing}
+      \field{title}{Performance evaluation of containers for HPC}
+      \field{year}{2015}
+      \field{pages}{813\bibrangedash 824}
+      \range{pages}{12}
+    \endentry
+    \entry{Sensu}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=39b7417a7c1ad5ecf8805ffcc2b9347a}{%
+           family={Sensu},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=39b7417a7c1ad5ecf8805ffcc2b9347a}{%
+           family={Sensu},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{fullhash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{bibnamehash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{authorbibnamehash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{authornamehash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{authorfullhash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{editorbibnamehash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{editornamehash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \strng{editorfullhash}{39b7417a7c1ad5ecf8805ffcc2b9347a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hardware requirements}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.sensu.io/sensu-go/6.3/operations/deploy-sensu/hardware-requirements/#backend-minimum-requirements
+      \endverb
+      \verb{url}
+      \verb https://docs.sensu.io/sensu-go/6.3/operations/deploy-sensu/hardware-requirements/#backend-minimum-requirements
+      \endverb
+    \endentry
     \entry{Singh2004}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ebe89d133da3d293d851a0041a221fa2}{%
@@ -729,8 +945,12 @@
       \field{day}{1}
       \field{month}{1}
       \field{title}{An Introduction to Virtualization}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2004}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://webx.ubi.pt/~hgil/utils/Virtualization_Introduction.html
       \endverb
@@ -786,6 +1006,96 @@
       \verb https://rancher.com/comparing-10-container-monitoring-solutions-rancher/
       \endverb
     \endentry
+    \entry{SysdigB2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=08d45caa1c1fd89e5597a1db6e954633}{%
+           family={Sysdig},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=08d45caa1c1fd89e5597a1db6e954633}{%
+           family={Sysdig},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{fullhash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{bibnamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{authorbibnamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{authornamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{authorfullhash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{editorbibnamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{editornamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{editorfullhash}{08d45caa1c1fd89e5597a1db6e954633}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{8}
+      \field{title}{Host Requirements for Agent Installation}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.sysdig.com/en/system-requirements.html
+      \endverb
+      \verb{url}
+      \verb https://docs.sysdig.com/en/system-requirements.html
+      \endverb
+    \endentry
+    \entry{SysdigA2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=08d45caa1c1fd89e5597a1db6e954633}{%
+           family={Sysdig},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=08d45caa1c1fd89e5597a1db6e954633}{%
+           family={Sysdig},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{fullhash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{bibnamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{authorbibnamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{authornamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{authorfullhash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{editorbibnamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{editornamehash}{08d45caa1c1fd89e5597a1db6e954633}
+      \strng{editorfullhash}{08d45caa1c1fd89e5597a1db6e954633}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{8}
+      \field{title}{Host Requirements for Agent Installation}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.sysdig.com/en/host-requirements-for-agent-installation.html
+      \endverb
+      \verb{url}
+      \verb https://docs.sysdig.com/en/host-requirements-for-agent-installation.html
+      \endverb
+    \endentry
     \entry{TechTarget2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
@@ -831,38 +1141,6 @@
       \verb https://searchitoperations.techtarget.com/definition/IT-monitoring
       \endverb
     \endentry
-    \entry{Thanh2015}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d54c3391a6b093a8b88f2149709655ba}{%
-           family={Thanh},
-           familyi={T\bibinitperiod},
-           given={Bui},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Aalto University School of Science}%
-      }
-      \strng{namehash}{d54c3391a6b093a8b88f2149709655ba}
-      \strng{fullhash}{d54c3391a6b093a8b88f2149709655ba}
-      \strng{bibnamehash}{d54c3391a6b093a8b88f2149709655ba}
-      \strng{authorbibnamehash}{d54c3391a6b093a8b88f2149709655ba}
-      \strng{authornamehash}{d54c3391a6b093a8b88f2149709655ba}
-      \strng{authorfullhash}{d54c3391a6b093a8b88f2149709655ba}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{13}
-      \field{month}{1}
-      \field{title}{Analysis of Docker Security}
-      \field{type}{techreport}
-      \field{year}{2015}
-      \field{dateera}{ce}
-    \endentry
     \entry{VanVleck2015}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dd6ca17aebda0f328d91c88efcfa496d}{%
@@ -898,8 +1176,12 @@
       \field{day}{16}
       \field{month}{3}
       \field{title}{The IMB 7094 and CTSS}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://multicians.org/thvv/7094.html
       \endverb
@@ -934,6 +1216,86 @@
       \field{title}{Monitoring & Management With Docker & Containers}
       \field{year}{2016}
       \field{dateera}{ce}
+    \endentry
+    \entry{ZabbixB}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1ddc1b1c3c258570ba6994be1aeaddf}{%
+           family={Zabbix},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d1ddc1b1c3c258570ba6994be1aeaddf}{%
+           family={Zabbix},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{fullhash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{bibnamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{authorbibnamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{authornamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{authorfullhash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{editorbibnamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{editornamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{editorfullhash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Requirements}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zabbix.com/documentation/current/manual/installation/requirements
+      \endverb
+      \verb{url}
+      \verb https://www.zabbix.com/documentation/current/manual/installation/requirements
+      \endverb
+    \endentry
+    \entry{Zabbix}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1ddc1b1c3c258570ba6994be1aeaddf}{%
+           family={Zabbix},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d1ddc1b1c3c258570ba6994be1aeaddf}{%
+           family={Zabbix},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{fullhash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{bibnamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{authorbibnamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{authornamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{authorfullhash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{editorbibnamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{editornamehash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \strng{editorfullhash}{d1ddc1b1c3c258570ba6994be1aeaddf}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Zabbix}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zabbix.com/documentation/4.0/manual/introduction/about
+      \endverb
+      \verb{url}
+      \verb https://www.zabbix.com/documentation/4.0/manual/introduction/about
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

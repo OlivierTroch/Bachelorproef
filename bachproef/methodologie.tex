@@ -1,7 +1,7 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
 \label{ch:methodologie}
 
-In dit hoofdstuk zullen alle tools uit hoofdstuk 2.4 vergeleken worden met elkaar om zo een best passende tool voor het onderzoek te vinden. Het onderzoek zal aan de hand van de ''MoSCoW'-techniek bepalen wat de vereisten zijn.
+In dit hoofdstuk werden alle tools uit hoofdstuk 2.4 vergeleken met elkaar om zo een best passende tool voor het onderzoek te vinden. Aan de hand van de ''MoSCoW'-techniek werd bepaald wat de vereisten waren.
  
 \begin{itemize}
     \item Must have: alle noodzakelijke eigenschappen
@@ -10,32 +10,29 @@ In dit hoofdstuk zullen alle tools uit hoofdstuk 2.4 vergeleken worden met elkaa
     \item Would have: alles wat een meerwaarde kan hebben maar niet nodig is voor dit onderzoek
 \end{itemize}
 
-Tenslotte wordt de opstelling van het onderzoek uitgelegd. Aan de hand van dit onderzoek zal een antwoord geformuleerd worden op de onderzoeksvraag.\clearpage
+Tenslotte werd de opstelling van het onderzoek uitgelegd. Aan de hand van die opstelling werd een antwoord geformuleerd op de onderzoeksvraag.\clearpage
+
 \section{MoSCoW strategie}
 \subsection{Must have}
 \begin{itemize}
-    \item De tool moet volledig gratis zijn.
-    \item De volledige PoC, inclusief de tool moet lokaal geïnstalleerd zijn.
-    \item De PoC moet mogelijk zijn op de laptop van de studenten met beperkte specificaties.
-    \item De PoC moet op niveau zijn van de studenten uit 2de of 3de graad. Hiervoor is een basiskennis vereist van:
-        \subitem - Virtualbox
-        \subitem - Linux
-    \item Via de Proof-Of-Concept moeten de functies van de monitoringtool duidelijk zijn om de I/O metrics te analyseren.
+    \item De tool moet gratis zijn of de trial moet lang genoeg duren.
+    \item De tool moet voor een containeromgeving zijn.
+    \item De volledige PoC moet lokaal geïnstalleerd zijn.
+    \item De PoC moet mogelijk zijn op de laptop van de studenten die voldoet aan de opgelegde specificaties van HoGent.
+    \item Via de Proof-Of-Concept moeten de functies van de monitoringtool goed genoeg zijn om de I/O metrics te analyseren.
 \end{itemize}
 
 \subsection{Should have}
 
 \begin{itemize}
-    \item Aan de hand van één enkel commando kan de Proof-of-Concept opgezet worden zodat de studenten direct aan de slag kunnen met de monitoringtool.
+    \item Aan de hand van één bestand kan de Proof-of-Concept opgezet worden zodat de studenten direct aan de slag kunnen met de monitoringtool.
+    \item Installatie en configuratie moet van een gemiddeld niveau zijn.
 \end{itemize}
 
 \subsection{Could have}
 
 \begin{itemize}
-    \item Alerting.
-    \item Een basiskennis kan worden verwacht van de studenten voor:
-    \subitem - Docker
-    \subitem - Kubernetes
+    \item Opzetten van alerts.
 \end{itemize}
 
 \subsection{Would have}
@@ -64,17 +61,410 @@ Eveneens zijn er nog een aantal deelvragen die ook belangrijk zijn:
 Om een antwoord te formuleren op de vragen wordt een onderzoek gevoerd in verschillende stappen.
 
 \begin{itemize}
-    \item Stap 1: Vergelijken van de tools
-    \item Stap 2: Opstellen van een Proof-of-Concept
-    \item Stap 3: Checklist overlopen met de vereisten
+    \item Stap 1: Vergelijken van de tools.
+    \item Stap 2: Opstellen van een Proof-of-Concept.
+    \item Stap 3: Checklist overlopen met de vereisten.
 \end{itemize}
 
+\section{Stap 1: Vergelijken van de tools}
+ 
+Aan de hand van een aantal vooropgestelde vereisten werden de tools vergeleken en zo werd de beste tool voor de PoC gekozen. De vergelijking werd gedaan aan de hand van de vereisten die opgesteld waren in de ''must have'' sectie van de MoSCoW strategie. Tenslotte werden de tools ook vergeleken met de andere secties van de strategie.
+\subsection{Vergelijking op basis van de must haves}
 
-%% TODO: Hoe ben je te werk gegaan? Verdeel je onderzoek in grote fasen, en
-%% licht in elke fase toe welke stappen je gevolgd hebt. Verantwoord waarom je
-%% op deze manier te werk gegaan bent. Je moet kunnen aantonen dat je de best
-%% mogelijke manier toegepast hebt om een antwoord te vinden op de
-%% onderzoeksvraag.
+Zoals de naam al aangeeft, bestaat deze sectie uit initiatieven die een ''must'' zijn. Indien een tool niet aan de verwachtingen voldeed die in de analyse aangegeven waren, was de tool niet geschikt zijn voor de Proof-of-Concept en werd deze in het verloop van de analyse niet verder onderzocht.
+
+De volgende vereisten werden voordien opgesteld:
+
+\begin{itemize}
+    \item De tool moet gratis zijn of de trial moet lang genoeg duren.
+    \item De tool moet voor een containeromgeving zijn.
+    \item De volledige PoC moet lokaal geïnstalleerd zijn.
+    \item De PoC moet mogelijk zijn op de laptop van de studenten die voldoet aan de opgelegde specificaties van HoGent.
+    \item Via de Proof-Of-Concept moeten de functies van de monitoringtool goed genoeg zijn om de I/O metrics te analyseren.
+\end{itemize}
+
+\clearpage
+
+\subsubsection{De tool moet gratis zijn of de trial moet lang genoeg duren}
+
+Deze ''must have'' werd eerst bekeken omdat de grootste splitsing hier zou gebeuren. Een trial moest lang genoeg duren en 30 dagen was hiervoor voldoende.
+
+\textbf{Docker Stats}
+
+Docker Stats was een gratis tool.
+
+\textbf{cAdvisor}
+
+cAdvisor was een gratis tool.
+
+\textbf{Scout}
+
+Scout was geen gratis tool. De tool werkte op maandelijkse basis. Er was een trial beschikbaar, deze gelde voor 14 dagen. 14 dagen was echter niet genoeg.
+
+\textbf{Pingdom}
+
+Pingdom was geen gratis tool. De tool werkte op maandelijkse basis of host/metric gebaseerd. Er was een trial beschikbaar, deze geldt voor 30 dagen. 30 dagen was genoeg.
+
+\textbf{Datadog}
+
+Datadog was een gratis tool.
+
+\textbf{Sysdig}
+
+Sysdig was een gratis tool.
+
+\textbf{Prometheus}
+
+Prometheus was een gratis tool.
+
+\textbf{ELK/EFK Stack}
+
+ELK/EFK Stack was een gratis tool.
+
+\textbf{Sensu}
+
+Sensu was een gratis tool.
+
+\textbf{Zabbix}
+
+Zabbix was een gratis tool.
+
+\subsubsection{De tool moet voor een containeromgeving zijn}
+
+In theorie kan elke tool die lokaal op Linux draait, ook in een containeromgeving worden opgesteld. Maar voor deze ''must have'' werd gekeken naar tools die ontwikkeld zijn voor een containeromgeving.
+
+\textbf{Docker Stats} 
+
+Omdat Docker Stats een deel van de Docker Engine was, was deze zeker geschikt voor een containeromgeving.
+
+\textbf{cAdvisor}
+
+cAdvisor was geschikt voor een containeromgeving.
+
+\textbf{Datadog}
+
+Datadog was een cloud service met een lokale agent, wat geschikt was voor een containeromgeving.
+
+\textbf{Sysdig}
+
+Sysdig was een cloud service met een lokale agent, wat geschikt was voor een containeromgeving.
+
+\textbf{Prometheus}
+
+Prometheus was geschikt voor een containeromgeving.
+
+\textbf{ELK/EFK Stack}
+
+ELK/EFK Stack was geschikt voor een containeromgeving.
+
+\textbf{Sensu}
+
+Sensu was geschikt voor een containeromgeving.
+
+\textbf{Zabbix}
+
+Zabbix was geschikt voor een containeromgeving.
+
+\subsubsection{De volledige PoC moet lokaal geïnstalleerd zijn}
+
+De volledige PoC moest lokaal geïnstalleerd kunnen worden. Zodat alles binnen 1 enkele Virtuele Machine op de laptop van de studenten kon geconfigureerd worden.
+
+\textbf{Docker Stats} 
+
+Docker Stats was een deel van de Docker Engine en werd dus ook lokaal geïnstalleerd.
+
+\textbf{cAdvisor}
+
+cAdvisor werd lokaal geïnstalleerd.
+
+\textbf{Datadog}
+
+Datadog was een cloud service en werd dus buiten de agents, niet lokaal geïnstalleerd.
+
+\textbf{Sysdig}
+
+Sysdig werd lokaal geïnstalleerd.
+
+\textbf{Prometheus}
+
+Prometheus werd lokaal geïnstalleerd.
+
+\textbf{ELK/EFK Stack}
+
+ELK/EFK Stack werd lokaal geïnstalleerd.
+
+\textbf{Sensu}
+
+Sensu werd lokaal geïnstalleerd.
+
+\textbf{Zabbix}
+
+Zabbix werd lokaal geïnstalleerd.
+
+\subsubsection{De PoC moet mogelijk zijn op de laptop van de studenten die voldoet aan de opgelegde specificaties van HoGent.}
+
+De tool moest voldoen aan de minimum specificaties die werden opgelegd door HoGent wanneer zij adviseerden bij aankoop van een laptop. De laptop moest beschikken over een geïntegreerde webcam, min. processor i7 high performance graphics met minimumcache van 6 MB, min. 16 GB RAM-geheugen, min. 512 GB SSD, scherm van min. 15 inch(resolutie 1920 x 1080), dedicated (aparte) grafische kaart met minimaal 4 GB videogeheugen \autocite{HoGent}.
+
+\textbf{Docker Stats} 
+
+Docker Stats was een deel van de Docker Engine en was mogelijk op de laptop van de studenten.
+
+\textbf{cAdvisor}
+
+cAdvisor was een lightweight applicatie en was mogelijk op de laptop van de studenten.
+
+\textbf{Sysdig}
+
+Een 64-bits Linux-distributie met een minimale kernelversie van 3.10 en ondersteuning van de Docker Engine 1.7.1 of hoger was vereist voor elke serverinstantie \autocite{SysdigB2020}. Per agent werd beschreven dat ongeveer 500MB tot 2GB aan opslag wordt gebruikt en 2\% van de totale CPU en 512MiB geheugen genoeg is \autocite{SysdigA2020}. Dit was mogelijk op de laptop van de studenten.
+
+\textbf{Prometheus}
+
+Voor Prometheus werd verwacht dat de server minstens 2 CPU Cores heeft, minstens 4 GB ram geheugen en minstens 20 GB Disk space \autocite{oreilly}. Dit was mogelijk op de laptop van de studenten.
+
+\textbf{ELK/EFK Stack}
+
+Voor ELF/EFK Stack werd verwacht dat de server minstens 16 GB ram nodig heeft, wat niet mogelijk was op de laptop van de studenten \autocite{Elastic}.
+
+\textbf{Sensu}
+
+Voor Sensu werd minimaal verwacht dat de server een 64-bit Intel of AMD CPU heeft, 4GB ram, 4GB Disk space \autocite{Sensu}. Dit was mogelijk op de laptop van de studenten.
+
+\textbf{Zabbix}
+
+Zabbix vereiste minimaal, zowel fysiek geheugen als schijfgeheugen. 128 MB ram en 256 MB vrije schijfruimte kon een goed startpunt zijn. De hoeveelheid benodigde schijfgeheugen hing natuurlijk af van het aantal hosts en parameters dat werd gemonitord \autocite{ZabbixB}. 
+
+\subsubsection{Via de Proof-Of-Concept moeten de functies van de monitoringtool goed genoeg zijn om de I/O metrics te analyseren.}
+
+Onder goed genoeg werd verstaan dat de PoC een webinterface nodig had met een mogelijkheid tot configuratie en analysatie van I/O metrics
+
+\textbf{Docker Stats} 
+
+Docker Stats beschikte niet over een webinterface. Analyse van I/O metrics was mogelijk.
+
+\textbf{cAdvisor}
+
+cAdvisor beschikte over gelimiteerde een webinterface. Analyse van I/O metrics was mogelijk.
+
+\textbf{Sysdig}
+
+Sysdig beschikte over een webinterface. Analyse van I/O metrics was mogelijk.
+
+\textbf{Prometheus}
+
+Prometheus beschikte over een webinterface. Analyse van I/O metrics was mogelijk.
+
+\textbf{Sensu}
+
+Sensu beschikte over een webinterface. Analyse van I/O metrics was mogelijk.
+
+\textbf{Zabbix}
+
+Zabbix beschikte over een webinterface. Analyse van I/O metrics was mogelijk.
+
+\subsection{Vergelijking op basis van de should haves}
+
+Om de keuze van de tools nog te verkleinen werd een tweede vergelijking uitgevoerd.
+
+De volgende vereisten werden voordien opgesteld:
+
+\begin{itemize}
+    \item Aan de hand van één enkel commando kan de Proof-of-Concept opgezet worden zodat de studenten direct aan de slag kunnen met de monitoringtool.
+    \item Installatie en configuratie moet van een gemiddeld niveau zijn.
+\end{itemize}
+
+\subsubsection{Installatie en configuratie moet van een gemiddeld niveau zijn.}
+
+Voor de installatie en configuratie werd een gemiddeld niveau van vaardigheden verwacht en algemene kennis. De studenten die deze tool zullen gebruiken waren op de hoogte van de volgende vaardigheden:
+
+\begin{itemize}
+    \item Linux
+    \item Virtual Box
+    \item Docker
+    \item Kubernetes
+\end{itemize}
+
+De moeilijkheidsgraad werd gebaseerd op een onderzoek door Rancher \autocite{Sissons2021}. 
+
+\textbf{cAdvisor}
+
+cAdvisor had eerder een makkelijk niveau.
+
+\textbf{Sysdig}
+
+Sysdig had een gemiddeld niveau.
+
+\textbf{Prometheus}
+
+Prometheus had een bovengemiddeld niveau.
+
+\textbf{Sensu}
+
+Sensu had een moeilijk niveau.
+
+\textbf{Zabbix}
+
+Zabbix had een bovengemiddeld niveau.
+
+\subsubsection{Aan de hand van één bestand kan de Proof-of-Concept opgezet worden zodat de studenten direct aan de slag kunnen met de monitoringtool.}
+
+Dit was voor alle tools hetzelfde, een bijhorend .ova bestand zal ter beschikking staan om zo gemakkelijk te kunnen recreëren.
+
+\subsection{vergelijking op basis van de could en would haves}
+
+Dit zijn de eigenschappen die een kleine meerwaarde hadden voor de Proof-of-Concept.
+
+\begin{itemize}
+    \item Opzetten van alerts.
+    \item Het verzamelen en analyseren van logs. 
+\end{itemize}
+
+\subsubsection{Opzetten van alerts}
+
+\textbf{cAdvisor}
+
+cAdvisor had geen alerting.
+
+\textbf{Sysdig}
+
+Sysdig had alerting.
+
+\textbf{Prometheus}
+
+Prometheus had alerting.
+
+\textbf{Zabbix}
+
+Zabbix had alerting.
+
+\subsubsection{Het verzamelen en analyseren van logs}
+
+\textbf{Sysdig}
+
+Met Sysdig was het mogelijk om logs te verzamelen en te analyseren.
+
+\textbf{Prometheus}
+
+Met Prometheus was het niet mogelijk om logs te verzamelen en te analyseren.
+
+\textbf{Zabbix}
+
+Met Zabbix was het mogelijk om logs te verzamelen en te analyseren.
+
+\subsection{Conclusie}
+
+Uit de voorgaande vergelijken zijn 3 tools geschikt verklaard om gebruikt te worden in het lessenpakket:
+
+\begin{itemize}
+    \item Sysdig
+    \item Prometheus
+    \item Zabbix
+\end{itemize}
+
+Alle tools deden praktisch hetzelfde met een paar verschillen onderling. Zo waren Prometheus en Zabbix volledig gratis en moet je voor Sysdig betalen als je teveel hosts had. Zabbix en Prometheus hadden beiden hun eigen sterke en zwakke punten. Beiden hadden ook een laag gebruik van RAM en ROM en hadden beiden een bovengemiddeld niveau.
+
+De tool die uiteindelijk gebruikt werd om de Proof-of-Concept op te zetten is Prometheus, omdat de community rond Prometheus kennelijk fanatieker was. De tool was eenvoudig genoeg, de minimum requirements voldeden zeker aan de vereisten van de laptops van de studenten, de tool was ook gratis, kan lokaal geïnstalleerd worden met een handige webinterface en werkt perfect in een container omgeving.
+
+\section{Stap 2: Opstellen van de Proof-of-Concept}
+
+In deze stap werd een PoC opgesteld aan de hand van de meest geschikte tool die het resultaat was uit de eerste stap. Door die eerste stap was een tool gekozen die voldeed aan alle vereisten die opgesteld waren in de MoSCoW analyse en mogelijke extra's. De PoC was aan de hand van een handleiding reproduceerbaar of eventueel een ''.ova'' file waarmee je de volledige opstelling ook kon importeren indien er zich problemen voor deden. De opstelling werd opgezet met tools die voor de studenten alreeds bekend waren, waardoor de focus vooral op monitoring werd gelegd.
+
+\subsection{Stap 2.1: Overnemen Proof-of-concept Cedric Detemmerman}
+
+De eerste stap in het opzetten van de Proof-of-Concept is het overnemen van de opstelling die door Cedric Detemmerman voorzien is.  Als de volledige handleiding is gevolgd heb je normaal een aantal pods open staan. In de volgende stappen zal aan de hand van een aantal commando's, Prometheus geïnstalleerd worden. Ga enkel door naar stap 2 als je geslaagd bent in het overnemen van de stappen in het stappenplan van Cedric Detemmerman. 
+
+\subsection{Stap 2.2: Installeren van Prometheus/Grafana}
+
+De opstelling van Prometheus begon eigenlijk aan de hand van een aantal simpele commando's die na mekaar worden ingevoerd. Hiervoor gebruiken we de 'Helm' tool, zonder Helm zouden alle yaml files één voor één aangemaakt moeten worden. De drie volgende commando's werden ingevoerd in de terminal van de voordien gemaakte virtuele machine. 
+
+\begin{itemize}
+    \item curl -fsSL -o \\ 
+    get\_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+    \item chmod 700 get\_helm.sh
+    \item ./get\_helm.sh
+\end{itemize}
+
+De volgende stap was om Helm up te date te brengen zodat voor de download van Prometheus de meest recente repository gebruikt werd.
+
+\begin{itemize}
+    \item helm repo add stable "https://charts.helm.sh/stable"
+    \item helm repo update
+\end{itemize}
+
+Nadien werd aan de hand van het 'Helm install' commando de Prometheus pods gedownload.
+
+\begin{itemize}
+    \item helm install stable/prometheus-operator
+\end{itemize}
+
+Na enige tijd was de monitoringstack opgezet en klaar voor gebruik. Standaard was alles ''out-of-the-box'' geconfigureerd, dit hield in dat zowel de workers nodes als Kubernetes componenten in orde waren. De volgende stap was het bereiken van de Grafana GUI, aan de hand van het ip en port forwarding (bij productiegebruik zou het beter zijn om de ingress rules aan te passen) kon de web interface bereikt worden. Het eerste commando diende om de juiste naam te vinden van de pod. Het tweede commando werd gebruikt om het poortnummer te vinden.
+
+\begin{itemize}
+    \item kubectl get pod
+    \item kubectl logs prometheus-grafana-... -c grafana
+\end{itemize}
+
+Het poort nummer was te lezen op de voorlaatste lijn en was in dit geval, ''3000''. Op de 6de laatste lijn was de username te vinden, dit was in dit geval ''admin''. Met het volgende commando werd de grafana webinterface gestart. 
+
+\begin{itemize}
+    \item kubectl port-forward deployment/prometheus-grafana 3000
+\end{itemize}
+
+Na het uitvoeren van het commando kon de Grafana webinterface bereikt worden via ''http://localhost:3000'' en kon er ingelogd worden met username ''admin'' en het standaard password ''prom-operator''
+
+\subsection{Stap 2.3: Verkennen van Grafana webinterface}
+
+Grafana voorzag standaard een heleboel dashboards, deze waren te bereiken via ''Dashboard'' > ''Manage'' > ''Nodes'', dit was voor een node, genaamd ''minikube'', die standaard door prometheus gemonitord werd. Het dashboard om alle nodes te bekijken was te vinden onder ''Dashboard'' > ''Manage'' > ''Pod''. 
+
+Een voorwaarde voor het bereiken van dit deel in de opstelling was het volgen van de installatie voor Kubernetes/Docker, waarin een load-generator gemaakt werd. Dit commando werd opnieuw uitgevoerd om live pods te zien verschijnen op het dashboard dat te bereiken was via ''Dashboard'' > ''Compute Resources'' > ''Namespace (pods)''. Via deze manier kon gezien worden dat bij het bijkomen van nieuwe pods het dashboard aangepast werd. 
+
+\subsection{Stap 2.4: Bereiken van de Prometheus webinterface}
+
+Hoewel de webinterface van Grafana voorkeur had was dit de manier om de webinterface van Prometheus te bereiken. De interface was te bereiken via ''http://localhost:9090''.
+
+\begin{itemize}
+    \item kubectl port-forward prometheus-prometheus-prometheus-oper-prometheus-0 9090
+\end{itemize}
+
+\subsection{Stap 2.5: Samenvatting}
 
 
+Nu waren er drie dashboards die te bereiken waren voor de monitoring van de container omgeving, waarvan twee dashboards bijna volledig opgezet waren met een simpel commando door middel van ''Helm'' pakketten.
+
+\begin{itemize}
+    \item http://localhost:8001 > Minikube Dashboard
+    \item http://localhost:3000 > Grafana Dashboard
+    \item http://localhost:9090 > Prometheus Dashboard
+\end{itemize}\clearpage
+
+\section{Stap 3: Overlopen checklist}
+
+Na het opstellen van de Proof-of-Concept werd een checklist overlopen met daarin de vereisten voor een succesvolle Proof-of-concept. Aan de hand van de checklist werd bepaald of de PoC goed genoeg was voor gebruik in het lessenpakket.
+
+De checklist bestond uit de volgende punten:
+
+\begin{itemize}
+    \item De tool moet gratis zijn of de trial moet lang genoeg duren. 
+    \item De tool moet voor een containeromgeving zijn.
+    \item De volledige PoC moet lokaal geïnstalleerd zijn.
+    \item De PoC moet mogelijk zijn op de laptop van de studenten die voldoet aan de opgelegde specificaties van HoGent.
+    \item Via de Proof-Of-Concept moeten de functies van de monitoringtool goed genoeg zijn om de I/O metrics te analyseren.
+    \item Aan de hand van één bestand kan de Proof-of-Concept opgezet worden zodat de studenten direct aan de slag kunnen met de monitoringtool.
+    \item Installatie en configuratie moet van een gemiddeld niveau zijn.
+    \item Opzetten van alerts.
+    \item Het verzamelen en analyseren van logs. 
+\end{itemize}
+
+Uit de vorige checklijst kon het volgende geconcludeerd worden:
+
+\begin{itemize}
+    \item De tool was gratis. 
+    \item De tool was voor een containeromgeving.
+    \item De volledige PoC was lokaal geïnstalleerd.
+    \item De PoC was mogelijk op de laptop van de studenten.
+    \item Via de Proof-Of-Concept waren de functies van de monitoringtool goed genoeg zijn om de I/O metrics te analyseren.
+    \item Een OVA bestand was niet aanwezig om het makkelijk reproduceerbaar te maken maar werd wel door dit onderzoek ter beschikking gesteld.
+    \item Installatie en configuratie waren van een gemiddeld niveau zijn.
+    \item Opzetten van alerts was mogelijk.
+    \item Het verzamelen en analyseren van logs was mogelijk. 
+\end{itemize}
 
