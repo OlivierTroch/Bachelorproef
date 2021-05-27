@@ -10,11 +10,9 @@ Op het begin van het onderzoek werden een aantal onderzoeksvragen opgesteld waar
     \item Welk proof-of-concept is genoeg om de leerstof te verstaan?
 \end{itemize}
 
-De hoofdonderzoeksvraag was het onderzoeken welke tool potentieel geschikt was voor de studenten Toegepaste Informatica om aan te leren wat de mogelijkheden zijn bij het monitoren van een Docker/Kubernetes omgeving.  
+De hoofdonderzoeksvraag van dit onderzoek was het vinden van een tool die geschikt was om de studenten toegepaste informatie genoeg bij te leren over de mogelijkheden in een monitoringtool voor een Docker/Kubernetes omgeving. Dit betekende dat de tool zowel technische mogelijkheden nodig had, alsook educatieve.
 
-Buiten de technische kant van het verhaal in een onderzoek naar tools was het ook belangrijke om te kijken naar de educatieve kant. Een volledig perfecte tool die moeilijk op te zetten is voor een student Toegepaste Informatica met een grote leercurve is minder geschikt dan een tool die het voor studenten haalbaarder maakt om te kunnen leren. 
-
-Door de juiste analyse uit te voeren en de belangrijkste verschillen bloot te leggen, zijn voor het vinden van een gepaste monitoring tool, de volgende drie tools geschikt:
+Door een requirements-analyse uit te voeren en hierin de belangrijkste verschillen bloot te leggen werden hieruit drie tools geschikt verklaard:
 
 \begin{itemize}
     \item Sysdig
@@ -22,13 +20,10 @@ Door de juiste analyse uit te voeren en de belangrijkste verschillen bloot te le
     \item Prometheus
 \end{itemize}
 
-De drie tools waren praktisch hetzelfde waardoor de keuze werd gemaakt door de monitoringcommunity, waarbij de Prometheus tool met voorsprong uitblonk. Voor de Proof-of-Concept werd uiteindelijk voor Prometheus gekozen. 
+De drie tools waren praktisch hetzelfde op basis van de requirements-analyse waardoor de keuze werd gemaakt door de monitoringcommunity, hierbij was Prometheus de tool die met voorsprong uitblonk. Voor de Proof-of-Concept werd dan uiteindelijk ook voor die tool gekozen.
 
-De community van talloze experts die het opensource project ondersteunen zorgden ervoor dat de installatie van de tool vrij eenvoudig op te zetten was. Zonder deze tools was de moeilijkheidsgraad voor het opzetten van Prometheus een reden genoeg om een andere tool te kiezen. 
+Er werd een aantal dashboards overlopen die standaard geïnstalleerd werden waarin verschillende metrics zichtbaar werden gesteld. Het importeren van json files voor community created dashboards werd ook uitgelegd omdat daar uit snel een dashboard kan worden opgezet. Daarna werd ook een eigen dashboard gecreëerd om aan te tonen dat het maken van dashboards vrij eenvoudig en interactief was. Op deze dashboards werden dan een aantal technieken toegepast om aan te tonen dat bij gebruik van een pod, deze zeker aanpassen.  
 
-Prometheus is een befaamde tool die gebruikt wordt in vele bedrijven waardoor er vermoeden was dat deze tool zeker in de laatste vergelijking zou terecht komen. De tool heeft genoeg inzicht op alles wat nodig was om de onderzoeksvragen te beantwoorden.
+De community van talloze experts die het opensource project ondersteunen zorgden ervoor dat de installatie van de tool vrij eenvoudig op te zetten was. Zonder deze tools was de moeilijkheidsgraad voor het opzetten van Prometheus eventueel al een reden genoeg om een andere tool te kiezen. Doordat Prometheus een befaamde tool was die in vele bedrijven gebruikt werd, was er al een vermoeden dat deze tool in de laatste vergelijking zou terecht komen. Door het gebruik van een containeromgeving kon er gemakkelijk een andere pod toegevoegd worden om die dan alsook te monitoren in Prometheus. Dit wil zeggen dat de tool genoeg inzicht gaf op alles wat nodig was om de onderzoeksvragen te beantwoorden.
 
-Hopelijk wordt dit onderzoek gezien als een meerwaarde voor het lessenpakket bij de studenten Toegepaste Informatica zodat monitoring voor gecontaineriseerde omgevingen basiskennis wordt. Aangezien de populariteit van deze technologie enkel maar stijgt kan dit enkel maar een meerwaarde zijn, al is het enkel voor de lezer van dit onderzoek.
-
-
-
+Hopelijk werd dit onderzoek gezien als een meerwaarde voor het lessenpakket bij de studenten toegepaste informatica zodat monitoring voor gecontaineriseerde omgevingen basiskennis werd. Aangezien de populariteit van deze technologie alleen maar steeg kon dit zeker een meerwaarde zijn, al was het enkel voor de lezer van dit onderzoek.

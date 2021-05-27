@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  25 APR 2021 18:47
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  23 MAY 2021 19:31
 entering extended mode
 **./Troch_Olivier_voorstel.tex
 (Troch_Olivier_voorstel.tex
@@ -1054,44 +1054,27 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 \openout5 = `Troch_Olivier_voorstel.toc'.
 
  (voorstel-inhoud.tex
-Overfull \hbox (26.46613pt too wide) in paragraph at lines 29--34
-\TU/phv/b/n/10 waarbij ook de betalende tools vergeleken worden.([]Ribenzaft,
+Overfull \hbox (8.06615pt too wide) in paragraph at lines 22--23
+\TU/phv/b/n/10 het verwachte resultaat is van deze bachelorproef. Hierin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
-
+Overfull \hbox (2.45615pt too wide) in paragraph at lines 22--23
+\TU/phv/b/n/10 ken omtrent monitoring die zeker interessant zijn. Daar
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+[1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Overfull \hbox (21.94814pt too wide) in paragraph at lines 53--54
-\TU/phv/b/n/10 bestaande ’proof-of-concept’ gebruikt([]Cedric, [][]2019[][]) wa
-arop
- []
-
-
-Overfull \hbox (1.72612pt too wide) in paragraph at lines 53--54
-\TU/phv/b/n/10 voor het bekomen van de vooraf bepaalde requirements,
- []
-
-
-Overfull \hbox (2.74013pt too wide) in paragraph at lines 59--60
+Overfull \hbox (2.74013pt too wide) in paragraph at lines 42--43
 \TU/phv/b/n/10 Uit deze studie, naar een gepaste monitoringtool, wordt
  []
-
-
-Underfull \vbox (badness 1077) has occurred while \output is active []
 
 )
 
@@ -1108,4 +1091,24 @@ Make it at least 34.89824pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2
+[2] (Troch_Olivier_voorstel.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `Troch_Olivier_voorstel.out' has not changed.
+
+(rerunfilecheck)             Checksum: 13C037B8A0C5AE3397401D500B32A41C;307.
+Package logreq Info: Writing requests to 'Troch_Olivier_voorstel.run.xml'.
+\openout1 = `Troch_Olivier_voorstel.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23653 strings out of 412022
+ 392803 string characters out of 2849384
+ 1395210 words of memory out of 3000000
+ 43042 multiletter control sequences out of 15000+200000
+ 428798 words of font info for 100 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 82i,12n,85p,1546b,5286s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Troch_Olivier_voorstel.pdf (2 pages).

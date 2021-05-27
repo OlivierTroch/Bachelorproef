@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  14 MAY 2021 11:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  27 MAY 2021 20:48
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1219,11 +1219,140 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip166
 \droptitle=\skip167
 ))
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
+)
+\XKV@depth=\count480
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box72
+)
+\tc@llx=\dimen292
+\tc@lly=\dimen293
+\tc@urx=\dimen294
+\tc@ury=\dimen295
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen296
+\adjbox@Height=\dimen297
+\adjbox@Depth=\dimen298
+\adjbox@Totalheight=\dimen299
+\adjbox@pwidth=\dimen300
+\adjbox@pheight=\dimen301
+\adjbox@pdepth=\dimen302
+\adjbox@ptotalheight=\dimen303
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count481
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box73
+\sift@deathcycles=\count482
+\@vwid@loff=\dimen304
+\@vwid@roff=\dimen305
+))
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty"
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+("C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/latex-tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count483
+\c@Blindtext=\count484
+\c@blind@countparstart=\count485
+\blind@countxx=\count486
+\blindtext@numBlindtext=\count487
+\blind@countyy=\count488
+\c@blindlist=\count489
+\c@blindlistlevel=\count490
+\c@blindlist@level=\count491
+\blind@listitem=\count492
+\c@blind@listcount=\count493
+\c@blind@levelcount=\count494
+\blind@mathformula=\count495
+\blind@Mathformula=\count496
+\c@blind@randomcount=\count497
+\c@blind@randommax=\count498
+\c@blind@pangramcount=\count499
+\c@blind@pangrammax=\count500
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/latex-tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/latex-tools\array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen306
+\ar@mcellbox=\box74
+\extrarowheight=\dimen307
+\NC@list=\toks50
+\extratabsurround=\skip168
+\backup@length=\skip169
+\ar@cellbox=\box75
+)
+\TX@col@width=\dimen308
+\TX@old@table=\dimen309
+\TX@old@col=\dimen310
+\TX@target=\dimen311
+\TX@delta=\dimen312
+\TX@cols=\count501
+\TX@ftn=\toks51
+)
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip170
+\subfigcapskip=\skip171
+\subfigcaptopadj=\dimen313
+\subfigbottomskip=\skip172
+\subfigcapmargin=\dimen314
+\subfiglabelskip=\skip173
+\c@subfigure=\count502
+\c@lofdepth=\count503
+\c@subtable=\count504
+\c@lotdepth=\count505
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip174
+\subfig@bottom=\skip175
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 42
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 52
 .
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1ptm.fd
@@ -1232,31 +1361,31 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (bachproef-tin.aux)
 \openout1 = `bachproef-tin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 2.
  ("C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1291,8 +1420,8 @@ LaTeX Font Info:    ... okay on input line 42.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count480
-LaTeX Info: Redefining \microtypecontext on input line 42.
+\c@lstlisting=\count506
+LaTeX Info: Redefining \microtypecontext on input line 52.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1301,7 +1430,7 @@ Package microtype Info: No adjustment of kerning.
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 52.
 
 ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1313,11 +1442,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count481
+\c@section@level=\count507
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1381,8 +1510,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
 
 (bachproef-tin.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1504,16 +1633,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [9] [10
 
-] (inleiding.tex
+] (bachproef-tin.lof)
+\tf@lof=\write7
+\openout7 = `bachproef-tin.lof'.
+
+ [11
+
+] [12
+
+] (bachproef-tin.lot)
+\tf@lot=\write8
+\openout8 = `bachproef-tin.lot'.
+
+ (inleiding.tex
+[13] [14
+
+]
 Hoofdstuk 1.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+7.
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [11
-
-])
-(standvanzaken.tex [12]
+) [15])
+(standvanzaken.tex [16]
 Hoofdstuk 2.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
@@ -1522,7 +1664,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [17
 
 ]
 Missing character: There is no “ in font ptmr8t!
@@ -1538,11 +1680,11 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [18]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-[15]
+[19]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 31.
 Missing character: There is no “ in font ptmr8t!
@@ -1550,111 +1692,66 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-Overfull \hbox (0.66676pt too wide) in paragraph at lines 37--38
-\T1/ptm/m/n/12 Paravirtualisatie of para-virtualisatie is een vir-tu-a-li-sa-ti
-e-tech-niek die een software-interface
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[16] [17]
-Overfull \hbox (2.93727pt too wide) in paragraph at lines 74--75
+ [20
+
+]
+[21]
+Overfull \hbox (2.93727pt too wide) in paragraph at lines 72--73
 \T1/ptm/m/n/12 Containergebaseerde vir-tu-a-li-sa-tie zorgt voor som-mige voor-
 de-len te-gen-over een hypervisor-
  []
 
+[22] [23
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [24
 
- [18]
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-
-[19] [20] [21] [22]
+] [25] [26]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
- [23]
-Missing character: There is no ​ in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
-
-Underfull \vbox (badness 2573) has occurred while \output is active []
-
- [24]
-Missing character: There is no ​ in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \vbox (badness 1286) has occurred while \output is active []
-
- [27]
-[28]) (methodologie.tex [29] [30
+ [27
 
 ]
+Missing character: There is no ​ in font ptmr8t!
+Missing character: There is no ​ in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Missing character: There is no ​ in font ptmr8t!
+Missing character: There is no ​ in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Missing character: There is no ​ in font ptmr8t!
+Missing character: There is no ​ in font ptmr8t!
+Missing character: There is no ​ in font ptmr8t!
+Missing character: There is no ​ in font ptmr8t!
+
+[30] [31] [32]
+Underfull \vbox (badness 4291) has occurred while \output is active []
+
+ [33])
+(methodologie.tex [34]
 Hoofdstuk 3.
-[31] [32
+[35
 
-] [33
+] [36
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [37
 
- [34
+] [38
 
-]
-Underfull \vbox (badness 1571) has occurred while \output is active []
-
- [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-[38] [39]
-Underfull \vbox (badness 6078) has occurred while \output is active []
-
- [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Overfull \hbox (1.59338pt too wide) in paragraph at lines 425--426
-[]\T1/ptm/m/n/12 kubectl port-forward prometheus-prometheus-prometheus-oper-pro
-metheus-0 9090 
- []
-
-[42]) (conclusie.tex [43
-
-] [44
-
-]
-Hoofdstuk 4.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45])
-[46]
-B\babelshorthand{"y}lage A.
-(../voorstel/voorstel-inhoud.tex [47
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-[48]) [49] [50
-
-]
+] [39]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 126.
+ 157.
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1664,19 +1761,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 126.
+ 157.
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 126.
+ 157.
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 126.
+ 157.
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1688,22 +1785,200 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-26.
+57.
 
 (C:\Users\olivi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
+ [40
 
+]
+[41]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+ ("C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+("C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Missing character: There is no − in font ptmr8t!
+ [42
+
+]
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+
+Overfull \hbox (19.61319pt too wide) in paragraph at lines 252--253
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (48.41348pt too wide) in paragraph at lines 255--256
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no − in font ptmr8t!
+[43
+
+]
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+Missing character: There is no − in font ptmr8t!
+
+Overfull \hbox (62.81363pt too wide) in paragraph at lines 292--293
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[44]
+Overfull \hbox (62.81363pt too wide) in paragraph at lines 300--301
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (70.0137pt too wide) in paragraph at lines 312--313
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[45
+
+] [46]
+Overfull \hbox (84.41385pt too wide) in paragraph at lines 383--384
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.21414pt too wide) in paragraph at lines 388--389
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+[47
+
+]
+Missing character: There is no – in font ptmr8t!
+Missing character: There is no – in font ptmr8t!
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+
+ []
+
+[49
+
+]
+Overfull \hbox (21.2445pt too wide) in paragraph at lines 498--499
+[]| \T1/ptm/m/n/12 query = la-bel_values(kube_pod_infocluster=''$cluster'', na-
+mes-pace=''$namespace'',
+ []
+
+[50]
+File: img/panel1.png Graphic file (type bmp)
+<img/panel1.png>
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 512--513
+ [][] 
+ []
+
+File: img/panel2.png Graphic file (type bmp)
+<img/panel2.png>
+File: img/panel3.png Graphic file (type bmp)
+<img/panel3.png>
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 521--523
+ [][] 
+ []
+
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 521--523
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 41.4855pt on input line 524.
+
+[51
+
+] [52]
+File: img/panel4.png Graphic file (type bmp)
+<img/panel4.png>
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 531--532
+ [][] 
+ []
+
+[53
+
+] [54
+
+]) (conclusie.tex [55
+
+] [56
+
+]
+Hoofdstuk 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57])
+[58]
+B\babelshorthand{"y}lage A.
+(../voorstel/voorstel-inhoud.tex [59
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+[60]) [61] [62
+
+]
 ! Misplaced alignment tab character &.
 <argument> Kubernetes Up &
                            Running - Dive into the Future of Infrastructure
-l.126 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1712,8 +1987,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[51]
-Overfull \hbox (1.9177pt too wide) in paragraph at lines 126--126
+[63]
+Overfull \hbox (1.9177pt too wide) in paragraph at lines 136--136
 [][]\T1/ptm/m/n/12 Matrix. (2016, sep-tem-ber 28). \T1/ptm/m/it/12 The Im-por-t
 ance of In-fra-struc-ture Mo-ni-to-ring \T1/ptm/m/n/12 (Ma-trix, Red.).
  []
@@ -1721,7 +1996,7 @@ ance of In-fra-struc-ture Mo-ni-to-ring \T1/ptm/m/n/12 (Ma-trix, Red.).
 ! Misplaced alignment tab character &.
 \namepartsuffix ->Bastos\bibnamedelimb &
                                         \bibnamedelima Pedro
-l.126 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1733,7 +2008,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 \namepartsuffix ->Bastos\bibnamedelimb &
                                         \bibnamedelima Pedro
-l.126 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1742,11 +2017,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[52]
+[64]
 ! Misplaced alignment tab character &.
 <argument> Monitoring &
                         Management With Docker & Containers
-l.126 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1758,7 +2033,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <argument> Monitoring & Management With Docker &
                                                  Containers
-l.126 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1767,18 +2042,18 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[53] (bachproef-tin.aux)
+[65] (bachproef-tin.aux)
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34959 strings out of 412022
- 621862 string characters out of 2849384
- 1618863 words of memory out of 3000000
- 54098 multiletter control sequences out of 15000+200000
- 442593 words of font info for 70 fonts, out of 3000000 for 9000
+ 36834 strings out of 412022
+ 650443 string characters out of 2849384
+ 1669915 words of memory out of 3000000
+ 55906 multiletter control sequences out of 15000+200000
+ 456879 words of font info for 97 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,12n,95p,1545b,5295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 97i,16n,107p,1539b,5368s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (55 pages).
+Output written on bachproef-tin.pdf (67 pages).
