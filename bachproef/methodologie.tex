@@ -303,7 +303,7 @@ kubectl autoscale deployment php-apache
 \end{lstlisting}
 
 
-\subsection{Stap 2.1: Installeren van Prometheus/Grafana}
+\subsection{Stap 2.2: Installeren van Prometheus/Grafana}
 
 De tweede stap was de opstelling van Prometheus. De opstelling begon aan de hand van een aantal simpele commando's die na mekaar werden uitgevoerd. Hiervoor gebruikten we de 'Helm' tool, zonder Helm zouden alle yaml files van Prometheus en Grafana één voor één aangemaakt en geconfigureerd moeten worden om de samenwerking te initialiseren. 
 
@@ -343,7 +343,7 @@ kubectl port-forward deployment/prometheus-grafana 3000
 
 Na het uitvoeren van het commando kon de Grafana webinterface bereikt worden via ''http://localhost:3000'' en kon er ingelogd worden met username ''admin'' en het standaard password ''prom-operator'', dit wachtwoord was te vinden in de charts van de helm Github-pagina\footnote{https://github.com/helm/charts/tree/master/stable/prometheus-operator}.
 
-\subsection{Stap 2.2: Installatie WordPress/MySql}
+\subsection{Stap 2.3: Installatie WordPress/MySql}
 
 De derde stap was het installeren van WordPress met een achterliggende MySql databank. Voor het installeren werd de gids van Kubernetes gebruikt\footnote{https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/}.
 
@@ -405,7 +405,7 @@ De volgende stap was het opvragen van de URL om WordPress te bereiken.
 
 Aan de hand van de URL die de output was van het vorige commando, werd naar de WordPress site gegaan, hier is de wizard volledig gevolgd tot dat de landing page van WordPress zichtbaar was.
 
-\subsection{Stap 2.3: Verkennen van Grafana webinterface}
+\subsection{Stap 2.4: Verkennen van Grafana webinterface}
 
 De volgende stap was het verkennen van Grafana en het configureren van nieuwe dashboards.
 
@@ -439,7 +439,7 @@ Een tweede manier om dashboards te gebruiken was ze importeren via ID codes die 
     \item ...
 \end{itemize}
 \clearpage
-\subsection{Stap 2.4: Maken van eigen dashboards}
+\subsection{Stap 2.5: Maken van eigen dashboards}
 
 Naast het gebruiken van standaard dashboards of het importeren van vooraf gemaakte dashboards, was er ook nog een andere manier om dashboard toe te voegen. Via deze weg werden zelfgemaakte dashboards toegevoegd: ''Dashboard'' > ''New Dashboard''.
 
@@ -510,7 +510,7 @@ Het eerste paneel dat gemaakt werd, was het paneel om het CPU gebruik te bekijke
 \begin{figure}[!hb]
     \centering
         \includegraphics[width=1.1\textwidth]{img/panel1.png}
-    \caption{Instellingen voor paneel 1}
+    \caption{Instellingen voor paneel 1 \autocite{Grafana}}
 \end{figure}
 
 
@@ -520,7 +520,7 @@ Het tweede paneel dat gemaakt werd, was het paneel om het werkgeheugen gebruik t
     \centering
     \subfigure[]{\includegraphics[width=1.1\textwidth]{img/panel2.png}}
     \subfigure[]{\includegraphics[width=1.1\textwidth]{img/panel3.png}} 
-    \caption{Instellingen voor paneel 2}
+    \caption{Instellingen voor paneel 2 \autocite{Grafana}}
 \end{figure}
 
 \clearpage
@@ -529,15 +529,15 @@ Het derde paneel dat gemaakt werd, was het paneel om het netwerkverkeer te bekij
 \begin{figure}[!h]
     \centering
         \includegraphics[width=1.1\textwidth]{img/panel4.png}
-    \caption{Instellingen voor paneel 3}
+    \caption{Instellingen voor paneel 3 \autocite{Grafana}}
 \end{figure}
 
-\subsection{Stap 2.5: Grafana dashboard in werking}
+\subsection{Stap 2.6: Grafana dashboard in werking}
 
 Na het instellen van deze drie panelen, was er een dashboard beschikbaar waarbij de pod kon aangepast worden. Om te zien dat de grafieken en meters responsief waren op een mogelijke bewerking die in een pod plaatsvond, kon er gebruik gemaakt worden van \ref{sssec:Groeivancontainers} ''Groei van containers''. Hiervoor werd verwacht dat de pod op het dashboard ingesteld werd op een ''apache''pod waarop de groei van de containers zichtbaar was.
 \clearpage
 
-\subsection{Stap 2.6: Bereiken van de Prometheus webinterface}
+\subsection{Stap 2.7: Bereiken van de Prometheus webinterface}
 
 Hoewel de webinterface van Grafana voorkeur had door de gebruiksvriendelijke manier, werd deze webinterface van Prometheus toch opgezet om de interface te kunnen bereiken. De interface was te bereiken via ''http://localhost:9090'' na het uitvoeren van het volgende commando.
 

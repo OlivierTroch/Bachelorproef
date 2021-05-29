@@ -163,9 +163,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.1.5}Opzetten containers}{44}{subsubsection.3.4.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Stap 2.1: Installeren van Prometheus/Grafana}{45}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Stap 2.2: Installeren van Prometheus/Grafana}{45}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Stap 2.2: Installatie WordPress/MySql}{46}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.3}Stap 2.3: Installatie WordPress/MySql}{46}{subsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3.1}secrets.yml aanmaken}{46}{subsubsection.3.4.3.1}%
 \defcounter {refsection}{0}\relax 
@@ -173,7 +173,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3.3}Implementatie resources voor MySql en WordPress}{47}{subsubsection.3.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Stap 2.3: Verkennen van Grafana webinterface}{47}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.4}Stap 2.4: Verkennen van Grafana webinterface}{47}{subsection.3.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.4.1}Standaard dashboards}{47}{subsubsection.3.4.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -181,15 +181,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.4.3}Nieuwe dashboards importeren}{48}{subsubsection.3.4.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Stap 2.4: Maken van eigen dashboards}{49}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.5}Stap 2.5: Maken van eigen dashboards}{49}{subsection.3.4.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.5.1}Dashboard instellingen}{49}{subsubsection.3.4.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.5.2}Creëren panelen}{51}{subsubsection.3.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.6}Stap 2.5: Grafana dashboard in werking}{53}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.6}Stap 2.6: Grafana dashboard in werking}{53}{subsection.3.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.7}Stap 2.6: Bereiken van de Prometheus webinterface}{54}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.7}Stap 2.7: Bereiken van de Prometheus webinterface}{54}{subsection.3.4.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.8}Samenvatting}{54}{subsection.3.4.8}%
 \defcounter {refsection}{0}\relax 

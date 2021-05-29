@@ -465,6 +465,42 @@
       \verb https://searchitoperations.techtarget.com/definition/sidecar-proxy
       \endverb
     \endentry
+    \entry{Grafana}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13d976ec915aee59afabcef6291764b8}{%
+           family={Grafana},
+           familyi={G\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=13d976ec915aee59afabcef6291764b8}{%
+           family={Grafana},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{13d976ec915aee59afabcef6291764b8}
+      \strng{fullhash}{13d976ec915aee59afabcef6291764b8}
+      \strng{bibnamehash}{13d976ec915aee59afabcef6291764b8}
+      \strng{authorbibnamehash}{13d976ec915aee59afabcef6291764b8}
+      \strng{authornamehash}{13d976ec915aee59afabcef6291764b8}
+      \strng{authorfullhash}{13d976ec915aee59afabcef6291764b8}
+      \strng{editorbibnamehash}{13d976ec915aee59afabcef6291764b8}
+      \strng{editornamehash}{13d976ec915aee59afabcef6291764b8}
+      \strng{editorfullhash}{13d976ec915aee59afabcef6291764b8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://grafana.com/
+      \endverb
+      \verb{url}
+      \verb https://grafana.com/
+      \endverb
+    \endentry
     \entry{HoGent}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e610809d64cd4da16b275c79c7fc24b6}{%

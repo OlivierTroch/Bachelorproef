@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  27 MAY 2021 20:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.1.4)  28 MAY 2021 14:52
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1721,7 +1721,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no ​ in font ptmr8t!
 Missing character: There is no ​ in font ptmr8t!
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4899) has occurred while \output is active []
 
  [28]
 Missing character: There is no ​ in font ptmr8t!
@@ -2043,17 +2043,21 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [65] (bachproef-tin.aux)
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36834 strings out of 412022
- 650443 string characters out of 2849384
- 1669915 words of memory out of 3000000
- 55906 multiletter control sequences out of 15000+200000
+ 36840 strings out of 412022
+ 650570 string characters out of 2849384
+ 1669951 words of memory out of 3000000
+ 55912 multiletter control sequences out of 15000+200000
  456879 words of font info for 97 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 97i,16n,107p,1539b,5368s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 97i,16n,107p,1539b,7109s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on bachproef-tin.pdf (67 pages).
