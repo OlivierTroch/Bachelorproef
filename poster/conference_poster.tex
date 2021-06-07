@@ -51,11 +51,11 @@
 % The widths of these boxes can be easily edited to accommodate your content as you see fit
 
 \begin{minipage}[t]{0.75\linewidth}
-\VeryHuge \color{HoGentAccent1} \textbf{Titel van uw bachelorproef} \color{Black}\\ % Title
-\Huge\textit{Ondertitel (eventueel)}\\[2.4cm] % Subtitle
-\huge \textbf{Naam Voornaam, co-promotor, promotor}\\[0.5cm] % Author(s)
+\VeryHuge \color{HoGentAccent1} \textbf{Monitoring voor Kubernetes en Docker} \color{Black}\\ % Title
+\Huge\textit{}\\[2.4cm] % Subtitle
+\huge \textbf{Troch Olivier, Bert Van Vreckem}\\[0.5cm] % Author(s)
 \huge Hogeschool Gent, Valentin Vaerwyckweg 1, 9000 Gent\\[0.4cm] % University/organization
-\Large \texttt{voornaam.naam@hogent.be} \\
+\Large \texttt{olivier.troch.w2257@student.hogent.be} \\
 \end{minipage}
 %
 \begin{minipage}[t]{0.25\linewidth}
@@ -72,13 +72,10 @@
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
-
 \color{HoGentAccent1} % Navy color for the abstract
-
+%
 \begin{abstract}
-It's only a model.
-You don't vote for kings. Who's that then? We found them. Ni! Ni! Ni! Ni!
-The nose? On second thoughts, let's not go there. It is a silly place. Bloody Peasant! And the hat. She's a witch! Where'd you get the coconuts?
+Kosten besparen en winst verhogen zijn legitieme zakelijke doelstellingen. Preventie door monitoring betekent dat er minder geld wordt uitgegeven in vergelijking met de kosten van oplossingen voor problemen die zich plotseling kunnen voordoen. Helaas wordt monitoring van een infrastructuur vaak onderschat en steeds eerder als een kost gezien dan als een opbrengst. IT-afdelingen besteden vaker tijd aan het reageren op de onverwachte problemen of fouten dan aan het voorkomen ervan. Hierdoor lijkt het van goed belang dat de basisconcepten van monitoring in het lessenpakket verwerkt worden, zodat het nut van monitoring wordt meegegeven en zich gemakkelijker in de bedrijfswereld kan mengen.
 \end{abstract}
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
@@ -88,42 +85,28 @@ The nose? On second thoughts, let's not go there. It is a silly place. Bloody Pe
 \section*{Introductie}
 \color{black}
 \color{black}
-Be quiet! Found them? In Mercia?! The coconut's tropical! But you are dressed as one… Well, what do you want? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
 
-Well, what do you want? It's only a model. Camelot! We found them. We shall say 'Ni' again to you, if you do not appease us.
-
-The nose? Shut up! Burn her! I am your king. You don't vote for kings.
-
-You can't expect to wield supreme power just 'cause some watery tart threw a sword at you! Well, we did do the nose. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
-
-Why do you think that she is a witch? We want a shrubbery!! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
+HOGENT kan helaas niet beschikken over alle mogelijke technologieën die bestaan in de informatica wereld. Toch zijn er bepaalde onderwerpen die onderdeel van het lessenpakket zouden moeten zijn. Monitoring van de infrastructuur is hier één van en meer specifiek de monitoring van een containerorkestratie. Containerisatie vindt in een recordtempo zijn weg naar de data-omgeving van de ondernemingen. Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste architectuur zijn en zullen blijven. De uitdaging is om goede monitoring voor deze containers op te stellen. Containers zijn zeer vluchtig in ontstaan en net zo snel in het verdwijnen. Zoals te verwachten, zullen traditionele monitoringsplatforms die vooral gebaseerd zijn op virtualisatie, niet voldoende zijn.  Om het monitoringproces te vergemakkelijken kan er beroep gedaan worden op monitoringtools die gecreëerd of aangepast zijn om een containerorkestratie te kunnen monitoren.
 %----------------------------------------------------------------------------------------
 %	GEOLOGY
 %----------------------------------------------------------------------------------------
 
 \color{Black} % DarkSlateGray color for the rest of the content
 \color{HoGentAccent1} 
-\section*{Experimenten}
-\color{black}
-A newt? Camelot! Why? No, no, no! Yes, yes. A bit. But she's got a wart.
-
-Shut up! I dunno. Must be a king. Who's that then? Look, my liege! On second thoughts, let's not go there. It is a silly place.
-
-Shut up! Will you shut up?! No, no, no! Yes, yes. A bit. But she's got a wart. He hasn't got shit all over him. It's only a model. It's only a model.
-
-Bring her forward! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave 
-
-
-
-\color{HoGentAccent1} 
-\section*{Sectie met figuur}
+\section*{Onderzoek}
 \color{black}
 
+Via de state-of-the-art werd gezocht naar een aantal tools die geschikt zijn voor het monitoren van een containerorkestratie waarna aan de hand van een requirements-analyse die gevonden tools vergeleken werden met elkaar. Nadien werd een Proof-of-Concept opgesteld waarin de werking van de, in dit onderzoek, beste tool toegepast werd. Door het onderzoek werd beslist dat een combinatie van Prometheus en Grafana geschikt was. In deze proof-of-concept werd gebruik gemaakt van standaard dashboards, maar ook van het importeren en creëren van eigen dashboards om de metrieken van de containers te weergeven en analyseren.
 
-\begin{center}\vspace{1cm}
-\includegraphics[width=1.0\linewidth]{grail}
-\captionof{figure}{\color{HoGentAccent5} He hasn't got shit all over him. The nose? Where'd you get the coconuts? What do you mean? We shall say 'Ni' again to you, if you do not appease us}
-\end{center}\vspace{1cm}
+%\color{HoGentAccent1} 
+%\section*{Sectie met figuur}
+%\color{black}
+
+
+%\begin{center}\vspace{1cm}
+%\includegraphics[width=1.0\linewidth]{grail}
+%\captionof{figure}{\color{HoGentAccent5} He hasn't got shit all over him. The nose? %Where'd you get the coconuts? What do you mean? We shall say 'Ni' again to you, if you %do not appease us}
+%\end{center}\vspace{1cm}
 
 %------------------------------------------------
 
@@ -132,7 +115,9 @@ Bring her forward! I don't want to talk to you no more, you empty-headed animal 
 \color{HoGentAccent1} 
 \section*{Conclusies}
 \color{black}
-on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+
+Door het uitvoeren van de requirements-analyse zijn 3 tools overgebleven die als geschikt verklaard waren. Op basis van de analyse waren deze 3 tools praktisch hetzelfde en om de finale beslissing te maken werd de monitoringcommunity geraadpleegd. Hieruit bleek dat Prometheus de tool was die met voorsprong uitblonk. Achteraf werden, aan de hand van een stappenplan, alle opties uitgelegd die nodig waren om een antwoord op de onderzoeksvraag en deelvragen te formuleren. Door het gebruik van de Helm-tool was de installatie van de tool relatief eenvoudig waardoor de toekomstige studenten de opstelling makkelijk zullen kunnen nabootsen om snel aan de slag te kunnen. 
+
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
 %----------------------------------------------------------------------------------------
@@ -140,9 +125,7 @@ on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this
 \section*{Toekomstig onderzoek}
 \color{black}
 
-I care. So, what do you think of her, Han? No! Alderaan is peaceful. We have no weapons. You can't possibly… I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
-
-Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. You are a part of the Rebel Alliance and a traitor! Take her away! 
+Bijkomend onderzoek kan nodig zijn om de hoofdonderzoeksvraag of deelvragen uit te breiden, om meer functies aan bod te brengen dan degene die werden meegegeven in het huidige onderzoek. Indien het de bedoeling is om dit onderzoek te gebruiken als basis voor het introduceren van andere, nieuwe technologieën kan dit betekenen dat dit onderzoek het einde nog niet bereikt heeft.
 
 
 %----------------------------------------------------------------------------------------
