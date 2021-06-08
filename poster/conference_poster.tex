@@ -86,7 +86,8 @@ Kosten besparen en winst verhogen zijn legitieme zakelijke doelstellingen. Preve
 \color{black}
 \color{black}
 
-HOGENT kan helaas niet beschikken over alle mogelijke technologieën die bestaan in de informatica wereld. Toch zijn er bepaalde onderwerpen die onderdeel van het lessenpakket zouden moeten zijn. Monitoring van de infrastructuur is hier één van en meer specifiek de monitoring van een containerorkestratie. Containerisatie vindt in een recordtempo zijn weg naar de data-omgeving van de ondernemingen. Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste architectuur zijn en zullen blijven. De uitdaging is om goede monitoring voor deze containers op te stellen. Containers zijn zeer vluchtig in ontstaan en net zo snel in het verdwijnen. Zoals te verwachten, zullen traditionele monitoringsplatforms die vooral gebaseerd zijn op virtualisatie, niet voldoende zijn.  Om het monitoringproces te vergemakkelijken kan er beroep gedaan worden op monitoringtools die gecreëerd of aangepast zijn om een containerorkestratie te kunnen monitoren.
+HOGENT kan niet beschikken over alle mogelijke technologieën die bestaan in de informatica wereld. Toch zijn er bepaalde onderwerpen die onderdeel van het lessenpakket zouden moeten zijn. Monitoring van de infrastructuur is hier één van en meer specifiek de monitoring van een containerorkestratie. Containerisatie vindt in een recordtempo zijn weg naar de data-omgeving van de ondernemingen. Het gemak waarmee containerplatformen zoals Docker kunnen worden ingezet, suggereert dat ze de dominantste architectuur zijn en zullen blijven. De uitdaging is om goede monitoring voor deze containers op te stellen omdat containers zijn zeer vluchtig in ontstaan en net zo snel in het verdwijnen. Zoals te verwachten, zullen traditionele monitoringsplatforms die vooral gebaseerd zijn op virtualisatie, niet voldoende zijn. Om het monitoringproces te vergemakkelijken kan er beroep gedaan worden op monitoringtools die specifiek gecreëerd of aangepast zijn om een containerorkestratie te kunnen monitoren.
+
 %----------------------------------------------------------------------------------------
 %	GEOLOGY
 %----------------------------------------------------------------------------------------
@@ -96,7 +97,7 @@ HOGENT kan helaas niet beschikken over alle mogelijke technologieën die bestaan
 \section*{Onderzoek}
 \color{black}
 
-Via de state-of-the-art werd gezocht naar een aantal tools die geschikt zijn voor het monitoren van een containerorkestratie waarna aan de hand van een requirements-analyse die gevonden tools vergeleken werden met elkaar. Nadien werd een Proof-of-Concept opgesteld waarin de werking van de, in dit onderzoek, beste tool toegepast werd. Door het onderzoek werd beslist dat een combinatie van Prometheus en Grafana geschikt was. In deze proof-of-concept werd gebruik gemaakt van standaard dashboards, maar ook van het importeren en creëren van eigen dashboards om de metrieken van de containers te weergeven en analyseren.
+In de state-of-the-art werd gezocht naar een aantal tools die geschikt kunnen zijn voor het monitoren van een containerorkestratie. Aan de hand van een requirements-analyse werden alle tools met elkaar vergeleken om tot een tool te komen die het beste past bij dit onderzoek. Nadien werd een Proof-of-Concept opgesteld waarin de werking van de tool toegepast werd. Door de requirements-analyse werd beslist dat Prometheus het meest geschikt was voor dit onderzoek. Hierop werd ook een integratie van Grafana toegepast, wat een manier is voor het visualiseren van de metrics. In deze proof-of-concept werd zowel gebruik gemaakt van standaard dashboards, als van het importeren en creëren van eigen dashboards om de metrieken van de containers te weergeven en analyseren.
 
 %\color{HoGentAccent1} 
 %\section*{Sectie met figuur}
@@ -116,7 +117,7 @@ Via de state-of-the-art werd gezocht naar een aantal tools die geschikt zijn voo
 \section*{Conclusies}
 \color{black}
 
-Door het uitvoeren van de requirements-analyse zijn 3 tools overgebleven die als geschikt verklaard waren. Op basis van de analyse waren deze 3 tools praktisch hetzelfde en om de finale beslissing te maken werd de monitoringcommunity geraadpleegd. Hieruit bleek dat Prometheus de tool was die met voorsprong uitblonk. Achteraf werden, aan de hand van een stappenplan, alle opties uitgelegd die nodig waren om een antwoord op de onderzoeksvraag en deelvragen te formuleren. Door het gebruik van de Helm-tool was de installatie van de tool relatief eenvoudig waardoor de toekomstige studenten de opstelling makkelijk zullen kunnen nabootsen om snel aan de slag te kunnen. 
+Door het opzetten en uitvoeren van de requirements-analyse waren 3 tools overgebleven die geschikt waren voor het opzetten van de Proof-of-Concept. Op basis van de analyse waren deze tools theoretisch hetzelfde. Om tot een finale beslissing te komen werd de monitoringcommunity geraadpleegd. Hieruit bleek dat Prometheus de tools was die met voorsprong uitblonk. Hierna werd aan de hand van een stappenplan de onderzoeksvraag beantwoord, alsook de deelvragen. Door het gebruik van de Helm-tool was de installatie en configuratie van de Prometheus/Grafana applicatie relatief eenvoudig waardoor de opstelling makkelijk gevolgd zal kunnen worden. 
 
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
@@ -125,7 +126,7 @@ Door het uitvoeren van de requirements-analyse zijn 3 tools overgebleven die als
 \section*{Toekomstig onderzoek}
 \color{black}
 
-Bijkomend onderzoek kan nodig zijn om de hoofdonderzoeksvraag of deelvragen uit te breiden, om meer functies aan bod te brengen dan degene die werden meegegeven in het huidige onderzoek. Indien het de bedoeling is om dit onderzoek te gebruiken als basis voor het introduceren van andere, nieuwe technologieën kan dit betekenen dat dit onderzoek het einde nog niet bereikt heeft.
+Het voeren van een bijkomend onderzoek kan interessant zijn indien er nood is om de hoofdonderzoeksvraag of de deelvragen uit te breiden. Door die uitbreiding kunnen er meer functies aan bod gebracht worden dan degene die werden meegegeven in het huidige onderzoek. Zo kan dit onderzoek of de Proof-of-Concept ook gebruikt worden als basis voor het introduceren van andere technologieën. 
 
 
 %----------------------------------------------------------------------------------------
